@@ -1,14 +1,14 @@
-# addPersonalSql
+# deletePersonalSql
 
 
 ## 描述
-收藏sql
+删除收藏sql
 
 ## 请求方式
 POST
 
 ## 请求地址
-https://dms.jdcloud-api.com/v1/regions/{regionId}/personalSql:add
+https://dms.jdcloud-api.com/v1/regions/{regionId}/personalSql:delete
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
@@ -17,20 +17,12 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/personalSql:add
 ## 请求参数
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
-|**dataSourceId**|Integer|True| |数据源id|
-|**sqlStr**|String|True| |收藏的sql语句。|
-|**hint**|String|True| |备注。|
+|**id**|Integer|True| |主键id|
 
 
 ## 返回参数
-|名称|类型|描述|
-|---|---|---|
-|**result**|[Result](#result)| |
+无
 
-### <div id="Result">Result</div>
-|名称|类型|描述|
-|---|---|---|
-|**strResult**|String|返回消息|
 
 ## 返回码
 |返回码|描述|
