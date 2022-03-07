@@ -1,14 +1,14 @@
-# consoleExplain
+# consoleSql
 
 
 ## 描述
-执行计划
+执行sql语句
 
 ## 请求方式
 POST
 
 ## 请求地址
-https://dms.jdcloud-api.com/v1/regions/{regionId}/console:explain
+https://dms.jdcloud-api.com/v1/regions/{regionId}/console:exeSql
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
@@ -26,7 +26,12 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/console:explain
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](#result)| |
+|**error**|[Error](#error)| |
 
+### <div id="Error">Error</div>
+|名称|类型|描述|
+|---|---|---|
+|**code**|Integer|错误码，-1：执行错误，-2：需要重新登录|
 ### <div id="Result">Result</div>
 |名称|类型|描述|
 |---|---|---|

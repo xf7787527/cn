@@ -1,14 +1,14 @@
-# consoleExplain
+# openTable
 
 
 ## 描述
-执行计划
+执行sql语句
 
 ## 请求方式
 POST
 
 ## 请求地址
-https://dms.jdcloud-api.com/v1/regions/{regionId}/console:explain
+https://dms.jdcloud-api.com/v1/regions/{regionId}/console:openTable
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
@@ -19,18 +19,26 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/console:explain
 |---|---|---|---|---|
 |**dataSourceId**|Integer|True| |数据源id|
 |**dbName**|String|True| |数据库名称|
-|**sqls**|String|True| |sql语句。|
+|**tableName**|String|True| |sql语句。|
+|**pageNumber**|Integer|True| |显示数据的页码，取值范围：[1,∞)。|
+|**pageSize**|Integer|True| |每页显示的数据条数，用于查询列表的接口。|
 
 
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](#result)| |
+|**error**|[Error](#error)| |
 
+### <div id="Error">Error</div>
+|名称|类型|描述|
+|---|---|---|
+|**code**|Integer|错误码，-1：执行错误，-2：需要重新登录|
 ### <div id="Result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**dmsSqlResults**|[DmsSqlResult[]](#dmssqlresult)|查询结果。|
+|**count**|Integer|当前表中数据总量|
 ### <div id="DmsSqlResult">DmsSqlResult</div>
 |名称|类型|描述|
 |---|---|---|

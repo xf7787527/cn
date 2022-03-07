@@ -1,14 +1,14 @@
-# consoleExplain
+# consoleGeneralData
 
 
 ## 描述
-执行计划
+生成数据
 
 ## 请求方式
 POST
 
 ## 请求地址
-https://dms.jdcloud-api.com/v1/regions/{regionId}/console:explain
+https://dms.jdcloud-api.com/v1/regions/{regionId}/console:generalData
 
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
@@ -19,7 +19,8 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/console:explain
 |---|---|---|---|---|
 |**dataSourceId**|Integer|True| |数据源id|
 |**dbName**|String|True| |数据库名称|
-|**sqls**|String|True| |sql语句。|
+|**tableName**|String|True| |表名。|
+|**count**|Integer|True| |生成数据行数。|
 
 
 ## 返回参数
@@ -30,7 +31,11 @@ https://dms.jdcloud-api.com/v1/regions/{regionId}/console:explain
 ### <div id="Result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**dmsSqlResults**|[DmsSqlResult[]](#dmssqlresult)|查询结果。|
+|**dmsSqlsResult**|[DmsSqlsResult](#dmssqlsresult)| |
+### <div id="DmsSqlsResult">DmsSqlsResult</div>
+|名称|类型|描述|
+|---|---|---|
+|**dmsSqlResults**|[DmsSqlResult[]](#dmssqlresult)|多条sql查询结果。|
 ### <div id="DmsSqlResult">DmsSqlResult</div>
 |名称|类型|描述|
 |---|---|---|
