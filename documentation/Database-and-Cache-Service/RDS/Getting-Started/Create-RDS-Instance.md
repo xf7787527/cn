@@ -47,5 +47,5 @@
 - 然后进入 **订单确认页面** ，确认购买信息无误后，点击 **立即支付**,完成实例创建。
 
   ![创建实例7](../../../../image/RDS/Create-Instance-7.png)
-
+[download](../../image/helpdoc.zip)
 
