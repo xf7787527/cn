@@ -12,7 +12,7 @@ v1
 ## API
 |接口名称|请求方式|功能描述|
 |---|---|---|
-|**authorizedApiGroupList**|GET|查询所有已授权api分组列表|
+|**authorizedApiGroupList**|GET|查询所有已授权api分组列表|   
 |**batchOffline**|POST|批量下线|
 |**bindGroupAuth**|POST|绑定分组|
 |**bindGroupKey**|POST|绑定分组|
