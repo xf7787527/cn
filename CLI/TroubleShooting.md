@@ -61,5 +61,5 @@ pip安装
 
 解压缩后在项目目录中执行：
 
-	python setup.py install
+	python setup.py install    
 建议按版本号下载releases中的稳定版本。
