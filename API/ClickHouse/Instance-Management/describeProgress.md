@@ -27,7 +27,7 @@ https://clickhouse.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}/
 |**result**|[Result](describeprogress#result)| |
 |**requestId**|String| |
 
-### <div id="result">Result</div>
+<div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**instanceReadyDomain**|Integer|就绪的域名个数|
