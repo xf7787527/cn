@@ -51,10 +51,6 @@ ClickHouse实例的节点默认都是按数字0开始排序，名字有一定规
 select cluster, shard_num,shard_weight, replica_num, concat('chi-ck-xxxxxxxxxxx-',toString(shard_num-1) ,'-', toString(replica_num-1),'-0.chi-ck-xxxxxxxxxxx-' , toString(shard_num-1), '-', toString(replica_num-1),'.ck-xxxxxxxxxxx-hb.jvessel2.jdcloud.com') as host_name, host_address, port, is_local, user, default_database,errors_count, estimated_recovery_time from system.clusters\G
 ```
 
-Gid样式如图:
-
-![gid](/Users/quyiwei/GIT-Jdcloud/cn/image/JCHDB/gid.jpg)
-
 #### 2.  磁盘空间爆满，导致数据写入失败怎么办？
 
 查找Part 记录数最多的分区：
@@ -97,7 +93,7 @@ ORDER BY ctime DESC
 LIMIT 40
 ```
 
-![question1](/Users/quyiwei/GIT-Jdcloud/cn/image/JCHDB/question1.jpg)
+
 
 根据上图取到的query-xxxxxxxx log id，替换下面sql中的queryID 【注意一起替换XXXXXXXX为你的实例id】, 下图中是执行完的实例id， 没有出现在下列截图中的实例即是有可能出现问题的节点。
 
@@ -114,7 +110,7 @@ ORDER BY host DESC
 LIMIT 40
 ```
 
-![question2](/Users/quyiwei/GIT-Jdcloud/cn/image/JCHDB/question2.jpg)
+
 
 【注意： 并非只可能是最后一个ddl卡住的，但大抵可以根据上述sql找出出问题的节点，找到以后直接连到此分片上，执行show processlist 查看卡住的进程】
 
