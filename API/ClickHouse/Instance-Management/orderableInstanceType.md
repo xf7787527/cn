@@ -29,19 +29,19 @@ https://clickhouse.jdcloud-api.com/v1/regions/{regionId}/OrderableInstanceType
 |---|---|---|
 |**engineStatus**|Integer| |
 |**orderableAZs**|[Az[]](orderableinstancetype#az)| |
-### <div id="az">Az</div>
+<div id="az">Az</div>
 |名称|类型|描述|
 |---|---|---|
 |**azId**|String|az名称|
 |**azStatus**|Integer|1正常0售罄|
 |**orderableStorageTypes**|[Disk[]](orderableinstancetype#disk)| |
-### <div id="disk">Disk</div>
+<div id="disk">Disk</div>
 |名称|类型|描述|
 |---|---|---|
 |**storageType**|String|disk名称|
 |**storageTypeStatus**|Integer|1正常0售罄|
 |**orderableinstanceClasses**|[Flavor[]](orderableinstancetype#flavor)| |
-### <div id="flavor">Flavor</div>
+<div id="flavor">Flavor</div>
 |名称|类型|描述|
 |---|---|---|
 |**instanceClass**|String|flavor名称|
