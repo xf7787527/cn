@@ -26,11 +26,11 @@ https://clickhouse.jdcloud-api.com/v1/regions/{regionId}/instances:selectDetailL
 |**result**|[Result](selectdetaillist#result)| |
 |**requestId**|String| |
 
-### <div id="result">Result</div>
+<div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**data**|[ResourceInfo[]](selectdetaillist#resourceinfo)| |
-### <div id="resourceinfo">ResourceInfo</div>
+<div id="resourceinfo">ResourceInfo</div>
 |名称|类型|描述|
 |---|---|---|
 |**resourceId**|String|实例ID|
