@@ -25,7 +25,7 @@ https://clickhouse.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:
 |**result**|[Result](describedomainnames#result)| |
 |**requestId**|String| |
 
-### <div id="result">Result</div>
+<div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**shards**|[Shards[]](describedomainnames#shards)|分片信息|
@@ -33,7 +33,7 @@ https://clickhouse.jdcloud-api.com/v1/regions/{regionId}/instances/{instanceId}:
 |**replicaNum**|Integer|副本数|
 |**publicDomainName**|String|实例公网域名|
 |**internalDomainName**|String|实例内网域名|
-### <div id="shards">Shards</div>
+<div id="shards">Shards</div>
 |名称|类型|描述|
 |---|---|---|
 |**index**|String|分片名|
