@@ -17,14 +17,14 @@ https://clickhouse.jdcloud-api.com/v1/regions/{regionId}/azs
 ## 请求参数
 无
 
-
 ## 返回参数
+
 |名称|类型|描述|
 |---|---|---|
 |**result**|[Result](azs#result)| |
 |**requestId**|String| |
 
-### <div id="result">Result</div>
+ <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
 |**azs**|String[]| |
