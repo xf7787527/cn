@@ -16,7 +16,7 @@
 
 ![img](https://github.com/jdcloudcom/cn/blob/zhaomeichen-beian-20200903-shouquanma/documentation/Domain-Name-%26-License/Image-Domain/ZMC-Image-Domain/jdcloud-shouquanma.png)
 
-2、 您在京东云已购买的京东云服务器有效期必须为3个月以上的包年/包月类型且绑定京东云公网IP的产品才可申请备案授权码备案，若满足以上条件，系统中显示内容如下，点右侧“申请”即可。
+2、 您在京东云购买的京东云服务器有效期必须为3个月以上的包年/包月类型且绑定京东云公网IP的产品才可申请备案授权码备案，若满足以上条件，系统中显示内容如下，点右侧“申请”即可。
 
 ![img](https://github.com/jdcloudcom/cn/blob/zhaomeichen-beian-20200903-shouquanma/documentation/Domain-Name-%26-License/Image-Domain/ZMC-Image-Domain/jdcloud-shouquanma-shenqing.png)
 
