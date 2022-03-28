@@ -14,6 +14,6 @@
    具体还请参考[创建Kubernetes集群](https://docs.jdcloud.com/cn/jcs-for-kubernetes/create-to-cluster)。
    
 
-**创建Serveless集群步骤**
+**创建Serverless集群步骤**
 
   具体还请参考[创建Serverless集群](https://docs.jdcloud.com/cn/jcs-for-kubernetes/create-serverless-cluster)。
