@@ -3,7 +3,7 @@ items:
   - name: 备案入门
     items:
       - name: 新手引导
-        href: Getting-Started/record-process/Novice-guidance.md
+        href: Getting-Started/Introduction.md
       - name: 第一次来京东云备案看这里
         href: Getting-Started/record-process/without-Organizer.md
       - name: 京东云有过备案记录看这里
