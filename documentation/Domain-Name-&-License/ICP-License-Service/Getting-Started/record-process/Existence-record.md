@@ -9,6 +9,7 @@
 ![img](../../../../../image/ICP-License-Service/New-beian/1-homepage.png)
 
 -   进入登录页面，选择您可登录的方式登录系统
+
    ```
    温馨提示：子账号不支持备案
    ```
