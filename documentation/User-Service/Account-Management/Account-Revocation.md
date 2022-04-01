@@ -9,7 +9,7 @@
 
 （1）进入[账户管理-安全设置](https://uc.jdcloud.com/account/security-settings)，在账户注销处点击【**注销**】按钮，进入注销账号页面。
 
-![1](../../../image/User/Account-Mgmt/Revocation/1.png)
+![1](../../../image/User/Account-Mgmt/Revocation/1.png)111
 
 （2）进行身份验证。注销京东云账号需要先确认您的身份。可选的验证方式有手机、邮箱。若您未绑定手机和邮箱，则需要您点击注销页面【**联系客服**】，发起人工注销申请。
 
