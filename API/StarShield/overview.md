@@ -40,6 +40,7 @@ v1
 |**listAvailablePageRuleSetting**|GET||
 |**listPageRules**|GET|获取页面规则列表|
 |**updatePageRule**|PUT|替换页面规则。最终规则将与此请求传递的数据完全匹配。|
+|**createSSLConfiguration**|POST|上载域的新SSL证书|
 |**deleteAdvancedCertificateManagerCertificatePack**|DELETE|对于给定域，删除高级证书包|
 |**deleteSSLConfiguration**|DELETE|从域中删除SSL证书。|
 |**editUniversalSSLSettings**|PATCH|修补域的通用SSL设置|
