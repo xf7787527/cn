@@ -229,6 +229,8 @@ items:
             href: SSL-APIs/listSSLConfigurations.md
           - name: createSSLConfiguration
             href: SSL-APIs/createSSLConfiguration.md
+          - name: editSSLConfiguration
+            href: SSL-APIs/editSSLConfiguration.md
           - name: deleteSSLConfiguration
             href: SSL-APIs/deleteSSLConfiguration.md
           - name: editUniversalSSLSettings

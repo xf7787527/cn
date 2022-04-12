@@ -43,6 +43,7 @@ v1
 |**createSSLConfiguration**|POST|上载域的新SSL证书|
 |**deleteAdvancedCertificateManagerCertificatePack**|DELETE|对于给定域，删除高级证书包|
 |**deleteSSLConfiguration**|DELETE|从域中删除SSL证书。|
+|**editSSLConfiguration**|PATCH|上传SSL证书的新私钥和/或PEM/CRT。|
 |**editUniversalSSLSettings**|PATCH|修补域的通用SSL设置|
 |**listCertificatePacks**|GET|对于给定域，列出所有激活的证书包|
 |**listSSLConfigurations**|GET|列出、搜索和筛选所有自定义SSL证书。|
