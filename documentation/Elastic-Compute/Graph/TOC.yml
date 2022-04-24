@@ -6,13 +6,13 @@ items:
       - name: 产品概述
         href: Product-Overview/Product-Introduce.md
       - name: 产品优势
-        href: Product-Overview/Benefits.md
+        href: Product-Overview/Benifits.md
       - name: 应用场景
-        href:Product-Overview/Application-Scenarios.md
+        href: Product-Overview/Application-Scenarios.md
   - name: 快速入门
     items:
       - name: 控制台简介
-        href: Operation-Guide/Console-Intrduce.md
+        href: Operation-Guide/Console-Introduce.md
       - name: 新建实例
         href: Getting-Started/Create-Instance.md
       - name: 删除实例

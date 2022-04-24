@@ -89,7 +89,7 @@ result变量是每个步骤状态的输出，格式是result.stagename.stepname.
 
 #### gitlab event相关：
 
-从gitlab webhook中获取的信息变量, event 信息详情见[push event](https://docs.gitlab.com/ee/user/project/integrations/webhooks.html#push-events) 和 [merge event](https://docs.gitlab.com/ee/user/project/integrations/webhooks. html#merge-request-events)
+从gitlab webhook中获取的信息变量, event 信息详情见[event](https://docs.gitlab.com/ee/user/project/integrations/webhook_events.html)
 
 ##### push 
 

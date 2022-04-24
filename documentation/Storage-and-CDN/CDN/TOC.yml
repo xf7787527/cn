@@ -367,8 +367,6 @@ items:
                  href: JCloud-Openapi-For-CDN/setSourceAuthConfig.md
                - name: setIpBlackList
                  href: JCloud-Openapi-For-CDN/setIpBlackList.md
-               - name: configBackSourceRule
-                 href: JCloud-Openapi-For-CDN/configBackSourceRule.md
                - name: configUrlRule
                  href: JCloud-Openapi-For-CDN/configUrlRule.md
                - name: configHttp2
@@ -425,13 +423,9 @@ items:
                  href: JCloud-Openapi-For-CDN/createLiveDomainPrefecthTask.md
                - name: createRefreshTask
                  href: JCloud-Openapi-For-CDN/createRefreshTask.md
-               - name: createRefreshTaskForCallback
-                 href: JCloud-Openapi-For-CDN/createRefreshTaskForCallback.md
                - name: queryRefreshTask
                  href: JCloud-Openapi-For-CDN/queryRefreshTask.md
                - name: queryRefreshTaskById
                  href: JCloud-Openapi-For-CDN/queryRefreshTaskById.md
-               - name: createRefreshTaskForCallbackV2
-                 href: JCloud-Openapi-For-CDN/createRefreshTaskForCallbackV2.md 
   - name: FAQ
     href: FAQ/FAQ.md

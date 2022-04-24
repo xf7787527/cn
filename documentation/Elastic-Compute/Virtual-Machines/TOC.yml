@@ -89,6 +89,8 @@ items:
             href: Operation-Guide/Instance/Resize-Instance.md
           - name: 修改实例名称
             href: Operation-Guide/Instance/Modify-Instance-Name.md
+          - name: 调整高可用组
+            href: Operation-Guide/Instance/Modify-Instance-Ag.md
           - name: 查找实例
             href: Operation-Guide/Instance/Search-Instance.md
           - name: 导出实例信息
@@ -139,6 +141,8 @@ items:
             href: Operation-Guide/Instance-Template/Instance-Template-Overview.md
           - name: 创建实例模板
             href: Operation-Guide/Instance-Template/Create-Instance-Template.md
+          - name: 修改实例模板
+            href: Operation-Guide/Instance-Template/Modify-Instance-Template.md
           - name: 删除实例模板
             href: Operation-Guide/Instance-Template/Delete-Instance-Template.md
           - name: 实例模板FAQ
@@ -298,7 +302,17 @@ items:
           - name: 编辑标签
             href: Operation-Guide/Tag/Edit-Tag.md
           - name: 标签FAQ
-            href: Operation-Guide/Tag/Tag-FAQ.md          
+            href: Operation-Guide/Tag/Tag-FAQ.md   
+      - name: 资源组
+        items:
+          - name: 资源组概述
+            href: Operation-Guide/Resourse-Groups/Resource-Group-Introduction.md
+          - name: 实例加入资源组
+            href: Operation-Guide/Resourse-Groups/Add-Resource-Groups.md
+          - name: 变更资源组
+            href: Operation-Guide/Resourse-Groups/Change-Resource-Groups.md
+          - name: 资源组筛选
+            href: Operation-Guide/Resourse-Groups/Filter-Resource-Groups.md
       - name: 监控
         items:
           - name: 监控概述
@@ -314,7 +328,13 @@ items:
       - name: 自动任务策略
         items:
           - name: 自动镜像策略
-            href: Operation-Guide/autoTaskPolicy/autoImagePolicy.md                           
+            href: Operation-Guide/autoTaskPolicy/autoImagePolicy.md          
+      - name: 在线迁移服务
+        items:
+          - name: 在线迁移概述
+            href: Operation-Guide/Vm-Migration/Online-Migration-Overview.md            
+          - name: 在线迁移教程
+            href: Operation-Guide/Vm-Migration/Online-Migration-Operation.md             
   - name: 性能测试
     href: Operation-Guide/Performence-Test/Linux-Performance-Test.md
   - name: 最佳实践

@@ -1,44 +1,44 @@
-研发效能度量模块将各系统信息如任务、项目、质量、发布、代码等进行数据ETL，通过多种维度数据融合对研发效能度量进行可视化报表展示，通过定义的指标集对关切据进行分析，促进组织的敏捷转型，和团队执行的持续优化。![img](../../All-Image/agile_practices.assets/clip_image002.jpg)
+研发效能度量模块将各系统信息如任务、项目、质量、发布、代码等进行数据ETL，通过多种维度数据融合对研发效能度量进行可视化报表展示，通过定义的指标集对关切据进行分析，促进组织的敏捷转型，和团队执行的持续优化。![img](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/clip_image002.jpg)
 
 ## 管理视角仪表盘
 
-![img](../../All-Image/agile_practices.assets/clip_image004.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/clip_image004.jpg)
 
 ## 研发视角仪表盘
 
-![img](../../All-Image/agile_practices.assets/clip_image006.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/clip_image006.jpg)
 
 ## 深度洞察
 
-![img](../../All-Image/agile_practices.assets/clip_image008.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/clip_image008.jpg)
 
 ## 下钻分析
 
-![img](../../All-Image/agile_practices.assets/clip_image010.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/clip_image010.jpg)
 
 ## 需求可视化报表
 
-![img](../../All-Image/agile_practices.assets/clip_image006.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/clip_image006.jpg)
 
 ## 代码可视化报表
 
-![img](../../All-Image/agile_practices.assets/clip_image012.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/clip_image012.jpg)
 
 ## 测试可视化报表
 
-![img](../../All-Image/agile_practices.assets/clip_image014.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/clip_image014.jpg)
 
 ## 部署可视化报表
 
-![img](../../All-Image/agile_practices.assets/clip_image016.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/clip_image016.jpg)
 
 ## 项目可视化报表
 
-![img](../../All-Image/agile_practices.assets/clip_image018.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/clip_image018.jpg)
 
 ## 自定义报表分析
 
-![img](../../All-Image/agile_practices.assets/clip_image020.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/clip_image020.jpg)
 
 ## 图例说明
 
@@ -55,7 +55,7 @@
 
 > 一个简单的CFD图
 
-![累积流图示例 ](../../All-Image/agile_practices.assets/累积流图示例.jpg "累积流图示例")
+![累积流图示例 ](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/累积流图示例.jpg "累积流图示例")
 
 横轴：代表迭代的周期，一般以2周为一个迭代
 
@@ -73,7 +73,7 @@
 
 * **案例1：在制品持续堆积**
 
-![在制品持续堆积 ](../../All-Image/agile_practices.assets/在制品持续堆积.jpeg "在制品持续堆积")
+![在制品持续堆积 ](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/在制品持续堆积.jpeg "在制品持续堆积")
 
 案例分析：
 
@@ -82,7 +82,7 @@
 
 * **案例2：批次性交付**
 
-![批次性交付 ](../../All-Image/agile_practices.assets/批次性交付.jpeg "批次性交付")
+![批次性交付 ](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/批次性交付.jpeg "批次性交付")
 
 案例分析：
 
@@ -91,7 +91,7 @@
 
 * **案例3：集体停滞**
 
-![集体停滞 ](../../All-Image/agile_practices.assets/集体停滞.jpeg "集体停滞")
+![集体停滞 ](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/集体停滞.jpeg "集体停滞")
 
 案例分析：
 
@@ -110,7 +110,7 @@
 
 * **案例4：某个环节无法启动**
 
-![无法启动 ](../../All-Image/agile_practices.assets/某个环节无法启动.jpeg "无法启动")
+![无法启动 ](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/某个环节无法启动.jpeg "无法启动")
 
 案例分析：
 
@@ -119,7 +119,7 @@
 
 * **案例5：吞吐率不稳定**
 
-![吞吐率不稳定 ](../../All-Image/agile_practices.assets/吞吐率不稳定.jpeg "吞吐率不稳定")
+![吞吐率不稳定 ](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/吞吐率不稳定.jpeg "吞吐率不稳定")
 
 案例分析：
 
@@ -136,7 +136,7 @@
 
 * **案例6：Scrum团队**
 
-![scrum团队 ](../../All-Image/agile_practices.assets/scrum团队.jpeg "scrum团队")
+![scrum团队 ](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/scrum团队.jpeg "scrum团队")
 
 案例分析：
 
@@ -159,7 +159,7 @@
 
 > 一个简单的散点图
 
-![散点图 ](../../All-Image/agile_practices.assets/停留时长散点图.jpg "散点图")
+![散点图 ](http://devops-minio.jdcloud.com/doc-image/All-Image/agile_practices.assets/停留时长散点图.jpg "散点图")
 
 横轴：代表迭代的周期，一般以2周为一个迭代。
 
@@ -174,3 +174,4 @@
 黑色直线：代表整个迭代的停留时长均线，会随着卡片的完成自动调整均线数值。
 
 `建议：在迭代结束时或者在迭代回顾会上来一起分析并作为下次迭代启动的数据参考，也可以结合累积流图一起分析找到团队的工作瓶颈`
+

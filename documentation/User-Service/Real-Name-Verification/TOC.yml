@@ -19,5 +19,11 @@
         href: Business/Legal.md
       - name: 企业更新实名
         href: Business/Update.md
+  - name: 个体工商户实名认证
+    items:
+      - name: 工商资质认证
+        href: Individual-Business/Commerce.md
+      - name: 法人扫脸认证
+        href: Individual-Business/Individual-Face.md
   - name: 实名认证常见问题
     href: FAQs.md

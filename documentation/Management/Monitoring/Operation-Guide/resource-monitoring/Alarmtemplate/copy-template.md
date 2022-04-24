@@ -1,6 +1,6 @@
-# 复制报警模版
+# 复制默认报警模板
 
-1. 进入[云监控控制台](https://cms-console.jdcloud.com/overview)。点击左侧菜单目录【报警管理】-【报警模版】，进入默认报警模版列表页面。  
+1. 进入[云监控控制台](https://cms-console.jdcloud.com/overview)。点击左侧菜单目录【报警管理】-【报警模板】，进入默认报警模板列表页面。  
 
    ![系统模板](../../../../../../image/Cloud-Monitor/9-mb-xt.png)  
 

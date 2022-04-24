@@ -12,7 +12,7 @@
 
 新增集群时，可选择集群所在的环境信息（线上环境，预发环境，测试环境），集群类型（公共集群和托管集群），选择集群可用区，以及集群的config文件等信息
 
- ![deploy](../../All-Image/clusters.assets/jindowin45.png)
+ ![deploy](http://devops-minio.jdcloud.com/doc-image/All-Image/clusters.assets/jindowin45.png)
 
 ### 应用列表
 

@@ -1,0 +1,51 @@
+  name: 商业物联管理系统
+  href: 
+  items:
+  - name: 产品简介
+    items:
+      - name: 产品概述
+        href: Introduction/ProductOverview.md
+      - name: 产品优势
+        href: Introduction/Benefits.md
+      - name: 产品功能
+        href: Introduction/Features.md
+  - name: 产品定价
+    items:
+      - name: 计费概述
+        href: Pricing/BillingOverview.md
+      - name: 计费规则
+        href: Pricing/BillingRules.md
+      - name: 价格总览
+        href: Pricing/PriceOverview.md
+      - name: 购买流程
+        href: Pricing/PurchaseProcess.md
+  - name: 操作指南
+    items:
+      - name: 产品使用流程
+        href: OperationGuide/ProductUseProcess.md
+  - name: 开发指南
+    items:
+      - name: 设备接入服务
+        href: DeveloperGuide/DeviceAccessService.md
+      - name: 消息推送服务
+        href: DeveloperGuide/MessagePushService.md
+      - name: 多维标签服务
+        href: DeveloperGuide/MultidimensionalTagService.md
+      - name: 数据采集服务
+        href: DeveloperGuide/DataCollectionService.md
+      - name: 数据分析服务
+        href: DeveloperGuide/DataAnalysisService.md
+      - name: 应用管理服务
+        href: DeveloperGuide/ApplicationManagementService.md
+      - name: 远程配置服务
+        href: DeveloperGuide/RemoteConfigurationService.md
+      - name: 远程协助服务
+        href: DeveloperGuide/RemoteAssistanceService.md
+      - name: 设备监控服务
+        href: DeveloperGuide/DeviceMonitoringService.md
+      - name: 故障上报服务
+        href: DeveloperGuide/FaultReportingService.md
+      - name: OpenAPI服务
+        href: DeveloperGuide/OpenAPIService.md
+  - name: 常见问题
+    href: FAQ/FAQ.md

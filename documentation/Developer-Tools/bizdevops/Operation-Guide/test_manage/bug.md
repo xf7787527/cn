@@ -4,7 +4,7 @@
 
 点击新增缺陷，打开弹框即可填写缺陷需要填写的内容 特别提示：用户设置的模版，需关联团队空间，才可使用，用户提交缺陷时，先选择对应的团队空间，页面就会切换成对应的空间对应的模块 若空间未关联任何模版，则使用系统的默认模版
 
-![新建缺陷](../../All-Image/bug.assets/bug_新建缺陷.jpg)        
+![新建缺陷](http://devops-minio.jdcloud.com/doc-image/All-Image/bug.assets/bug_新建缺陷.jpg)        
 
 ### 1.2 默认缺陷的状态说明
 
@@ -26,20 +26,20 @@
 
 为了方便用户快速的筛选需要的缺陷，系统提供了如下图所示的筛选功能
 
-![缺陷筛选](../../All-Image/bug.assets/bug_筛选数据.jpg)
+![缺陷筛选](http://devops-minio.jdcloud.com/doc-image/All-Image/bug.assets/bug_筛选数据.jpg)
 
-查询过程如下动图所示： ![查询](../../All-Image/bug.assets/bug_缺陷管理-筛选器查询.gif)
+查询过程如下动图所示： ![查询](http://devops-minio.jdcloud.com/doc-image/All-Image/bug.assets/bug_缺陷管理-筛选器查询.gif)
 
 用户首次进入时，会默认展示系统提供的默认筛选器，切换到每个筛选器时，会默认展示该筛选器所对应的筛选条件，用户可点击编辑筛选条件，增加新的筛选条件进行选择查询
 
 #### 1.4.1 新增筛选器
 
-点击更多，下拉弹出新增筛选器入口，如下动图所示 点击新增后，会自动出现新的tab(注意：tab最多只展示6个)，如下动图所示，您可先选择您需要的筛选条件，再填充对应的筛选值，查询无误后，点击保存，存储该筛选器（此时需要对新增的筛选器命名） ![新增筛选器](../../All-Image/bug.assets/bug_缺陷管理-新增筛选器.gif)
+点击更多，下拉弹出新增筛选器入口，如下动图所示 点击新增后，会自动出现新的tab(注意：tab最多只展示6个)，如下动图所示，您可先选择您需要的筛选条件，再填充对应的筛选值，查询无误后，点击保存，存储该筛选器（此时需要对新增的筛选器命名） ![新增筛选器](http://devops-minio.jdcloud.com/doc-image/All-Image/bug.assets/bug_缺陷管理-新增筛选器.gif)
 
 重置：您可以点击重置快速清空选项
 
 另存为：可帮您快速生成新的筛选器
 
-详细参见如下动图： ![筛选器重置](../../All-Image/bug.assets/bug_创建筛选结果分享短链接.gif)
+详细参见如下动图： ![筛选器重置](http://devops-minio.jdcloud.com/doc-image/All-Image/bug.assets/bug_创建筛选结果分享短链接.gif)
 
 ## 

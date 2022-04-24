@@ -19,6 +19,8 @@
             href: Domain/enableCname2RsExternal.md
           - name: getDomainAntiConfig
             href: Domain/getDomainAntiConfig.md
+          - name: getDomainLbConfig
+            href: Domain/getDomainLbConfig.md
           - name: listDomains
             href: Domain/listDomains.md
           - name: listMainCfg
@@ -59,8 +61,12 @@
             href: Data-Chart/getBpsData.md
           - name: getEsLogDetail
             href: Data-Chart/getEsLogDetail.md
+          - name: getMainAntiInfoNew
+            href: Data-Chart/getMainAntiInfoNew.md
           - name: getQpsData
             href: Data-Chart/getQpsData.md
+          - name: getStatusCodeInfo
+            href: Data-Chart/getStatusCodeInfo.md
       - name:  证书接口
         items:
           - name: bindCert

@@ -1,6 +1,5 @@
 # 基础架构
 
-## 1.2 基础架构
 基础架构如下图：
 ![基础架构](../../../../image/IoT/IoT-Community/Architecture-Core.png)
 

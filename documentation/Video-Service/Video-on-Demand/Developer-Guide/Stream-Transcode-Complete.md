@@ -6,26 +6,27 @@
 
 ## 回调内容
 
-|字段名称|字段类型|字段描述|
-|--- |--- |--- |
-|eventType|String|事件类型，特定值为 FileUploadComplete|
-|eventTime|String|事件时间，为 UTC 时间的字符串表示，格式为 yyyy-MM-ddTHH:mm:ssZ|
-|taskId|Long|任务ID|
-|videoId|String|视频ID|
-|title|String|视频标题|
-|fileUrl|String|转码文件地址|
-|format|String|转码文件格式|
-|size|Long|转码文件大小，单位 Byte|
-|duration|Float|转码视频时长，单位秒|
-|fps|String|转码视频帧率|
-|bitrate|String|转码视频码率|
-|width|Integer|转码视频画面宽度，单位 px|
-|height|Integer|转码视频画面高度，单位 px|
-|definition|String|转码视频清晰度规格|
-|shotImages|Array(String)|转码附带截图|
-|status|String|转码任务状态|
-|errorCode|String|错误码。视频转码出错的时候，会有该字段表示错误码|
-|errorMessage|String|错误消息。视频转码出错的时候，会有该字段表示错误信息|
+|字段名称|字段类型| 字段描述                                         |
+|--- |--- |----------------------------------------------|
+|eventType|String| 事件类型，特定值为 StreamTranscodeComplete            |
+|eventTime|String| 事件时间，为 UTC 时间的字符串表示，格式为 yyyy-MM-ddTHH:mm:ssZ |
+|taskId|Long| 任务ID                                         |
+|templateId|Long| 转码模板ID                                       |
+|videoId|String| 视频ID                                         |
+|title|String| 视频标题                                         |
+|fileUrl|String| 转码文件地址                                       |
+|format|String| 转码文件格式                                       |
+|size|Long| 转码文件大小，单位 Byte                               |
+|duration|Float| 转码视频时长，单位秒                                   |
+|fps|String| 转码视频帧率                                       |
+|bitrate|String| 转码视频码率                                       |
+|width|Integer| 转码视频画面宽度，单位 px                               |
+|height|Integer| 转码视频画面高度，单位 px                               |
+|definition|String| 转码视频清晰度规格                                    |
+|shotImages|Array(String)| 转码附带截图                                       |
+|status|String| 转码任务状态                                       |
+|errorCode|String| 错误码。视频转码出错的时候，会有该字段表示错误码                     |
+|errorMessage|String| 错误消息。视频转码出错的时候，会有该字段表示错误信息                   |
 
 ## 内容示例
 
@@ -56,6 +57,7 @@
   "size": 1370362,
   "status": "success",
   "taskId": 959,
+  "templateId": 958,
   "title": "1595930586758_filter-YiJianMeiHuamp4.mp4",
   "videoId": "e4b7e7d6-fe92-40b0-9870-fa10bb4d8ed5",
   "width": 596

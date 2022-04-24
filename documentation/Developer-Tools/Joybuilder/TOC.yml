@@ -27,11 +27,11 @@
     items:
           - name: 项目管理
             href: Operation-Guide/Build-Project.md
-          - name: 数据库
+          - name: 数据库管理
             href: Operation-Guide/Build-Db.md
           - name: 日志管理
             href: Operation-Guide/Build-Log.md
-          - name: 应用
+          - name: 应用管理
             href: Operation-Guide/Build-App.md
   - name: 最佳实践
     items:

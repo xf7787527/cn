@@ -77,7 +77,9 @@
     - name: 性能型SSD云盘配置IOPS
       href: Getting-Started/Cloud-Disk/Editing_Iops.md
     - name: 多点挂载云硬盘使用方法
-      href: Introduction/Multiattachdisk.md      
+      href: Introduction/Multiattachdisk.md
+    - name: 资源组
+      href: Getting-Started/Cloud-Disk/Resource-Group.md 
   - name: 快照操作指南
     items:
     - name: 创建云硬盘快照

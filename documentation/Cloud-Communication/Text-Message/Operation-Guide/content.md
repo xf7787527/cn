@@ -48,5 +48,10 @@ ${TXT_5} ${TXT_10} 为模板变量<br><br>
 注：<br>
 验证码短信和通知短信需要通过API或SDK调用。<br>
 推广短信和通知类短信可以通过控制台 “发送短信” 页面进行在线发送，在线发送不支持带变量的短信内容。<br>
+<<<<<<< HEAD
 API和SDK所需要的相关信息在概览页获取<br>
 ![ak](../../../../image/Text-Message/dx-017a.png)<br>
+=======
+API和SDK所需要的相关信息在Access Key管理页面查询<br>
+![ak](../../../../image/Text-Message/dx-017cc.jpg)
+>>>>>>> 2c0324423caf0e6a7b3b83bd8ed1a99883818bea

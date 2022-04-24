@@ -55,7 +55,6 @@ https://waf.jdcloud-api.com/v1/regions/{regionId}/wafInstanceIds/{wafInstanceId}
 |**updateTime**|Integer|更新时间，s|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
-|**400**|BAD_REQUEST|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

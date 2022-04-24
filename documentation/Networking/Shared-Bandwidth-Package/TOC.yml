@@ -54,6 +54,10 @@
         href: Operation-Guide/Search-Bwp.md
       - name: 查看共享带宽包监控信息
         href: Operation-Guide/View-Monitoring.md
+      - name: 标签
+        href: Operation-Guide/Tag-Management.md
+      - name: 资源组
+        href: Operation-Guide/Resource-Group-Management.md       
   - name: 最佳实践
     items:
     status: 0

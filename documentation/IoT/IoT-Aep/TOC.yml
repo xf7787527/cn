@@ -1,0 +1,45 @@
+  name: 物联网应用使能平台
+  href: 
+  items:
+  - name: 产品简介
+    items:
+      - name: 产品概述
+        href: Introduction/Product-Overview.md
+      - name: 产品优势
+        href: Introduction/Benefits.md
+      - name: 产品功能
+        href: Introduction/Features.md
+  - name: 产品定价
+    items:
+      - name: 计费概述
+        href: Pricing/Billing-Overview.md
+  - name: 操作指南
+    items:
+      - name: 低代码平台
+        items:
+          - name: 创建应用
+            href: Operation-Guide/Lowcode/Create.md
+          - name: 页面创建
+            href: Operation-Guide/Lowcode/Dev-Page.md
+          - name: 访问应用
+            href: Operation-Guide/Lowcode/Use-Page.md
+      - name: 小程序服务
+        items:
+          - name: 创建小程序
+            href: Operation-Guide/Mp/Create-Mp.md
+          - name: 开发小程序
+            href: Operation-Guide/Mp/Dev-Mp.md
+          - name: 审核发布
+            href: Operation-Guide/Mp/Approve-Mp.md
+          - name: 安装使用
+            href: Operation-Guide/Mp/Use-Mp.md
+      - name: 可视化平台
+        href: Operation-Guide/Create-view.md
+  - name: 常见问题
+    href: FAQ/FAQ.md
+  - name: 相关资源
+    items:
+      - name: 账号实名认证
+        href: Operation-Guide/Precondition.md
+      - name: 登录控制台
+        href: Operation-Guide/ControllPage.md

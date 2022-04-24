@@ -41,6 +41,8 @@ items:
         href: Operation-Guide/Task-Management.md
       - name: 风险管理
         href: Operation-Guide/Risk-Management.md
+      - name: 镜像安全扫描
+        href: Operation-Guide/Mirror-security-Management.md
   - name: 常见问题
     items:
       - name: 资产认证问题
@@ -56,6 +58,6 @@ items:
   - name: 服务协议
     items:
       - name: 服务条款
-        href: SLA/ToS.md
+        href: SLA/ToS2021-wts.md
       - name: 服务等级协议
-        href: SLA/SLA.md
+        href: SLA/SLA2021-wts.md

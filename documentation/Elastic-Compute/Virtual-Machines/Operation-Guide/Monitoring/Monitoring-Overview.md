@@ -303,12 +303,12 @@
             <td>实例</td>
         </tr>
 	</body>
-</table> 
+</table>
 
-<div id="user-content-1"></div>
+## 扩展指标配置说明
 
-### 扩展指标配置说明
 您可以按照下方步骤进行扩展指标的采集配置：
+
   * 确认JCS-Agent组件版本不低于'3.0.1086'，如低于此版本请参考下方【监控插件安装说明】部分安装或更新插件。
 ```Shell
     ps -ef|grep MonitorPlugin

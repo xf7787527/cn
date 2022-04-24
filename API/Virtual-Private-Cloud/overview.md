@@ -2,7 +2,7 @@
 
 
 ## 简介
-VPC相关API
+VPC相关API，包含产品线：VPC、子网、路由表、安全组、ACL、VPC peering、弹性公网IP、共享带宽包、弹性网卡。
 
 
 ### 版本
@@ -51,11 +51,19 @@ v1
 |**describeNetworkInterface**|GET|查询弹性网卡信息详情|
 |**describeNetworkInterfaces**|GET|查询弹性网卡列表|
 |**modifyNetworkInterface**|PATCH|修改弹性网卡接口|
-|**createElasticIps**|POST|创建一个或者多个弹性Ip|
-|**deleteElasticIp**|DELETE|删除弹性Ip|
-|**modifyElasticIp**|PATCH|修改弹性IP|
-|**describeElasticIp**|GET|ElasticIp资源信息详情|
-|**describeElasticIps**|GET|查询弹性ip列表|
+|**createElasticIps**|POST|创建一个或者多个弹性公网 IP|
+|**deleteElasticIp**|DELETE|删除弹性 IP|
+|**modifyElasticIp**|PATCH|修改弹性 IP|
+|**describeElasticIp**|GET|弹性公网IP信息详情|
+|**describeElasticIps**|GET|查询弹性公网 IP 列表|
+|**createBandwidthPackage**|POST|创建一个共享带宽包|
+|**addBandwidthPackageIP**|DELETE|向共享带宽包中添加公网 IP|
+|**describeBandwidthPackage**|GET|查询共享带宽包信息详情|
+|**describeBandwidthPackage**|GET|查询共享带宽包列表|
+|**deleteBandwidthPackage**|DELETE|删除共享带宽包|
+|**modifyBandwidthPackage**|PATCH|修改共享带宽包|
+|**modifyBandwidthPackageIpBandwidth**|POST|修改共享带宽包中公网IP的带宽上限|
+|**removeBandwidthPackageIP**|POST|从共享带宽包中移除公网 IP|
 |**createNetworkSecurityGroup**|POST|创建安全组|
 |**deleteNetworkSecurityGroup**|DELETE|删除安全组|
 |**modifyNetworkSecurityGroup**|PATCH|修改安全组属性|

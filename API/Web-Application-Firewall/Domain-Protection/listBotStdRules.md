@@ -57,7 +57,6 @@ https://waf.jdcloud-api.com/v1/regions/{regionId}/wafInstanceIds/{wafInstanceId}
 |**atVal**|String|黑名单匹配动作内容 当atOp为3/4/7时，atVal为空，atOp=1时，atVal为自定义页面,atOp=2时，atVal为跳转url。|
 
 ## 返回码
-|返回码|描述|
-|---|---|
-|**200**|OK|
-|**400**|BAD_REQUEST|
+|HTTP状态码|错误码|描述|
+|---|---|---|
+|**200**||OK|

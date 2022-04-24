@@ -1,0 +1,89 @@
+name: 分布式数据库 TiDB
+href: 
+items:
+- name: 接口概览
+  href: overview.md
+- name: 更新历史
+  href: ChangeLog.md
+- name: 实例管理
+  items:
+    - name: createInstance
+      href: Instance-Management/createInstance.md
+    - name: createInstanceFromBackup
+      href: Instance-Management/createInstanceFromBackup.md
+    - name: deleteInstance
+      href: Instance-Management/deleteInstance.md
+    - name: describeBackupPolicy.md
+      href: Instance-Management/describeBackupPolicy.md
+    - name: describeInstanceClasses
+      href: Instance-Management/describeInstanceClasses.md
+    - name: describeNodes
+      href: Instance-Management/describeNodes.md
+    - name: describeInstances
+      href: Instance-Management/describeInstances.md
+    - name: describeInstanceAttributes
+      href: Instance-Management/describeInstanceAttributes.md        
+    - name: describeParameters
+      href: Instance-Management/describeParameters.md
+    - name: describeUpgradePlan
+      href: Instance-Management/describeUpgradePlan.md
+    - name: describeUpgradeVersions
+      href: Instance-Management/describeUpgradeVersions.md
+    - name: modifyBackupPolicy
+      href: Instance-Management/modifyBackupPolicy.md
+    - name: modifyInstanceName
+      href: Instance-Management/modifyInstanceName.md
+    - name: modifyInstanceSpec
+      href: Instance-Management/modifyInstanceSpec.md
+    - name: modifyNodeNum
+      href: Instance-Management/modifyNodeNum.md
+    - name: modifyParameters
+      href: Instance-Management/modifyParameters.md  
+    - name: rebootPod
+      href: Instance-Management/rebootPod.md  
+    - name: upgradeEngineVersion
+      href: Instance-Management/upgradeEngineVersion.md
+- name: 账号管理
+  items:
+    - name: createAccount
+      href: Account-Management/createAccount.md
+    - name: describeAccounts
+      href: Account-Management/describeAccounts.md
+    - name: resetPassword
+      href: Account-Management/resetPassword.md
+- name: 备份管理
+  items:
+    - name: createBackup
+      href: Backup-Management/createBackup.md
+    - name: deleteBackup
+      href: Backup-Management/deleteBackup.md
+    - name: describeBackups
+      href: Backup-Management/describeBackups.md  
+- name: 白名单管理
+  items:
+    - name: addWhiteListGroup
+      href: White-List/addWhiteListGroup.md
+    - name: deleteWhiteListGroup
+      href: White-List/deleteWhiteListGroup.md
+    - name: describeWhiteList
+      href: White-List/describeWhiteList.md
+    - name: modifyWhiteList
+      href: White-List/modifyWhiteList.md        
+- name: 数据迁移
+  items:
+    - name: createDataMigration
+      href: Data-Migration/createDataMigration.md
+    - name: describeDataMigration
+      href: Data-Migration/describeDataMigration.md
+    - name: verifyFilefromOSS
+      href: Data-Migration/verifyFilefromOSS.md
+- name: 其他
+  items:
+    - name: describeAvailableZones
+      href: Common/describeAvailableZones.md
+    - name: describeOrderableInstanceType
+      href: Common/describeOrderableInstanceType.md
+    - name: describeVersions
+      href: Common/describeVersions.md
+- name: 枚举参数说明
+  href: Enum-Definitions/Enum-Definitions.md

@@ -63,6 +63,8 @@
             href: Operation-Guide/Instance/SOS.md
           - name: 更换网络配置
             href: Operation-Guide/Networking/Modifying-Network-Configurations.md
+          - name: 实例元数据
+            href: Operation-Guide/Instance/metadata.md
       - name: 网络
         items:
           - name: 私有网络
@@ -79,6 +81,8 @@
             href: Operation-Guide/Networking/Shared-Bandwidth.md
           - name: NAT网关
             href: Operation-Guide/Networking/NAT-Gateway.md
+          - name: 对等连接
+            href: Operation-Guide/Networking/VPC-Peering.md
           - name: IPv6互联网网关
             href: Operation-Guide/Networking/IPv6-Internet-Access.md
           - name: 负载均衡

@@ -66,19 +66,19 @@ items:
               href: Operation-Guide/resource-monitoring/AlarmMangent/rule-alarms.md 
             - name: 删除报警规则
               href: Operation-Guide/resource-monitoring/AlarmMangent/delete-rule.md
-        - name: 报警模版管理
+        - name: 报警模板管理
           items:
             - name: 概述
               href: Operation-Guide/resource-monitoring/Alarmtemplate/template-overview.md
-            - name: 查看报警模版
+            - name: 查看报警模板
               href: Operation-Guide/resource-monitoring/Alarmtemplate/view-template.md
-            - name: 添加报警模版
-              href: Operation-Guide/resource-monitoring/Alarmtemplate/add-template.md
-            - name: 复制报警模版
+            - name: 复制默认报警模板
               href: Operation-Guide/resource-monitoring/Alarmtemplate/copy-template.md
-            - name: 删除报警模版
+            - name: 添加自定义报警模板
+              href: Operation-Guide/resource-monitoring/Alarmtemplate/add-template.md
+            - name: 删除报警模板
               href: Operation-Guide/resource-monitoring/Alarmtemplate/delete-template.md 
-            - name: 使用报警模版
+            - name: 使用报警模板
               href: Operation-Guide/resource-monitoring/Alarmtemplate/use-template.md
         - name: 云资源监控FAQ
           href: Operation-Guide/resource-monitoring/Resource-Monitoing-FAQ.md
@@ -122,6 +122,8 @@ items:
       href: Metrics/function.md   
     - name: 弹性公网IP
       href: Metrics/ip.md
+    - name: 共享带宽包
+      href: Metrics/Bwp.md
     - name: 专线服务
       href: Metrics/DirectConnection.md
     - name: NAT网关
@@ -161,7 +163,11 @@ items:
     - name: 分布式事务
       href: Metrics/jdts.md
     - name: 堡垒机
-      href: Metrics/bastion.md 
+      href: Metrics/bastion.md
+    - name: 云物理服务器
+      href: Metrics/cps.md
+    - name: 分布式数据库 TiDB
+      href: Metrics/tidb.md
 - name: 教程
   items:
   status: 0

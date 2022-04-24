@@ -16,6 +16,7 @@ https://monitor.jdcloud-api.com/v2/groupAlarms
 |---|---|---|---|---|
 |**pageNumber**|Long|False| |当前所在页，默认为1|
 |**pageSize**|Long|False| |页面大小，默认为20；取值范围[1, 100]|
+|**dataOwner**|Long|False| |数据所有者，1云监控控制台; 2云鼎。默认为1|
 |**serviceCode**|String|False| |产品线标识，同一个产品线下可能存在多个product，如(redis下有redis2.8cluster、redis4.0)|
 |**product**|String|False| |产品标识，如redis下分多个产品(redis2.8cluster、redis4.0)。同时指定serviceCode与product时，product优先生效|
 |**dimension**|String|False| |产品下的维度标识，指定dimension时必须指定product|
@@ -23,9 +24,9 @@ https://monitor.jdcloud-api.com/v2/groupAlarms
 |**ruleType**|Long|False| |规则类型, 1表示资源监控，6表示站点监控,7表示可用性监控|
 |**enabled**|Long|False| |规则状态：1为启用，0为禁用|
 |**ruleStatus**|Long|False| |资源的规则状态  2：报警、4：数据不足|
-|**filters**|Filter[]|False| |服务码或资源Id列表<br>products - 产品product，精确匹配，支持多个<br>resourceIds - 资源Id，精确匹配，支持多个（必须指定serviceCode、product或dimension，否则该参数不生效）<br>alarmIds - 规则id，精确匹配，支持多个|
+|**filters**|[Filter[]](describealarms#filter)|False| |服务码或资源Id列表<br>products - 产品product，精确匹配，支持多个<br>resourceIds - 资源Id，精确匹配，支持多个（必须指定serviceCode、product或dimension，否则该参数不生效）<br>alarmIds - 规则id，精确匹配，支持多个|
 
-### Filter
+### <div id="filter">Filter</div>
 |名称|类型|是否必需|默认值|描述|
 |---|---|---|---|---|
 |**name**|String|False| | |
@@ -34,18 +35,18 @@ https://monitor.jdcloud-api.com/v2/groupAlarms
 ## 返回参数
 |名称|类型|描述|
 |---|---|---|
-|**result**|Result| |
+|**result**|[Result](describealarms#result)| |
 |**requestId**|String|请求的标识id|
 
-### Result
+### <div id="result">Result</div>
 |名称|类型|描述|
 |---|---|---|
-|**alarmList**|DescribeGroupAlarm[]|规则列表|
+|**alarmList**|[DescribeGroupAlarm[]](describealarms#describegroupalarm)|规则列表|
 |**numberPages**|Long|总页数|
 |**numberRecords**|Long|总记录数|
 |**pageNumber**|Long|当前页码|
 |**pageSize**|Long|分页大小|
-### DescribeGroupAlarm
+### <div id="describegroupalarm">DescribeGroupAlarm</div>
 |名称|类型|描述|
 |---|---|---|
 |**alarmId**|String|报警规则ID|
@@ -57,23 +58,23 @@ https://monitor.jdcloud-api.com/v2/groupAlarms
 |**enabled**|Long|是否启用, 1表示启用规则，0表示禁用规则，默认为1|
 |**product**|String|资源类型|
 |**productName**|String|资源类型名称|
-|**resourceOption**|ResourceOption| |
+|**resourceOption**|[ResourceOption](describealarms#resourceoption)| |
 |**ruleName**|String|规则名称，规则名称，最大长度42个字符，只允许中英文、数字、''-''和"_"|
-|**ruleOption**|RuleOptionDetail| |
+|**ruleOption**|[RuleOptionDetail](describealarms#ruleoptiondetail)| |
 |**ruleType**|String|规则类型, 默认为resourceMonitor|
 |**ruleVersion**|String|规则版本  v1  v2|
 |**tags**|Object|资源维度，指定监控数据实例的维度标签,如resourceId=id。(请确认资源的监控数据带有该标签，否则规则会报数据不足)|
-### RuleOptionDetail
+### <div id="ruleoptiondetail">RuleOptionDetail</div>
 |名称|类型|描述|
 |---|---|---|
-|**rules**|BasicRuleDetail[]|规则触发条件,与模块参数同时指定时，优先使用rules|
-|**templateOption**|TemplateOption| |
-### TemplateOption
+|**rules**|[BasicRuleDetail[]](describealarms#basicruledetail)|规则触发条件,与模板参数同时指定时，优先使用rules|
+|**templateOption**|[TemplateOption](describealarms#templateoption)| |
+### <div id="templateoption">TemplateOption</div>
 |名称|类型|描述|
 |---|---|---|
 |**templateId**|String|模板Id|
 |**templateType**|Long|模板类型.1-默认模板  2-自定义模板|
-### BasicRuleDetail
+### <div id="basicruledetail">BasicRuleDetail</div>
 |名称|类型|描述|
 |---|---|---|
 |**calculateUnit**|String|指标的计算单位，比如bit/s、%、k等|
@@ -81,32 +82,34 @@ https://monitor.jdcloud-api.com/v2/groupAlarms
 |**downSample**|String|降采样函数|
 |**metric**|String|监控项唯一标识，可根据DescribeMetricsForCreateAlarm接口查询各产品线可用的监控项（创建规则时使用Metric字段）。格式：metric:downsample|
 |**metricName**|String|监控项名称|
-|**noticeLevel**|NoticeLevel| |
+|**noticeLevel**|[NoticeLevel](describealarms#noticelevel)| |
 |**operation**|String|报警比较符，只能为以下几种lte(<=),lt(<),gt(>),gte(>=),eq(==),ne(!=)|
 |**period**|Long|查询指标的周期，单位为分钟,目前支持的取值：1,2，5，10,15，30，60|
 |**threshold**|Double|报警阈值，目前只开放数值类型功能|
 |**times**|Long|连续探测几次都满足阈值条件时报警，可选值:1,2,3,5,10,15,30,60|
-### NoticeLevel
+### <div id="noticelevel">NoticeLevel</div>
 |名称|类型|描述|
 |---|---|---|
 |**custom**|Boolean|是否为用户自己定义的级别，自定义(true) or 固定(false)|
 |**levels**|Object|报警级别以及对应的阈值，是一个map[string]float64对象。key:common(一般)、critical(严重)、 fatal(紧急),value:各报警级别对应的阀值，要符合operation参数对应的递进关系。 eg: "levels":{"common":1000,"critical":10000,"fatal":15000}|
-### ResourceOption
+### <div id="resourceoption">ResourceOption</div>
 |名称|类型|描述|
 |---|---|---|
-|**resourceItems**|ResourceItem[]|指定具体资源ID设置报警规则，每次最多100个。优先resourceItems生效|
-|**tagsOption**|TagsOption| |
-### TagsOption
+|**resourceItems**|[ResourceItem[]](describealarms#resourceitem)|指定具体资源ID设置报警规则，每次最多100个。优先resourceItems生效|
+|**tagsOption**|[TagsOption](describealarms#tagsoption)| |
+|**resourceGroups**|String[]|指定资源组设置报警规则|
+|**resourceFilterType**|Long|资源筛选的类型,1:指定具体资源 2:标签筛选 3:资源组筛选|
+### <div id="tagsoption">TagsOption</div>
 |名称|类型|描述|
 |---|---|---|
 |**operator**|String|操作项(多个tagFilter之间关关系)默认是or|
-|**tags**|TagFilter[]|资源标签,对所有符合该标签的资源设置报警规则，对于新加入该标签的资源自动生效|
-### TagFilter
+|**tags**|[TagFilter[]](describealarms#tagfilter)|资源标签,对所有符合该标签的资源设置报警规则，对于新加入该标签的资源自动生效|
+### <div id="tagfilter">TagFilter</div>
 |名称|类型|描述|
 |---|---|---|
 |**key**|String|Tag键|
 |**values**|String[]|Tag值|
-### ResourceItem
+### <div id="resourceitem">ResourceItem</div>
 |名称|类型|描述|
 |---|---|---|
 |**region**|String|资源所属的region|
@@ -115,6 +118,4 @@ https://monitor.jdcloud-api.com/v2/groupAlarms
 ## 返回码
 |返回码|描述|
 |---|---|
-|**200**|查询规则列表  |  
-
-
+|**200**|查询规则列表|

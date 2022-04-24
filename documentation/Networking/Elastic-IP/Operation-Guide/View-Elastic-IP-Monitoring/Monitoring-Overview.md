@@ -26,5 +26,6 @@
 ## 相关参考
 
 - [云监控](https://docs.jdcloud.com/cn/monitoring/product-overview)
+- [云监控-弹性公网IP](https://docs.jdcloud.com/cn/monitoring/ip)
 - [管理报警规则](https://docs.jdcloud.com/cn/monitoring/manage_alarmrules_cm)
 

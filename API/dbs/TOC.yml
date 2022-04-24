@@ -1,0 +1,26 @@
+name: 数据库备份DBS
+href:
+items:
+  - name: 接口概览
+    href: overview.md
+  - name: 更新历史
+    href: ChangeLog.md
+  - name: 接口信息
+    items:
+      - name: 数据库备份
+        items:
+          - name: createBackupPlan
+            herf: DB-Backup/createBackupPlan.md
+          - name: createLogicalBackup
+            herf: DB-Backup/createLogicalBackup.md
+          - name: createPhysicalBackup
+            herf: DB-Backup/createPhysicalBackup.md
+          - name: deleteBackup
+            herf: DB-Backup/deleteBackup.md
+          - name: deleteBackupPlan
+            herf: DB-Backup/deleteBackupPlan.md
+          - name: describeBackupPlanAttributes
+            herf: DB-Backup/describeBackupPlanAttributes.md
+          - name: describeBackupPlans
+            herf: DB-Backup/describeBackupPlans.md
+

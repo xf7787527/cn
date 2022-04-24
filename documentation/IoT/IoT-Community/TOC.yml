@@ -29,11 +29,28 @@ items:
         href: Getting-Started/Buy-Product.md
       - name: 登录智能生活物联网平台
         href: Getting-Started/Login.md
+  - name: 操作指南
+    items:
+      - name: 资源管理
+        href: Operation-Guide/Resource-Manage.md
+      - name: 收费管理
+        href: Operation-Guide/Charge-Manage.md
+      - name: 工单管理
+        href: Operation-Guide/Work-Order.md
+      - name: 租赁管理
+        href: Operation-Guide/Rent-Manage.md
+      - name: 安保巡逻
+        href: Operation-Guide/Security-Patrol.md
+      - name: 系统管理
+        href: Operation-Guide/System-Manage.md
   - name: 常见问题
     href: FAQ/FAQ.md
   - name: 用户协议
     status: 0
     items:
+      - name: 服务条款
+        href: User-Agreements/Product-Terms-of-Service.md
+        status: 0
       - name: SLA
         href: User-Agreements/SLA.md
         status: 0

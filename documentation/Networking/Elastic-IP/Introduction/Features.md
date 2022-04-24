@@ -9,11 +9,12 @@
   - 可根据业务需要实时与云主机、负载均衡等云资源绑定或解绑，相关操作请参考[绑定弹性公网IP](../Operation-Guide/Elastic-IP-Management/Associate-Elastic-IP.md)或[解绑弹性公网IP](../Operation-Guide/Elastic-IP-Management/Disassociate-Elastic-IP.md)
   - 支持云资源实时更换公网IP，在多活容灾场景下，能快速屏蔽故障，例：当云主机出现故障时，可将其绑定的公网IP解绑，然后与备用机绑定，快速恢复业务运转
   
-### 单独管理
+### 资源管理
   - 支持单独购买，在不创建云资源的情况下可单独购买公网IP，相关操作请参考[创建弹性公网IP](../Operation-Guide/Elastic-IP-Management/Create-Elastic-IP.md)
  
   - 支持单独释放，从云资源解绑后，支持单独删除公网IP，解绑公网IP请参考[解绑弹性公网IP](../Operation-Guide/Elastic-IP-Management/Disassociate-Elastic-IP.md)，释放公网IP请参考[删除弹性公网IP](../Operation-Guide/Elastic-IP-Management/Delete-Elastic-IP.md)
   - 支持单独持有，在删除与公网IP绑定的云资源时可以单独保留公网IP
+  - 公网IP资源支持通过标签或资源组功能进行分组管理，具体请参考[标签概述](https://docs.jdcloud.com/cn/tag-service/product-overview)、[资源组概述](https://docs.jdcloud.com/cn/resourcegroup/productintroduction)。
 
 ### 加入共享带宽包
   - 公网IP支持加入共享带宽包，多个公网IP共享一份带宽，为您节省带宽费用，更多内容请参考[共享带宽包概述](../../Shared-Bandwidth-Package/Introductions/Product-Overview.md)

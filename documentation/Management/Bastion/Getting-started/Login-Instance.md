@@ -16,12 +16,13 @@
 ![](/image/Bastion/mfa.png) 
 
 3、 登录以后，在左侧导航栏选择“主机运维”或者“主机组运维”
+![](/image/Bastion/operate22.png) 
  
 4、主机运维
 
 4.1	点击“主机运维”，进入主机运维页面，页面显示出所有可运维主机
 
-4.2 选择要运维的主机，点击Linux/Windows账户的下拉按钮，选择账户，点击“登录”
+4.2 选择要运维的主机，点击Linux/Windows账户的下拉框，选择账户，点击“登录”
 
 ![](/image/Bastion/operate2.png) 
 

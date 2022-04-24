@@ -1,0 +1,154 @@
+  name: 数据库自治服务 SmartDBA
+  href: 
+  items:
+  - name: 接口概览
+    href: overview.md
+  - name: 更新历史
+    href: ChangeLog.md
+  - name: 接口信息
+    items:
+      - name: 告警概览
+        items:
+          - name: describeAlarmHistory
+            herf: Alarm-Overview/describeAlarmHistory.md
+          - name: describeAlarmResource
+            herf: Alarm-Overview/describeAlarmResource.md
+
+      - name: 总体概览
+        items:
+          - name: describeAlarmStatistic
+            herf: General-Overview/describeAlarmStatistic.md
+          - name: describeAlarmTrend
+            herf: General-Overview/describeAlarmTrend.md
+          - name: describeDiagnoseTopResource
+            herf: General-Overview/describeDiagnoseTopResource.md
+          - name: describeDiagnoseTrend
+            herf: General-Overview/describeDiagnoseTrend.md
+          - name: describeslowLogStatistic
+            herf: General-Overview/describeslowLogStatistic.md
+          - name: getTopResourceByMetric
+            herf: General-Overview/getTopResourceByMetric.md
+
+
+      - name: 一键诊断
+        items:
+          - name: createDiagnose
+            herf: Inspect-Diagnose/createDiagnose.md
+          - name: describeDiagnose
+            herf: Inspect-Diagnose/describeDiagnose.md
+          - name: describeDiagnoseList
+            herf: Inspect-Diagnose/describeDiagnoseList.md
+          - name: describeInspect
+            herf: Inspect-Diagnose/describeInspect.md
+          - name: describeInspectList
+            herf: Inspect-Diagnose/describeInspectList.md
+
+
+      - name: 实例操作
+        items:
+          - name: cancleConnect
+            herf: Instance-Operation/cancleConnect.md
+          - name: createCluster
+            herf: Instance-Operation/createCluster.md
+          - name: describeClusterDetail
+            herf: Instance-Operation/describeClusterDetail.md
+          - name: describeClusterList
+            herf: Instance-Operation/describeClusterList.md
+          - name: toBeConnectClusters
+            herf: Instance-Operation/toBeConnectClusters.md
+
+      - name: 死锁分析
+        items:
+          - name: createLockAnalyse
+            herf: Lock-Analyse/createLockAnalyse.md
+          - name: describeAnalyseList
+            herf: Lock-Analyse/describeAnalyseList.md
+          - name: describeLockAnalyse
+            herf: Lock-Analyse/describeLockAnalyse.md
+
+      - name: 指标监控
+        items:
+          - name: bindMetrics
+            herf: Metrics/bindMetrics.md
+          - name: describeMetricValueByGid
+            herf: Metrics/describeMetricValueByGid.md
+          - name: describeSupportMetrics
+            herf: Metrics/describeSupportMetrics.md
+          - name: getBindMetrics
+            herf: Metrics/getBindMetrics.md
+            
+      - name: 监控大盘
+        items:
+          - name: createPanel
+            herf: Monitor-Market/createPanel.md
+          - name: deletePanel
+            herf: Monitor-Market/deletePanel.md
+          - name: describePanelList
+            herf: Monitor-Market/describePanelList.md
+          - name: describePanelMetricValueByGid
+            herf: Monitor-Market/describePanelMetricValueByGid.md
+          - name: getPanelRelateClusters
+            herf: Monitor-Market/getPanelRelateClusters.md
+          - name: updatePanelClusters
+            herf: Monitor-Market/updatePanelClusters.md
+
+      - name: 会话管理
+        items:
+          - name: describeNowSessions
+            herf: Sessions/describeNowSessions.md
+          - name: describeSessions
+            herf: Sessions/describeSessions.md
+          - name: describeTrxLocks
+            herf: Sessions/describeTrxLocks.md
+          - name: describeUnCommitTrxs
+            herf: Sessions/describeUnCommitTrxs.md
+          - name: describeUntrxLocks
+            herf: Sessions/describeUntrxLocks.md
+
+
+      - name: 慢sql分析
+        items:
+          - name: describeSlowDigestLog
+            herf: Slow-Log/describeSlowDigestLog.md
+          - name: describeSlowLog
+            herf: Slow-Log/describeSlowLog.md
+          - name: describeSlowLogDimensionsStatistic
+            herf: Slow-Log/describeSlowLogDimensionsStatistic.md
+          - name: describeSlowSqlMetric
+            herf: Slow-Log/describeSlowSqlMetric.md
+          - name: explainSql
+            herf: Slow-Log/explainSql.md
+          - name: turningSql
+            herf: Slow-Log/turningSql.md
+
+      - name: 空间分析
+        items:
+          - name: describeAllDbInfo
+            herf: Storage-Analysis/describeAllDbInfo.md
+          - name: describeAllTableInfoForDb
+            herf: Storage-Analysis/describeAllTableInfoForDb.md
+          - name: describeIndexs
+            herf: Storage-Analysis/describeIndexs.md
+          - name: describeSchemaSpaceTop
+            herf: Storage-Analysis/describeSchemaSpaceTop.md
+          - name: describeStorages
+            herf: Storage-Analysis/describeStorages.md
+          - name: describeStorageTrend
+            herf: Storage-Analysis/describeStorageTrend.md
+          - name: describeTableSpaceDetail
+            herf: Storage-Analysis/describeTableSpaceDetail.md
+          - name: describeTableSpaceTop
+            herf: Storage-Analysis/describeTableSpaceTop.md
+            
+      - name: 实例运行信息
+        items:
+          - name: describeSystemInfo
+            herf: System-Info/describeSystemInfo.md
+
+      - name: 日志管理
+        items:
+          - name: checkTableByType
+            herf: Table-Check/checkTableByType.md
+          - name: checkTableTypes
+            herf: Table-Check/checkTableTypes.md
+

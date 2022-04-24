@@ -1,16 +1,17 @@
 ## 与行云的任务关联实例展示
 
 1. 在行云上找到空间内相应的任务ID（卡片编号）；如下图：
-   ![img](../../All-Image/others.assets/jagile.jpg)
+   ![img](http://devops-minio.jdcloud.com/doc-image/All-Image/others.assets/jagile.jpg)
 
-2. 提交代码时，关联该任务ID，形式如下：<br>
+2. 提交代码时，关联该任务ID，形式如下：
    <类型>`[可选的作用域]`: **空格** `<描述>` **空格** `#行云卡片编号`
 
     * **关键字**：feat，fit或docs、refactor、test、style、improvement 其中feat表示新增了一个功能 ，fit表示修复了一个 bug，其他关键字可参考具体文档。
     * **可选的作用域**：例如搜索模块 bundle-search
     * **描述**：描述原则上要描述清楚本次新增或修改的点，这块可以自行发挥
-    * **行云卡片编号**：为行云卡片中以C开头的id；<br>值得注意的是，行云卡片编号前必须加 `空格` 和 `#号`！！！~  如：#C2019101459157，且将“#卡号”填在message第一行的末尾即可。
-    * **提交方式**：根据自己的使用习惯，可命令行提交，或着可视化工具（比如：ide）<br>
+    * **行云卡片编号**：为行云卡片中以C开头的id；
+    值得注意的是，行云卡片编号前必须加 `空格` 和 `#号`！！！~  如：#C2019101459157，且将“#卡号”填在message第一行的末尾即可。
+    * **提交方式**：根据自己的使用习惯，可命令行提交，或着可视化工具（比如：ide）
       代码提交方式如下：
 
     ```
@@ -20,7 +21,7 @@
 
 
 3.在行云中任务卡片的详情信息中，查看**代码提交记录**；如下图：
-![img](../../All-Image/others.assets/jagile1.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/others.assets/jagile1.jpg)
 
 ## 权限矩阵 
 

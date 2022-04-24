@@ -54,7 +54,7 @@
 
 项目概览包括项目的基本信息，进度情况，现有风险以及现存需求等部分。项目概览页面可以帮助项目经理更快速更全面的掌握项目现阶段的情况，使项目经理更容易识别项目风险，以便尽快采取下一步措施以尽早规避风险。
 
-![img](../../All-Image/project_management.assets/clip_image002-4998814.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/clip_image002-4998814.jpg)
 
 ### 2.2 需求管理
 
@@ -63,21 +63,21 @@
 项目管理需求页面包括两个子页面——需求 & 非需求卡片。说明如下：
 
 *  “需求”页面
-   ![alt 属性文本 ](../../All-Image/project_management.assets/3.png)
+   ![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/3.png)
 
 需求来源1：需求可以由提出人、受理人、处理人在需求详情中关联项目，也就是把该需求放到项目中统一跟踪管控。
 
-![alt 属性文本 ](../../All-Image/project_management.assets/4.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/4.png)
 
 需求来源2：需求在受理后，产品也可以在处理时直接选择需求关联的项目。
 
-![img](../../All-Image/project_management.assets/5.png)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/5.png)
 
 *  “非需求卡片“页面：
 
 当项目成员在行云—团队空间中直接创建的卡片关联至此项目时，该卡片即会在本页面显示（如下图所示）。当在此页面点击卡片名称后，页面跳转至行云—团队空间中的此卡片详情页。_注意：此卡片可以理解为产研需求，非正式需求。_
 
-![alt 属性文本 ](../../All-Image/project_management.assets/6.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/6.png)
 
 ### 2.3 任务管理
 
@@ -85,7 +85,7 @@
 
 项目任务管理界面的**访问入口**为：项目空间 – 项目名称 – 需求。
 
-![alt 属性文本](../../All-Image/project_management.assets/12.png)
+![alt 属性文本](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/12.png)
 
 根据团队的应用情况，以及项目的模式不同，**任务的产生主要有两个方式**：
 
@@ -95,13 +95,13 @@
 
 方式2产生的任务，会在任务详情页下方展示“关联需求名称”（如图）。
 
-![alt 属性文本 ](../../All-Image/project_management.assets/13.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/13.png)
 
 #### 创建任务
 
 点击页面右上方的“+”号，即出现新建任务表单。
 
-![alt 属性文本 ](../../All-Image/project_management.assets/14.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/14.png)
 
 此方式即为方式1产生的任务，项目成员可以对此种任务进行编辑，删除，维护。
 
@@ -113,11 +113,11 @@
 
 已规划阶段的任务会在所属阶段页面中显示，未规划阶段的任务将会在“未规划任务”页面显示（如图）。
 
-![alt 属性文本 ](../../All-Image/project_management.assets/15.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/15.png)
 
 筛选：点击页面右上方“筛选”按钮，即跳出筛选详情页。可以根据任务标题，任务计划开始结束时间以及任务执行人来筛选符合条件的需求。
 
-![alt 属性文本 ](../../All-Image/project_management.assets/16.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/16.png)
 
 #### 导入导出
 
@@ -125,11 +125,11 @@
 
 导出：点击“导出Excel格式”或“导出Project格式”即可导出任务详情。导出的Excel包含字段：序号，任务名称，计划工时，开始时间，完成时间，父任务，资源名称，项目阶段。
 
-![alt 属性文本 ](../../All-Image/project_management.assets/17.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/17.png)
 
 导入：点击“导入Excel格式”或“导入Project格式”，即弹出导入任务弹窗。在此页面下载导入模板并填写完整后，再进行上传，即可成功导入任务。
 
-![alt 属性文本 ](../../All-Image/project_management.assets/18.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/18.png)
 
 ### 2.4 工时审核
 
@@ -137,11 +137,11 @@
 
 项目经理可以在项目内审批填报人在该项目内的任务上填报的工时，如果工时填报不符合项目管理要求，则可以进行驳回填报工时操作。在该平台内，工时会以项目维度进行统计，项目经理可以通过查看项目当前的工时数据来判断项目目前的进度和成本消耗。
 
-![img](../../All-Image/project_management.assets/clip_image010.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/clip_image010.jpg)
 
 在平台上进行工时填报后，工时信息亦会汇总到需求上。支持在需求管理的需求详情页查看需求下面所有任务的填报工时，方便需求管理人员及时了解具体某一需求的资源消耗、通过对比实际工时和计划工时来判断需求资源消耗和计划是否冲突。
 
-![img](../../All-Image/project_management.assets/clip_image012.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/clip_image012.jpg)
 
  
 
@@ -159,7 +159,7 @@
 
 注意：“主项目经理”角色在此页面不可调整。如需要变更项目经理需走“项目变更”流程。
 
-![alt 属性文本 ](../../All-Image/project_management.assets/20.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/20.png)
 
 ### 2.6 文档管理
 
@@ -171,7 +171,7 @@
 
 单个文档最大支持 100M 。
 
-![alt 属性文本 ](../../All-Image/project_management.assets/21.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/21.png)
 
 ### 2.7 里程碑管理
 
@@ -181,7 +181,7 @@
 
 项目成员仅可查看里程碑，不可对里程碑进行相关操作。
 
-![alt 属性文本 ](../../All-Image/project_management.assets/22.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/22.png)
 
 ### 2.8 风险管理
 
@@ -189,23 +189,23 @@
 项目经理可以在此进行记录。当风险提出后，处理人可对风险进行处理。当风险已经发生时，
 则可以确认发生。当风险已经解除时，则可以关闭风险。
 
-![风险管理](../../All-Image/project_management.assets/风险管理_management.png)
+![风险管理](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/风险管理_management.png)
 
 ### 2.9 成本管理
 
 项目经理可以查看每个项目的总成本及成本投入情况
 
-![成本投入](../../All-Image/project_management.assets/风险管理_management.png)
+![成本投入](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/风险管理_management.png)
 
 同时项目经理在各项成本中可记录计划成本、已发生成本
 
-![人力成本](../../All-Image/project_management.assets/人力成本_humanCost.png)
+![人力成本](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/人力成本_humanCost.png)
 
 ### 2.10 ROI跟踪
 
 项目经理可查看/添加本项目的ROI指标，对ROI达成情况进行记录、验证、变更操作
 
-![ROl跟踪](../../All-Image/project_management.assets/ROl跟踪_tail.png)
+![ROl跟踪](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/ROl跟踪_tail.png)
 
 ## 3. 项目变更
 
@@ -213,7 +213,7 @@
 
 （一个项目可以发起多次项目变更，但同时只能有一个变更存在，即如果还有变更申请存在，不能发起新的变更申请。）
 
-![alt 属性文本 ](../../All-Image/project_management.assets/23.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/23.png)
 
 变更申请支持对项目的信息和相关实体进行变更（编码、类型、所属组织这三个不能变更），当前仅支持预研和研发类项目的变更。
 
@@ -227,7 +227,7 @@
 
 当研发类项目任务已经全部完成，支持由项目经理发起结项申请，通过相关方的审批确认来最终关闭项目。
 
-![alt 属性文本 ](../../All-Image/project_management.assets/25.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/project_management.assets/25.png)
 
 结项前有相关的业务约束检查需要进行判断和提醒。
 

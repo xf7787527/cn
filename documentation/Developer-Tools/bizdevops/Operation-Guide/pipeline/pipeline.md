@@ -10,7 +10,7 @@
 
    - 点击左侧栏空间，进入流水线页面，点击流水线后方的复制流水线按钮，即可进入创建流水线页面，默认复制当前流水线（可选择）。
 
-   ![image](../../All-Image/pipeline.assets/newPipe.jpeg)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/newPipe.jpeg)
 
 2. 用户在创建流水线时，可以选择创建空白流水线，或根据已有的流水线直接复制流水线配置来创建流水线
 
@@ -21,16 +21,16 @@
 
 在左侧树中，选择要编辑配置的流水线，进行配置设置，如下图：
 
-  ![image](../../All-Image/pipeline.assets/pipeline_edit.jpeg)
+  ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/pipeline_edit.jpeg)
 
 进入配置页面，用户可以使用两种方式进行配置，普通的视图配置和yaml文件配置；针对yaml文件的配置方式，即直接在yaml文件中修改参数即可，所以我们在文档中着重介绍以视图的方式进行配置流水线。
 
-  ![image](../../All-Image/pipeline.assets/pipeline_edit1.png)
+  ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/pipeline_edit1.png)
 
 #### 配置开始触发项
 
    开始触发项中主要包含流水线的宏定义，变量设置，触发类型，通知，高级设置；
-   ![image](../../All-Image/pipeline.assets/trigger.png)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/trigger.png)
 
 1. **宏定义**
 
@@ -38,7 +38,7 @@
 
    填写宏的名称和值后，系统自动保存，点击”删除“按钮，即可删除当前填写的宏信息；如下图：
 
-     ![image](../../All-Image/pipeline.assets/trigger1.png)
+     ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/trigger1.png)
 
 2. **变量**
 
@@ -65,7 +65,7 @@
 
     当有开发人员在代码库 push 或 merge 代码时，会自动触发对应流水线的运行。选择不同的触发方式需要配置的参数也不同。 若选择事件触发时，流水线的配置里，仓库信息必须填写
 
-   ![image](../../All-Image/pipeline.assets/trigger_type.png)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/trigger_type.png)
 
     若选择事件触发时，需要填写代码库地址，分支信息，以及触发事件（push、merge）。其中，包含分支是指该流水线适用的分支；排除分支是指该流水线适用于除了 “排除分支” 以外的所有分支。
 
@@ -75,7 +75,7 @@
 
       * 排除分支：排除分支是指该流水线适用于除了 “排除分支” 以外的所有分支，当配置了包含分支，排除分支不会生效，允许配置多个分支，用 ','分割 
 
-      * **branch filter 配置规则**：branch filter的includes或excludes中配置的branch表达式，要求匹配整个name字符串，不是它的一部分。在表达式详解如下<br>
+      * **branch filter 配置规则**：branch filter的includes或excludes中配置的branch表达式，要求匹配整个name字符串，不是它的一部分。在表达式详解如下
 
       ```
       '*'                                          匹配0或多个非/的字符
@@ -121,14 +121,14 @@
    cron: '*/5 * * * *' #每5分钟执行一次
    ```
 
-   **参数共用：**配置了事件触发的流水线，可以直接使用:[事件变量](../appendix/variables.md#gitlab-event相关)，作为参数。例如：gitlabBranch作为下载代码或者jone编译的分支，如果分支变量同时想作为自定义参数在手工触发时使用，可以直接在自定义参数中使用gitlabBranch这个变量。
+   **参数共用：**配置了事件触发的流水线，可以直接使用:事件变量作为参数。例如：gitlabBranch作为下载代码或者jone编译的分支，如果分支变量同时想作为自定义参数在手工触发时使用，可以直接在自定义参数中使用gitlabBranch这个变量。
    自定义参数中分支的设置
 
-   ![image](../../All-Image/pipeline.assets/gitlabBranch_manual.png)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/gitlabBranch_manual.png)
 
    jone编译中分支的设置（download_code引用方法一样）
 
-   ![image](../../All-Image/pipeline.assets/gitlabBranch_event.png)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/gitlabBranch_event.png)
 
 4. **高级设置**
 
@@ -159,7 +159,7 @@
 
    * 定义输出参数：阶段的输出参数是以key-value的形式展示，定义输出参数，是选择该阶段（stage）下的任务（step）重新定义名称以及输出值。
 
-   > [!note|label:说明：]
+   > [说明：]
    >
    > 1. 输出参数的定义：参数名称由用户自己定义，名称可用于stage之间传参，然后选择该stage下的step，最后选择step对应的output，点击添加按钮，即可添加输出参数。
    > 2. 可添加多个输出参数。
@@ -167,7 +167,7 @@
 
    * 测试环境执行：需要勾选在测试环境执行，由于测试环境（192网段）是和线上网段隔离，如果无测试环境网络权限，需要想网络组申请相应的网络权限
 
-![image](../../All-Image/pipeline.assets/stage_config.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/stage_config.png)
 
 #### 任务（Step）的配置
 
@@ -181,7 +181,7 @@
 
 用户可以在step编辑页面点击 “查看源码” 查看模板源码（模板源码仅能查看），通过复制模板源码可以更方便的在模板管理页面新建模板。在模板管理页面新增、编辑step模板
 
-   ![image](../../All-Image/pipeline.assets/step.png)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/step.png)
 
 
 ### 执行流水线
@@ -190,7 +190,7 @@
 
 流水线执行时，不同颜色的stage节点表示不同的执行状态。灰色表示未执行的stage节点，绿色表示执行成功的stage节点，红色表示执行失败的stage节点，黑色表示执行暂停的stage节点，而执行中的stage节点以灰色旋转状态显示。
 
-![image](../../All-Image/pipeline.assets/build.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/build.png)
 
 流水线的执行方式主要有构建、重新构建，除此之外，系统还提供了中断、暂停、重试等与执行相关的操作。下面将详细介绍。
 
@@ -204,7 +204,7 @@
 
    - 在流水线执行页面，点击右上角 “构建” 按钮，执行流水线。
 
-   ![image](../../All-Image/pipeline.assets/builds.png)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/builds.png)
 
 2. 重新构建（rebuild）
 
@@ -213,13 +213,13 @@
    - 左侧栏点击流水线进入构建历史页面，点击要重新执行的流水线版本后的 “重新构建” 按钮，构建历史列表会自动更新，点击最新构建历史可进入执行页面。
    - 在流水线执行页面，点击右上角 “重新构建” 按钮，执行流水线。
 
-   ![image](../../All-Image/pipeline.assets/rebuild.png)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/rebuild.png)
 
 3. 暂停与继续（pause、continue）
 
    流水线可以在配置stage时设置暂停点，若设置暂停，则流水线执行完该stage会自动暂停执行，只有点击 “继续” 才会继续执行，而点击 “取消” 则会停止执行。
 
-   ![image](../../All-Image/pipeline.assets/pause_build.png)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/pause_build.png)
 
 4. 中断（abort）
 
@@ -229,15 +229,15 @@
    - 在构建历史页面，正在执行的流水线后会显示 “中断” 按钮，点击即可中断执行。
    - 若流水线暂停执行，可以通过执行页面或构建历史页面的 “中断” 按钮，停止执行。
 
-   ![image](../../All-Image/pipeline.assets/abort_build.png)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/abort_build.png)
 
-   ![image](../../All-Image/pipeline.assets/abort.png)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/abort.png)
 
 5. 重试（rebuild from stage）
 
    流水线每个执行结束的stage节点下会出现 “重试” 按钮，点击 “重试” 可以重新执行该stage。
 
-   ![image](../../All-Image/pipeline.assets/rebuild_from_stage.png)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/rebuild_from_stage.png)
 
 
 
@@ -247,7 +247,7 @@
 
 用户也可以选择历史构建版本，查看历史执行的日志信息。
 
-![image](../../All-Image/pipeline.assets/log.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/log.png)
 
 ### 查看构建历史
 
@@ -258,7 +258,7 @@
 - 在执行页面的左上角构建历史里，直接选择某一执行历史查看其详情。
 - 在执行页面，点击右上角 “构建列表” 可进入构建历史页面。
 
-![image](../../All-Image/pipeline.assets/history.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/history.png)
 
 ## 流水线成员管理
 
@@ -266,7 +266,7 @@
 
    流水线的权限高于空间权限，权限设置与空间权限类似
 
-   ![image](../../All-Image/pipeline.assets/pmember.png)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/pmember.png)
 
 ## 流水线设置
 
@@ -276,4 +276,4 @@
 
 删除流水线：**Owner权限的用户可以删除该流水线，此操作不可逆。**
 
-![image](../../All-Image/pipeline.assets/pipe_setting.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline.assets/pipe_setting.png)

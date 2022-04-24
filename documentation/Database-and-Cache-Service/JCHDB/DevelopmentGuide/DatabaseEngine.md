@@ -2,7 +2,7 @@
 
 默认情况下，Clickhouse使用自己的数据库引擎，该引擎提供可配置的 表引擎 和 支持所有的SQL语法，除此之外，还可以选择使用 MySQL数据库引擎。
 
-**MySQL引擎**
+### MySQL引擎
 
 MySQL 引擎用于将远程的 MySQL 服务器中的表映射到 ClickHouse 中，并允许您对表进行 INSERT 和 SELECT 查询，以方便您在 ClickHouse 与 MySQL 之间进行数据交换。
 
@@ -16,7 +16,7 @@ MySQL 数据库引擎会将对其的查询转换为 MySQL 语法并发送到 MyS
  在MySQL中创建表：
  ```SQL
 CREATE DATABASE [IF NOT EXISTS] db_name [ON CLUSTER cluster]ENGINE = MySQL('host:port', ['database' | database], 'user', 'password')
-```
+ ```
 
 MySQL数据库引擎参数说明：
 |参数|说明|
@@ -86,14 +86,14 @@ SELECT * FROM mysql_db.mysql_table
 └────────┴───────┘
 ```
 
-**表引擎**
+### 表引擎
 
 表引擎即表的类型，在ClickHouse中的作用十分关键，直接决定了数据如何存储和读取、是否支持并发读写、是否支持索引、支持的查询种类、是否支持主备复制等。
 ClickHouse提供了多种表引擎，用途广泛。分为MergeTree、Log、Integration、Special四个系列，在这些表引擎之外，ClickHouse还提供了Replicated、Distributed等高级表引擎，功能上与其他表引擎正交，根据场景组合使用。
 
-**引擎类型**
+#### 引擎类型
 
-MergeTree系列
+**MergeTree系列**
 
 适用于高负载任务的最通用和功能最强大的表引擎。这些引擎的共同特点是可以快速插入数据并进行后续的后台数据处理。MergeTree系列的引擎被设计用于插入极大量的数据到一张表当中。数据可以以数据片段的形式一个接着一个的快速写入，数据片段在后台按照一定的规则进行合并。相比在插入时不断修改（重写）已存储的数据，这种策略会高效很多。MergeTree 系列引擎支持数据复制（使用 Replicated* 的引擎版本），分区和一些其他引擎不支持的其他功能。
 
@@ -106,16 +106,18 @@ MergeTree系列
  - CollapsingMergeTree
  - VersionedCollapsingMergeTree
  - GraphiteMergeTree
- 
-Log系列
+
+**Log系列**
 
 具有最小功能的轻量级引擎。当您需要快速写入许多小表（最多约100万行）并在以后整体读取它们时，该类型的引擎是最有效的。
 几种Log表引擎的共性是：
+
 数据被顺序append写到磁盘上；
 不支持delete、update；
 不支持index；
 不支持原子性写；
 insert会阻塞select操作。
+
 该类型的引擎：
 
 - TinyLog
@@ -128,7 +130,7 @@ insert会阻塞select操作。
 - Log：支持并发读取数据文件，查询性能比TinyLog好；每个列会单独存储在一个独立文件中。
 
 
-Integration系列
+**Integration系列**
 
 该系统表引擎主要用于将外部数据导入到ClickHouse中，或者在ClickHouse中直接操作外部数据源。
 - Kafka：将Kafka Topic中的数据直接导入到ClickHouse；
@@ -136,10 +138,10 @@ Integration系列
 - JDBC/ODBC：通过指定jdbc、odbc连接串读取数据源；
 - HDFS：直接读取HDFS上的特定格式的数据文件。
 
-Specia系列
+**Specia系列**
 
 Special系列的表引擎，大多是为了特定场景而定制的。
 - Memory：将数据存储在内存中，重启后会导致数据丢失。查询性能极好，适合于对于数据持久性没有要求的1亿一下的小表。在ClickHouse中，通常用来做临时表；
 - Buffer：为目标表设置一个内存buffer，当buffer达到了一定条件之后会flush到磁盘；
-- File：直接将本地文件作为数据存储；
+- ？File：直接将本地文件作为数据存储；
 - Null：写入数据被丢弃、读取数据为空。

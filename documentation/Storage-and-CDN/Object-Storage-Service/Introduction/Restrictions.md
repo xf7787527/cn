@@ -14,5 +14,5 @@
 |自有域名绑定|1.绑定的域名必须在工信部备案。<br>2.每个Bucket最多绑定20个域名,每个域名只能绑定到一个Bucket。<br>3.如您需要支持https,请参考[自定义域名支持HTTPS访问OSS服务](https://docs.jdcloud.com/cn/object-storage-service/custom-domain-name-guidance)。<br>|
 |生命周期管理|每个Bucket最多可配置1000条生命周期规则。|
 |Bucket policy|每个Bucket的policy配置最大支持16KB。|
-|图片处理|对于原图：<br>* 图片格式只能是：jpg、jpeg、jp2、png、bmp、gif、webp、tiff。<br>* 输入和输出图片单边大小不能大于9999像素，不能小于1像素。|
+|图片处理|对于原图：<br>* 图片格式只能是：jpg、jpeg、jp2、png、bmp、gif、webp、tiff。<br>* 输入和输出图片单边大小不能大于30,000 px，不能小于1 px，且总像素不能超过250,000,000 px。|
 |Access Key管理|1.用户在开通对象存储服务时不会自动创建Access Key。<br>2.需要到个人中心[Access Key管理](https://uc.jdcloud.com/account/accesskey)处手动创建。|

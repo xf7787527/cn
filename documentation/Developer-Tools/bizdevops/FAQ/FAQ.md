@@ -24,6 +24,16 @@
 
 ### 异常类常见问题
 
+**Q：仓库首次下载代码时，账号密码认证失败**
+
+原因：未设置个人http password
+
+解决办法：
+
+1. 代码库-个人设置-设置-Http Password进行设置
+
+
+
 **Q：Fatal: cannot do a partial commit during a merge**
 
 原因： git认为你有部分代码没有做好提交的准备，比如没有添加
@@ -34,7 +44,7 @@
 2. 如果不想提交全部,那么可以通过添加-i选项 git commit file/to/path -i -m "merge"
    上述情况一般出现在解决本地working copy冲突时出现, 本地文件修改(手工merge)完成后,要添加并提交,使得本地版本处于clean的状态. 这样以后git pull就不再会报错.
 
-**Q：Fatal：Authentication failed for ‘http://coding.jd.com/app/gwtuan.mjd.com.git/’**
+**Q：Fatal：Authentication failed for ‘{coding服务域名}/app/xxxxxx.git/’**
 
 原因：本地保存了Git旧认证信息，导致认证失败
 
@@ -56,7 +66,7 @@
 
 ​	在本地编辑   ~/.netrc 文件，添加如下配置信息:
 
-​		machine coding.jd.com 
+​		machine {coding服务域名}
 
 ​		login 用户
 
@@ -123,7 +133,7 @@ git config --global http.sslverify "false"
 
 1、进入仓库合并请求页，点击搜索框右侧的新建合并请求按钮。
 
-![img](../All-Image/FAQ.assets/WX20190305-152115@2x.png)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190305-152115@2x.png)
 
 2、即可进入新建合并请求页，选择要合并的源分支和目标分支，当源分支与目标分支无差异时，无法创建合并请求。
 
@@ -132,47 +142,47 @@ git config --global http.sslverify "false"
 	代码合并一般都是从源分支合并到目标分支哦。
 ```
 
-![img](../All-Image/FAQ.assets/WX20190305-152214@2x.png)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190305-152214@2x.png)
 
 3、当源分支与目标分支有差异时，即可创建合并请求。同时展示两个分支之间的提交差异和文件差异列表。
 
-![img](../All-Image/FAQ.assets/WX20190305-152232@2x.png)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190305-152232@2x.png)
 
 4、点击创建合并请求按钮，填写评审标题及内容，即创建成功
 
-![img](../All-Image/FAQ.assets/WX20190305-152249@2x.png)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190305-152249@2x.png)
 
 **Q：如何修改代码访问级别？**
 
 进入某一仓库，点击设置按钮，点击左侧通用设置菜单，即可修改访问级别
 
-![img](../All-Image/FAQ.assets/WX20190307-154333@2x.png)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190307-154333@2x.png)
 
 **Q：如何自定义评审组人员？**
 
 进入某一仓库，点击设置-评审规则-评审组成员-进行设置。
 
-![img](../All-Image/FAQ.assets/WX20190307-154650@2x.png)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190307-154650@2x.png)
 
 **Q：如何设置保护分支及可push人员？**
 
 1、进入仓库，点击设置按钮，点击左侧的安全策略菜单，即进入安全策略设置页面。
 
-![img](../All-Image/FAQ.assets/WX20190307-104649@2x.png)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190307-104649@2x.png)
 
 2、增加保护分支，在分支名输入框和可push人员输入框分别输入分支名和可push人员，点击添加按钮，即可添加保护分支。
 
-![img](../All-Image/FAQ.assets/WX20190307-104700@2x.png)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190307-104700@2x.png)
 
 **Q：如何自定义评审策略？**
 
 a. 进入仓库，点击设置按钮，点击左侧的评审规则菜单，即进入评审规则设置页面。
 
-![img](../All-Image/FAQ.assets/WX20190306-114003@2x-20220217112339864.png)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190306-114003@2x-20220217112339864.png)
 
 2、点击自定义评审策略按钮，填写相关信息，即可自定义评审策略。
 
-![img](../All-Image/FAQ.assets/WX20190306-114735@2x.png)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/FAQ.assets/WX20190306-114735@2x.png)
 
 **Q：如何清理磁盘空间？**
 

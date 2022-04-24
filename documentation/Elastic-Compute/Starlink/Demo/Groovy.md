@@ -1,5 +1,8 @@
 # Groovy示例
- 示例代码可访问： [groovy-demo](https://starlink-console.jdcloud.com/studio/v2/index.html#/?vms=eyJ2bXNLZXkiOiJlMTE2NzcwMzgwNzQ0ZTNmOTU1NjM5ZGNmZjRiOTU0YSIsInZtc05hbWUiOiJncm9vdnktZGVtbyIsImdpdFVybCI6Imh0dHBzOi8vY29kZS5qZGNsb3VkLmNvbS9zdGFybGluay12bXMvZ3Jvb3Z5LWRlbW8uZ2l0Iiwic2NyaXB0VHlwZSI6Ikdyb292eSIsInRlYW1LZXkiOiIzMDFiMzFjMjVkZjI0YzQ2YjI2N2MwZGUzODMzMGU2YSIsImdyb3VwSWQiOiJjb20uamQuZGVtbyIsImF1dGhDb2RlIjowLCJ0ZWFtTmFtZSI6ImRlbW8ifQ)
+ 演示了Groovy语言下各种触发器、连接器、函数的示例配置、用法和代码，示例代码可访问： [groovy-demo](https://starlink-console.jdcloud.com/studio/v2/index.html#/?vms=eyJ2bXNLZXkiOiJlMTE2NzcwMzgwNzQ0ZTNmOTU1NjM5ZGNmZjRiOTU0YSIsInZtc05hbWUiOiJncm9vdnktZGVtbyIsImdpdFVybCI6Imh0dHBzOi8vY29kZS5qZGNsb3VkLmNvbS9zdGFybGluay12bXMvZ3Jvb3Z5LWRlbW8uZ2l0Iiwic2NyaXB0VHlwZSI6Ikdyb292eSIsInRlYW1LZXkiOiIzMDFiMzFjMjVkZjI0YzQ2YjI2N2MwZGUzODMzMGU2YSIsImdyb3VwSWQiOiJjb20uamQuZGVtbyIsImF1dGhDb2RlIjowLCJ0ZWFtTmFtZSI6ImRlbW8ifQ)。
+ 
+> 示例VMS可以查看，但不可以修改/部署，您可以克隆至您自己的团队内修改。
+
 ## Connector 连接器配置
 ### Http Connector 连接器配置
 **配置：**
@@ -119,7 +122,7 @@ public class HandleBussinessGroovy{
     private final Logger log2 = LoggerFactory.getLogger("groovy-demo");
 
     /**
-     * 通过{@link Inject}注解注入函数对象(可以注入代码函数或者bpmn函数)
+     * 通过 Inject 注解注入函数对象(可以注入代码函数或者bpmn函数)
      */
     @Inject
     private Function handleBussinessGroovy;
@@ -158,14 +161,14 @@ public class HandleBussinessGroovy{
         User fromJson = JsonUtil.fromJson(toJson, User.class);
 
         // 调用 function 函数
-        Map<String,Object  funcParamsMap = new HashMap< ();
+        Map<String,Object> funcParamsMap = new HashMap<>();
         funcParamsMap.put("param1", "aaa");
         funcParamsMap.put("param2", "bbb");
-        Map<String, Object  funcResultMap = (Map<String, Object )handleBussinessGroovy.invoke(funcParamsMap);
+        Map<String, Object> funcResultMap = (Map<String, Object>)handleBussinessGroovy.invoke(funcParamsMap);
 
         // 调用db连接器
         int count = mysqlConnector.invoke("selectCount");
-        Map<String,Object  addUserMap = new HashMap<String,Object ();
+        Map<String,Object> addUserMap = new HashMap<String,Object>();
         addUserMap.put("pin", "0");
         addUserMap.put("realName", "zhangshan");
         addUserMap.put("idType", "0");
@@ -175,17 +178,17 @@ public class HandleBussinessGroovy{
         int addRes = mysqlConnector.invoke("addUser", addUserMap);
 
         // 调用HTTP连接器 可以设置 query,path, header, cookie,body  等参数  注意 map 的 key 必须以这几个为key
-        Map<String,Object  methodParamsMap = new HashMap<String,Object ();
+        Map<String,Object> methodParamsMap = new HashMap<String,Object>();
         // 设置 query url 参数
-        Map<String,Object  query = new HashMap<String,Object ();
+        Map<String,Object> query = new HashMap<String,Object>();
         query.put("key", "08e92ae4949756ba4fdef17f2a78b29f");
         query.put("dtype", "json");
         methodParamsMap.put("query", query);
-        Map<String, Object  result = (Map<String, Object )juheGoodBook.invoke("catalog", methodParamsMap);
+        Map<String, Object> result = (Map<String, Object>)juheGoodBook.invoke("catalog", methodParamsMap);
         // 获取响应体
-        Map<String, Object  resultBody = (Map<String, Object )result.get("body");
+        Map<String, Object> resultBody = (Map<String, Object>)result.get("body");
         // 获取响应头
-        Map<String, Object  resultHeaders = (Map<String, Object )result.get("headers");
+        Map<String, Object> resultHeaders = (Map<String, Object>)result.get("headers");
 
         return ["data":resultBody]
     }

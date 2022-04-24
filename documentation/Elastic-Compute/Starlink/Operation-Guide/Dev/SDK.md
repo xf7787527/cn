@@ -1,5 +1,5 @@
 # 平台SDK
-平台SDK，是星链低代码平台引擎提供的集函数和连接器相关API、自定义过滤器、Json工具、字符串工具以及日志打印等为一体的开发者工具包，旨在为平台用户开发VMS提供简单易用的常用功能接口。
+平台SDK，是星链引擎提供的集函数和连接器相关API、自定义过滤器、Json工具、字符串工具以及日志打印等为一体的开发者工具包，旨在为平台用户开发VMS提供简单易用的常用功能接口。
 
 **Gradle依赖配置**
 ```Groovy
@@ -360,7 +360,7 @@ public interface AppConnectorInterceptor extends AppInterceptor{
 ```
 ## 工具类
 ### JsonUtil
-Json工具，目前底层是通过Jackson实现的。建议开发者通过JsonUtil来序列化和反序列化JSON串，只有Jackson不支持的功能才引入其他的JSON工具类。
+Json工具，目前底层是通过Jackson实现的。建议开发者通过JsonUtil来序列化和反序列化JSON串，只有Jackson不支持的功能才引入其他的JSON工具类。使用时需要在Java/Groovy类中`import com.jd.starlink.engine.sdk.json.JsonUtil`。
 
 **源码**
 ```Java
@@ -416,7 +416,7 @@ public class JsonUtil {
 }
 ```
 ### StringUtil
-字符串工具，目前提供了判断是否空串、首字母转大写等方法。
+字符串工具，目前提供了判断是否空串、首字母转大写等方法。使用时需要在Java/Groovy类中`import com.jd.starlink.engine.sdk.util.StringUtil`。
 
 **源码**
 ```Java

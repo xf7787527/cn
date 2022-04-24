@@ -1,7 +1,7 @@
 
 # 创建集群
 
-**操作说明**
+**创建Kubernetes集群操作说明**
 
  1. 创建集群时默认创建一个工作节点组；
  2. 工作节点组基于高可用组创建，工作节点将在对应的高可用组内均匀分布，以降低单个可用区出现物理故障时对您业务的影响；
@@ -12,3 +12,8 @@
 **创建集群步骤**
 
    具体还请参考[创建Kubernetes集群](https://docs.jdcloud.com/cn/jcs-for-kubernetes/create-to-cluster)。
+   
+
+**创建Serverless集群步骤**
+
+  具体还请参考[创建Serverless集群](https://docs.jdcloud.com/cn/jcs-for-kubernetes/create-serverless-cluster)。

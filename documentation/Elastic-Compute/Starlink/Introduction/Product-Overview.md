@@ -1,16 +1,20 @@
 # 产品概述
 
+视频介绍：
+
+{{video}}[ src="//starlink.s3.cn-north-1.jdcloud-oss.com/help/starlink_introduction.mp4"  poster="//starlink.s3.cn-north-1.jdcloud-oss.com/help/poster.png" width="700" ]
+
 ## 产品介绍
-星链低代码Serverless是一个微服务低代码Serverless平台，面向微服务编排、BFF、FaaS等应用场景，以可视化、组件编排方式开发微服务，以声明式进行Serverless部署，帮助您快速实现场景化微服务研发需求。
+星链是一个函数服务平台，面向事件处理、服务前端的后端(BFF)、服务流程编排等应用场景，以可视化、组件化方式低代码开发函数服务，以声明式进行Serverless部署，帮助您快速交付场景化业务研发需求，它的特色可以用三个关键词概括：低代码、微服务和Serverless。
 
 ### 低代码 
-星链是一个低代码平台，提供了简单灵活的编程模型，用VMS（可视化微服务）概念表示一个微服务，通过触发器、函数、连接器概念简化微服务开发，内外依赖组件化、配置化，使开发人员可以聚焦业务逻辑。提供了低代码Cloud Web IDE，通过可视化微服务编排，参数映射自动提示等提高开发效率。
+星链是一个低代码函数服务平台，提供了简单灵活的编程模型，用VMS（可视化微服务）概念表示一个微服务，通过触发器、函数、连接器概念简化微服务开发，内外依赖组件化、配置化，使开发人员可以聚焦业务逻辑。提供了低代码Cloud Web IDE，通过可视化微服务编排，参数映射自动提示等提高开发效率。
 
 星链提供了独特的业务组件库功能，除了提供系统公共组件，星链还支持自定义团队组件，支持用户在VMS内自定义连接器，自定义连接器的方法，支持导出到团队组件库，支持拖拽式导入团队组件和系统公共组件。
 
 除了提升研发工作的抽象层次，提升效率，星链充分考虑灵活性，完整支持代码功能，且支持多语言，目前支持Java/JavaScript/Groovy，更多语言支持在规划中，支持在线代码函数编写，支持在线调试。
 
-与大多低代码平台是黑子不同，星链开发的VMS保存在Git仓库上，源码是完全可见的，用户可以克隆到本地开发，可以使用本地IDE如IDEA/VS Code开发，支持引入第三方标准类库，而且，代码提交后，在Cloud Web IDE上也完全兼容可见。
+与大多低代码平台是黑盒子不同，星链开发的VMS保存在Git仓库上，源码是完全可见的，用户可以克隆到本地开发，可以使用本地IDE如IDEA/VS Code开发，支持引入第三方标准类库，而且，代码提交后，在Cloud Web IDE上也完全兼容可见。
 
 ### 微服务
 
@@ -48,9 +52,12 @@
   - [开发VMS](../Getting-Started/Dev-VMS.md)
   - [部署VMS](../Getting-Started/Deploy-VMS.md)
 - Demo示例
+  - [Hello World](../Demo/HelloWorld.md)
   - [Java示例](../Demo/Java.md)
   - [Groovy示例](../Demo/Groovy.md)
   - [JavaScript示例](../Demo/JavaScript.md)
+  - [出行防疫政策API示例](../Demo/HelloHealth.md)
+  - [AI服务示例](../Demo/HelloAI.md)
 - 开发VMS
   - [开发触发器](../Operation-Guide/Dev/Trigger.md)
   - [开发连接器](../Operation-Guide/Dev/Connector.md)
@@ -65,6 +72,7 @@
   - [构建](../Operation-Guide/Deploy/Build.md)
   - [发布审批](../Operation-Guide/Deploy/Process.md)
   - [部署](../Operation-Guide/Deploy/Deploy.md)
+  - [监控报警](../Operation-Guide/Deploy/Monitor.md)
 - 管理
   - [团队管理](../Operation-Guide/Management/Team.md)
   - [VMS管理](../Operation-Guide/Management/VMS.md)

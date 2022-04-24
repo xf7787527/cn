@@ -1,0 +1,62 @@
+name: 智慧园区管理平台
+href: 
+items:
+  - name: 产品简介
+    items:
+      - name: 产品概述
+        href: Introduction/Product-Overview.md
+      - name: 基础架构
+        href: Introduction/Basic-Infrastructure.md
+      - name: 产品优势
+        href: Introduction/Benefits.md
+      - name: 产品功能
+        href: Introduction/Features.md
+      - name: 限制说明
+        href: Introduction/Restrictions.md 
+  - name: 产品定价
+    items:
+      - name: 计费概述
+        href: Pricing/Billing-Overview.md
+      - name: 购买流程
+        href: Pricing/Purchase-Process.md 
+  - name: 入门指南
+    items:
+      - name: 入门指南概述
+        href: Getting-Started/Getting-Started.md
+      - name: 购买服务
+        href: Getting-Started/Buy-Server.md
+      - name: 登陆智慧园区管理平台
+        href: Getting-Started/Login-IoT-Park.md
+  - name: 操作指南
+    items:
+      - name: 智慧园区管理平台
+        items:
+          - name: 员工通行
+            href: Operation-Guide/Employee-Pass.md
+          - name: 访客通行
+            href: Operation-Guide/Visitor-Pass.md
+          - name: 车辆管理
+            href: Operation-Guide/Car-Manager.md
+          - name: 安防报警
+            href: Operation-Guide/Security-Alarm.md 
+          - name: 空间管理
+            href: Operation-Guide/Space-Manager.md    
+          - name: 设备管理
+            href: Operation-Guide/Device-Manager.md  
+          - name: 系统管理
+            href: Operation-Guide/System-Manager.md
+  - name: 开发指南
+    items:
+      - name: 云对云接入简介
+        href: Developer-Guide/Cloud-To-Cloud.md
+  - name: 常见问题
+    href: FAQ/FAQ.md
+  - name: 用户协议
+    status: 0
+    items:
+    - name: SLA
+      href: User-Agreements/SLA.md
+      status: 0
+    - name: 服务条款
+      href: User-Agreements/Product-IOT-Park-Service.md
+      status: 0

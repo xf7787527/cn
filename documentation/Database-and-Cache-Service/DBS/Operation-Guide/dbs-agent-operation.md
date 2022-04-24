@@ -22,25 +22,54 @@ https://jddb-common-public.s3.cn-north-1.jdcloud-oss.com/dbsv2/dbs-agent.zip
   #开启binlog
 
   server_id=2
-
+  
+  #binlog文件保存位置
+  
   log-bin=/var/lib/mysql/mysql-bin
-
+  
   binlog_format = ROW
+  
+  #配置binlog保留天数
+  
+  expire_logs_days = 2
+  
+  #配置binlog文件大小
+  
+  max_binlog_size = 1G
+  
+  
+  重启mysql服务
+  
+  service mysqld restart
+  
   
   ```
 
 
-#### 安装步骤
-
-* DBS Agent目录放置/opt目录下
-
-创建软连接：
+#### Agent安装步骤
 
 ```
+解压dbs-agent.zip包
+
+unzip dbs-agent.zip
+
+复制agent目录所有文件到/opt/dbs目录
+
+cp -r agent/ /opt/dbs
+
+赋予/opt/dbs/lib/private/*目录文件可执行权限
+
 chmod -R 755 /opt/dbs/lib/private/*
+
+赋予/opt/dbs/bin/*目录文件可执行权限
+
+chmod -R 755 /opt/dbs/bin/*
+
+切换工作目录到/opt/dbs/lib/private
 
 cd /opt/dbs/lib/private
 
+创建软连接
 ln -s libcrypto.so.1.0.1e libcrypto.so
 
 ln -s libgcrypt.so.11.5.3 libgcrypt.so
@@ -49,13 +78,15 @@ ln -s libsasl2.so.2.0.23 libsasl2.so
 
 ln -s libssl.so.1.0.1e libssl.so
 
-cd /opt/dbs/bin
+配置agent开机自启服务
+赋予rc.local文件可执行权限
+chmod +x /etc/rc.d/rc.local
 
-chmod 755 dbs-agent
+编辑rc.local文件,添加以下配置
+vi /etc/rc.d/rc.local
 
-chmod 755 mysqldump
-
-chmod 755 xtrabackup
+添加配置
+/opt/dbs/bin/dbs-agent
 
 ```
 
@@ -67,7 +98,6 @@ chmod 755 xtrabackup
 #### dbs-agent.yml 配置说明
 
 ```
-StandaloneMode: false
 UseHttps: false
 Region: "cn-north-1"
 ManagerAddr: ""
@@ -88,7 +118,6 @@ Storage:
 
 | agent配置项	 | 说明	            |
 | -------------- | ---------------     |
-| StandaloneMode | 是否开启脱机模式。| 
 | UseHttps       | 是否开启 https。 |
 | Region         | agent 所在的 region。|
 | ManagerAddr    | agent 所在的 region 的网关地址。| 
@@ -128,10 +157,8 @@ Storage:
 
 ## DBS Agent启停
 
-* 修改 /opt/dbs/conf/dbs-agent.yml 配置正确的MySQL 账户、备份策略及目标存储。
+* 服务启动：/opt/dbs/bin/dbs-agent 启动服务， ps aux | grep 'dbs-agent' 可看到服务正常启动。
 
-* 服务启动：运行 cd /opt/dbs/bin/ && ./dbs-agent 启动服务，运行 ps aux | grep 'dbs-agent' 可看到服务正常启动。
+* 再次运行 /opt/dbs/bin/dbs-agent 提示资源占用，即无法在同一台服务器上启动多个 agent。
 
-* 再次运行 ./dbs-agent 提示资源占用，即无法在同一台服务器上启动多个 agent。
-
-* 服务停止：./dbs-agent -s stop，运行 ps aux | grep 'dbs-agent' 可看到服务已停止。
+* 服务停止：/opt/dbs/bin/dbs-agent -s stop，运行 ps aux | grep 'dbs-agent' 可看到服务已停止。

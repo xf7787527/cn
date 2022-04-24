@@ -8,11 +8,11 @@
 
 1、基本信息新增 点击列表的+，可新创建一个测试计划，可关联团队空间、迭代、卡片
 
-![image-20220228141618573](../../All-Image/test_plan.assets/image-20220228141618573.png)
+![image-20220228141618573](http://devops-minio.jdcloud.com/doc-image/All-Image/test_plan.assets/image-20220228141618573.png)
 
 2、阶段管理  创建计划后，点击标题进入详情页，进入阶段管理tab，可维护各阶段的用例
 
-![image-20220228142029635](../../All-Image/test_plan.assets/image-20220228142029635.png) （1）阶段操作
+![image-20220228142029635](http://devops-minio.jdcloud.com/doc-image/All-Image/test_plan.assets/image-20220228142029635.png) （1）阶段操作
 
 编辑：点击编辑，可编辑阶段的执行周期，执行人，执行状态
 
@@ -20,17 +20,17 @@
 
 （2）添加用例  进入相应的阶段，点击添加用例，选择针对此次需求需要进行测试的用例即可
 
-![image-20220228142337271](../../All-Image/test_plan.assets/image-20220228142337271.png)
+![image-20220228142337271](http://devops-minio.jdcloud.com/doc-image/All-Image/test_plan.assets/image-20220228142337271.png)
 
 ### 4.2 执行测试计划
 
 点击计划名称进入详情页，可点击任一条测试用例后的执行按钮，即可进入执行界面
 
-![image-20220228142536554](../../All-Image/test_plan.assets/image-20220228142536554.png)
+![image-20220228142536554](http://devops-minio.jdcloud.com/doc-image/All-Image/test_plan.assets/image-20220228142536554.png)
 
 同时还可通过执行历史，查看历史中具体失败或阻塞的步骤，如下图所示：
 
-![执行历史](../../All-Image/test_plan.assets/plan_执行历史结果.jpg) 此处请特别注意 用例执行后，测试计划会自动计算测试计划的进度和通过率
+![执行历史](http://devops-minio.jdcloud.com/doc-image/All-Image/test_plan.assets/plan_执行历史结果.jpg) 此处请特别注意 用例执行后，测试计划会自动计算测试计划的进度和通过率
 
 - 测试进度 = 测试中用例数/用例总数
 - 测试通过率 = 通过用例数/用例总数
@@ -45,7 +45,7 @@
 
 点击测试计划后方的测试报告按钮，即可查看每个计划当前的测试报告，如下图所示：
 
-![测试报告](../../All-Image/test_plan.assets/plan_测试报告.jpg)
+![测试报告](http://devops-minio.jdcloud.com/doc-image/All-Image/test_plan.assets/plan_测试报告.jpg)
 
 测试报告默认包括一些几部分,如下图所示：
 
@@ -55,13 +55,13 @@
 - 测试用例执行情况：计划中包括的测试用例的执行情况
 - 关联缺陷：测试计划关联的缺陷的各种状态及严重程度分布
 
-![测试报告](../../All-Image/test_plan.assets/plan_测试报告查看.jpg)
+![测试报告](http://devops-minio.jdcloud.com/doc-image/All-Image/test_plan.assets/plan_测试报告查看.jpg)
 
 #### 4.3.2 自定义测试报告
 
 点击编辑，可编辑测试报告模块，自定义新增或删除一些富文本字段，或者调整已有组件的顺序，还可以增加测试用例的附件，如下图所示：
 
-![编辑报告](../../All-Image/test_plan.assets/plan_编辑测试报告.jpg)
+![编辑报告](http://devops-minio.jdcloud.com/doc-image/All-Image/test_plan.assets/plan_编辑测试报告.jpg)
 
 - 左侧组件库可点击富文本框，即会自动新增一个富文本，供用户输入内容
 - 右侧各组件右上角有关闭符号，并且可以通过拖拽调整顺序，点击保存后，测试报告即按照新的模版生效

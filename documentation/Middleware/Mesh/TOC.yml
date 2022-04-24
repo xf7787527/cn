@@ -28,7 +28,20 @@ items:
     - name: 服务网关
       herf: Operation-Guide/Ingress-Gateway.md
     - name: 虚拟服务
-      herf: Operation-Guide/Virtual-Service.md          
+      herf: Operation-Guide/Virtual-Service.md  
+    - name: 服务
+      herf: Operation-Guide/Service.md  
+    - name: 安全
+      items:
+      - name: 认证
+        herf: Operation-Guide/Security/Authentication.md
+      - name: 授权
+        herf: Operation-Guide/Security/Authorization.md
+    - name: 组件管理
+      items:
+      - name: 边缘代理网关
+        herf: Operation-Guide/Component-Manage.md
+              
 - name: 常见问题
   herf: FAQ/faq.md
 

@@ -68,8 +68,8 @@ var AWS = require('aws-sdk');
 // Import the AWS SDK
 var AWS = require('aws-sdk');
 var s3 = new AWS.S3({apiVersion: '2006-03-01'});
-s3.endpoint = "https://s3.cn-north-1.jdcloud-oss.com"
 s3.config.update({
+  s3.endpoint = "https://s3.cn-north-1.jdcloud-oss.com"
   accessKeyId: "your_accessKeyId",
   secretAccessKey: "your_secretAccessKey",
   s3ForcePathStyle: true,

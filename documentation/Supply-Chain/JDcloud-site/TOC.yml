@@ -9,9 +9,9 @@ items:
   items:
     - name: 概述
       href: Guide/Summary.md
-    - name: 开通网站
+    - name: 购买建站服务流程
       href: Guide/Open_website.md 
-    - name: 配置域名
+    - name: 网站配置域名、备案和解析
       href: Guide/Configure_domain.md 
     - name: 设置网站
       href: Guide/Set-website.md
@@ -31,3 +31,13 @@ items:
       href: Users'-Guide/Check-site-information.md
     - name: 定制站点
       href: Users'-Guide/Custom-site.md 
+
+- name: 视频教程
+  items:
+    - name: 视频演示
+      href: vedio/info.md
+
+- name: 常见问题
+  items:
+    - name: FAQ
+      href: question/FAQ.md

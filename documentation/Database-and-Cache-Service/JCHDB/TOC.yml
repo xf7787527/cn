@@ -25,12 +25,20 @@
         href: Pricing/Price-Overview.md   
   - name: 快速入门
     items:
+      - name: 操作流程
+        href: Getting-Started/operation.md
       - name: 创建实例
         href: Getting-Started/Create-Instance1.md
       - name: 创建账号
         href: Getting-Started/Create-Account1.md
+      - name: 白名单设置
+        href: Getting-Started/SetWhiteList1.md
       - name: 连接实例
         href: Getting-Started/Connect-Instance1.md    
+      - name: 创建数据库和表
+        href: Getting-Started/Create-Database-Table.md   
+      - name: 导入数据
+        href: Getting-Started/loadingData.md  
  
   - name: 操作指南
     items:
@@ -44,6 +52,8 @@
             href: Operation-Guide/Instance/Connect-Instance.md    
           - name: 删除实例
             href: Operation-Guide/Instance/Delete-Instance.md
+          - name: 外网访问
+            href: Operation-Guide/Instance/Outer-Access.md
           - name: 变更配置
             href: Operation-Guide/Instance/Update-Instance.md
           - name: 实例版本升级
@@ -59,41 +69,60 @@
             href: Operation-Guide/Account/Grant-Privilege.md
           - name: 重置密码
             href: Operation-Guide/Account/Reset-Password.md
+            
       - name: 监控报警
         items:
           - name: 设置报警规则
             href: Operation-Guide/Monitor-Alarm/Set-Alarm-Rules.md
           - name: 查看监控信息
             href: Operation-Guide/Monitor-Alarm/View-Monitor-Information.md
+
       - name: 安全管理
         items:
           - name: 白名单设置
             href: Operation-Guide/Security/SetWhiteList.md
+
+      - name: 连接数据库
+        items:
+          - name: 通过命令行连接ClickHouse
+            href: Operation-Guide/ConnectDatabase/commandLine.md
+          - name: 通过JDBC方式连接ClickHouse
+            href: Operation-Guide/ConnectDatabase/JDBC.md
+
+      - name: 外部数据导入
+        items:
+          - name: 从clickhouse-client导入
+            href: Operation-Guide/localDataLoading/loading-clickhouse-client.md
+          - name: 从Spark导入
+            href: Operation-Guide/localDataLoading/loading-spark.md
+          - name: 从自建ClickHouse迁移上云
+            href: Operation-Guide/localDataLoading/local-clickhouse-clickhouse.md
+
       - name: 日志审计
         items:
           - name: SQL审计
             href: Operation-Guide/Audit/audit.md
+
       - name: 性能优化
         items:
           - name: 慢日志查询
-            href: Operation-Guide/Log/Slowlog.md
+            href: Operation-Guide/Log/Slowlog.md  
+
+  - name: 最佳实践
+    items:
+      - name: 数据导入
+        href: Best-Practices/Load-Data-From-File.md
+
+  - name: 常见问题
+    items:
+      - name: FAQ
+        href: FAQ/FAQ.md     
             
-      - name: 最佳实践
-        items:
-          - name: 数据导入
-            href: Best-Practices/Load-Data-From-File.md
-            
-      - name: 常见问题
-        items:
-          - name: FAQ
-            href: FAQ/FAQ.md     
-            
-      - name: 开发指南
-        items:
-          - name: 集群参数设置
-            href: DevelopmentGuide/ParameterSetting.md
-          - name: 数据库引擎
-            href: DevelopmentGuide/DatabaseEngine.md
-          - name: SQL语法
-            href: DevelopmentGuide/SQLGrammar.md
-     
+  - name: 开发指南
+    items:
+      - name: 集群参数设置
+        href: DevelopmentGuide/ParameterSetting.md
+      - name: 数据库引擎
+        href: DevelopmentGuide/DatabaseEngine.md
+      - name: SQL语法
+        href: DevelopmentGuide/SQLGrammar.md

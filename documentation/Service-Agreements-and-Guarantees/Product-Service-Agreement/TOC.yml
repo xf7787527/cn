@@ -187,7 +187,25 @@ items:
   - name: 物联网连接服务等级协议（SLA）
     href: IoT-Link-Service-Level-Agreements-SLA.md
   - name: 物联网智能边缘计算服务条款
-    href: IoT-Edge-Terms-Of-Service.md    
+    href: IoT-Edge-Terms-Of-Service.md
+  - name: 物联网数据分析产品服务条款
+    href: IoT-Data-Analysis.md
+  - name: 物联网设备身份认证服务条款
+    href: Deviceidentity-Terms-Of-Service.md
+  - name: 物联网设备身份认证等级协议（SLA）
+    href: Deviceidentity-SLA.md
+  - name: 物联网固件漏检服务服务条款
+    href: Devfss-Terms-Of-Service.md
+  - name: 物联网固件漏检服务等级协议（SLA）
+    href: Devfss-SLA.md
+  - name: 物联网应用使能平台服务条款
+    href: Iotaep-Terms-Of-Service.md
+  - name: 物联网应用使能平台等级协议（SLA）
+    href: Iotaep-SLA.md
+  - name: 商业物联管理系统服务条款
+    href: Moiot-Terms-Of-Service.md
+  - name: 商业物联管理系统等级协议（SLA）
+    href: Moiot-SLA.md
   - name: 云文件服务协议
     href: Cloud-File-Service-terms-of-service.md
   - name: 云文件服务等级服务协议（SLA）
@@ -452,6 +470,294 @@ items:
     href: Iov-Mobility-Service-Terms-Of-Service.md  
   - name: 车主出行服务等级协议（SLA）
     href: Iov-Mobility-Service-Level-Agreements-SLA.md
+  - name: 智能家居平台服务条款
+    href: Smartdev-Terms-Of-Service.md
+  - name: 智能家居平台等级协议（SLA）
+    href: Smartdev-SLA.md    
+  - name: 种草标题服务
+    href: Recommend-Title-Generation.md
+  - name: 种草标题等级协议（SLA）
+    href: Recommend-Title-Generation-SLA.md    
+  - name: 语言模型填空服务
+    href: Language-Model-Filling.md
+  - name: 语言模型填空等级协议（SLA）
+    href: Language-Model-Filling-SLA.md    
+  - name: 卖点标题生成服务
+    href: Unique-Selling-Proposition-Generation.md
+  - name: 卖点标题生成等级协议（SLA）
+    href: Unique-Selling-Proposition-Generation-SLA.md
+  - name: 实时语音识别识别服务
+    href: Real-Time-Speech-Recognition.md
+  - name: 实时语音识别等级协议（SLA）
+    href: Real-Time-Speech-Recognition-SLA.md
+  - name: 呼叫中心实时语音识别服务
+    href: Call-Center-Real-time-Speech-Recognition.md
+  - name: 呼叫中心实时语音识别等级协议（SLA）
+    href: Call-Center-Real-time-Speech-Recognition-SLA.md
+  - name: 关系抽取服务
+    href: Relatio-extraction.md
+  - name: 关系抽取等级协议（SLA）
+    href: Relatio-extraction-SLA.md
+  - name: 定制化语音合成服务
+    href: Customized-speech-synthesis.md
+  - name: 定制化语音合成等级协议（SLA）
+    href: Customized-speech-synthesis-SLA.md
+  - name: 录音文件识别服务
+    href: Recording-File-Recognition.md
+  - name: 录音文件识别等级协议（SLA）
+    href: Recording-File-Recognition-SLA.md
+  - name: 呼叫中心录音文件识别
+    href: Call-Center-Recording-File-Recognition.md
+  - name: 呼叫中心录音文件识别等级协议（SLA）
+    href: Call-Center-Recording-File-Recognition-SLA.md
+  - name: 指标抽取条款
+    href: Index-Extraction.md
+  - name: 指标抽取等级协议（SLA）
+    href: Index-Extraction-SLA.md
+  - name: 金融知识图谱条款
+    href: Financial-Knowledge-Graph.md
+  - name: 金融知识图谱等级协议（SLA）
+    href: Financial-Knowledge-Graph-SLA.md  
+  - name: 拍照翻译服务条款
+    href: Photo-Character-Recognition.md
+  - name: 拍照翻译服务等级协议（SLA）
+    href: Photo-Character-Recognition-SLA.md
+  - name: 手写体签名识别服务条款
+    href: Handwritten-Signature-Recognition.md
+  - name: 手写体签名等级协议（SLA）
+    href: Handwritten-Signature-Recognition-SLA.md
+  - name: 泰国驾驶证识别服务条款
+    href: Thai-driver's-License-Recognition.md
+  - name: 泰国驾驶证识别等级协议（SLA）
+    href: Thai-driver's-License-Recognition-SLA.md
+  - name: 泰国身份证识别服务协议
+    href: Thai-ID-Card-Recognition.md
+  - name: 泰国身份证识别等级协议（SLA）
+    href: Thai-ID-Card-Recognition-SLA.md 
+  - name: 通用卡证质检服务条款
+    href: General-Card-Verify.md  
+  - name: 通用卡证质检等级协议（SLA）
+    href: General-Card-Verify-SLA.md
+  - name: 通用印刷体识别高精度版服务协议
+    href: Universal-Printed-Recognition-High-precision.md
+  - name: 通用印刷体识别高精度版服务等级协议（SLA）
+    href: Universal-Printed-Recognition-High-precision-SLA.md
+  - name: 通用印刷体识别快速版服务协议
+    href: Universal-Printed-Recognition-High-speed.md
+  - name: 通用印刷体识别快速版等级协议（SLA）
+    href: Universal-Printed-Recognition-High-speed-SLA.md
+  - name: 香港身份证识别服务条款
+    href: Hong-Kong-Identity-Card-Recognition.md
+  - name: 香港身份证识别等级协议（SLA）
+    href: Hong-Kong-Identity-Card-Recognition-SLA.md
+  - name: 表格识别服务协议
+    href: Table-Recognition.md
+  - name: 表格识别服务等级协议（SLA）
+    href: Table-Recognition-SLA.md
+  - name: 不动产证识别服务协议
+    href: Real-Estate-Certificate-Recognition.md
+  - name: 不动产证识别服务等级协议（SLA）
+    href: Real-Estate-Certificate-Recognition-SLA.md
+  - name: 车牌识别（V2）服务协议
+    href: License-Plate-ecognition-V2.md
+  - name: 车牌识别（V2）服务等级协议（SLA）
+    href: License-Plate-ecognition-V2-SLA.md
+  - name: 电子汇票识别服务协议
+    href: Electronic-Bill-Recognition.md
+  - name: 电子汇票识别服务等级协议（SLA）
+    href: Electronic-Bill-Recognition-SLA.md
+  - name: 二维码识别服务协议
+    href: QR-Code-Recognition.md
+  - name: 二维码识别服务等级协议（SLA）
+    href: QR-Code-Recognition-SLA.md
+  - name: 房产证识别服务条款
+    href: Property-Ownership-Certificate-Recognition.md
+  - name: 房产证识别服务等级协议（SLA）
+    href: Property-Ownership-Certificate-Recognition-SLA.md
+  - name: 飞机行程单识别服务条款
+    href: Aircraft-Itinerary-Recognition.md
+  - name: 飞机行程单识别等级协议（SLA）
+    href: Aircraft-Itinerary-Recognition-SLA.md
+  - name: 港澳通行证识别服务条款
+    href: Hong-Kong-and-Macao-Pass-Recognition.md
+  - name: 港澳通行证识别服务等级协议（SLA）
+    href: Hong-Kong-and-Macao-Pass-Recognition-SLA.md
+  - name: 港澳通行证防伪服务协议
+    href: Anti-Counterfeiting-of-HongKong-and-Macao-Pass.md
+  - name: 港澳通行证防伪等级协议（SLA）
+    href: Anti-Counterfeiting-of-HongKong-and-Macao-Pass-SLA.md 
+  - name: 购车发票识别服务条款
+    href: Purchase-Invoice-Recognition.md  
+  - name: 购车发票识别等级协议（SLA）
+    href: Purchase-Invoice-Recognition-SLA.md
+  - name: 户口本识别服务协议
+    href: Household-Register-Recognition.md
+  - name: 户口本识别服务等级协议（SLA）
+    href: Household-Register-Recognition-SLA.md
+  - name: 护照信息识别服务协议
+    href: Passport-Information-Recognition.md
+  - name: 护照信息识别等级协议（SLA）
+    href: Passport-Information-Recognition-SLA.md
+  - name: 名片识别服务条款
+    href: Business-Card-Recognition.md
+  - name: 名片识别等级协议（SLA）
+    href: Business-Card-Recognition-SLA.md
+  - name: 人脸融合服务条款
+    href: Face-Fusion.md
+  - name: 人脸融合等级协议（SLA）
+    href: Face-Fusion-SLA.md
+  - name: 人脸解析服务条款
+    href: Face-Analysis.md
+  - name: 人脸解析等级协议（SLA）
+    href: Face-Analysis-SLA.md
+  - name: 颜色识别服务条款
+    href: Color-Recognition.md
+  - name: 颜色识别等级协议（SLA）
+    href: Color-Recognition-SLA.md
+  - name: 危险动作识别服务条款
+    href: Dangerous-Action-Recognition.md
+  - name: 危险动作识别等级协议（SLA）
+    href: Dangerous-Action-Recognition-SLA.md
+  - name: 通用图片审核服务条款
+    href: General-Picture-Auditing.md
+  - name: 通用图片审核等级协议（SLA）
+    href: General-Picture-Auditing-SLA.md
+  - name: 体育视频摘要服务条款
+    href: Sports-Video-Abstract-Extraction.md
+  - name: 体育视频摘要等级协议（SLA）
+    href: Sports-Video-Abstract-Extraction-SLA.md
+  - name: 商品颜色识别服务条款
+    href: Commodity-Color-Recognition.md
+  - name: 商品颜色识别等级协议（SLA）
+    href: Commodity-Color-Recognition-SLA.md
+  - name: 货架商品检测服务条款
+    href: Shelf-Commodity-Recognition.md
+  - name: 货架商品检测等级协议（SLA）
+    href: Shelf-Commodity-Recognition-SLA.md
+  - name: 车型识别检测服务条款
+    href: Vehicle-Type-Recognition.md
+  - name: 车型识别检测等级协议（SLA）
+    href: Vehicle-Type-Recognition-SLA.md
+  - name: 中国身份证识别服务条款
+    href: Chinese-ID-Card-Recognition.md
+  - name: 中国身份证识别等级协议（SLA）
+    href: Chinese-ID-Card-Recognition-SLA.md
+  - name: 增值税发票识别（V2）服务条款
+    href: VAT-Invoice-Recognition-V2.md
+  - name: 增值税发票识别（V2）等级协议（SLA）
+    href: VAT-Invoice-Recognition-V2-SLA.md
+  - name: 营业执照质检服务条款
+    href: Business-License-Verify.md
+  - name: 营业执照质检等级协议（SLA）
+    href: Business-License-Verify-SLA.md
+  - name: 营业执照识别（V2）服务条款
+    href: Business-License-Recognition-V2.md
+  - name: 营业执照识别（V2）等级协议（SLA）
+    href: Business-License-Recognition-V2-SLA.md
+  - name: 印章识别服务条款
+    href: Seal-Recognition.md
+  - name: 印章识别等级协议（SLA）
+    href: Seal-Recognition-SLA.md
+  - name: 银行卡质检服务条款
+    href: Bank-Card-Verify.md
+  - name: 银行卡质检等级协议（SLA）
+    href: Bank-Card-Verify-SLA.md
+  - name: 烟草专卖证识别服务条款
+    href: Tobacco-Monopoly-License-Recognition.md
+  - name: 烟草专卖证识别等级协议（SLA）
+    href: Tobacco-Monopoly-License-Recognition-SLA.md
+  - name: 银行卡识别（V2）服务条款
+    href: Bank-Card-Recognition-V2.md
+  - name: 银行卡识别（V2）等级协议（SLA）
+    href: Bank-Card-Recognition-V2-SLA.md
+  - name: 行驶证识别（V2）服务条款
+    href: Driving-license-recognition-V2.md
+  - name: 行驶证识别（V2）等级协议（SLA）
+    href: Driving-license-recognition-V2-SLA.md
+  - name: 香港身份证质检防伪服务条款
+    href: HongKong-ID-Card-Verify-And-A.md
+  - name: 香港身份证质检防伪等级协议（SLA）
+    href: HongKong-ID-Card-Verify-And-A-SLA.md
+  - name: 机动车销售发票识别服务条款
+    href: Motor-Vehicle-Sales-Invoice-Recognition.md
+  - name: 机动车销售发票识别等级协议（SLA）
+    href: Motor-Vehicle-Sales-Invoice-Recognition-SLA.md
+  - name: 火车票识别识别服务条款
+    href: Train-Ticket-Recognition.md
+  - name: 火车票识别识别等级协议（SLA）
+    href: Train-Ticket-Recognition-SLA.md
+  - name: pdf征信报告解析服务条款
+    href: Pdf-Credit-Report-Analysis.md
+  - name: pdf征信报告解析等级协议（SLA）
+    href: Pdf-Credit-Report-Analysis-SLA.md
+  - name: pdf文档解析服务条款
+    href: Pdf-Document-Parsing.md
+  - name: pdf文档解析等级协议（SLA）
+    href: Pdf-Document-Parsing-SLA.md
+  - name: 中央非税发票服务条款
+    href: Central-Non-Tax-Invoice-Recognition.md
+  - name: 中央非税发票等级协议（SLA）
+    href: Central-Non-Tax-Invoice-Recognition-SLA.md
+  - name: 中国身份证质检防伪服务条款
+    href: Verify-And-Anti-Counterfeiting.md
+  - name: 中国身份证质检防伪等级协议（SLA）
+    href: Verify-And-Anti-Counterfeiting-SLA.md
+  - name: 搭配短文生成服务条款
+    href: Collocation-Essay-Generation.md
+  - name: 搭配短文生成等级协议（SLA）
+    href: Collocation-Essay-Generation-SLA.md
+  - name: 商品信息抽取服务条款
+    href: Commodity-Information-Extraction.md
+  - name: 商品信息抽取等级协议（SLA）
+    href: Commodity-Information-Extraction-SLA.md
+  - name: 同义词服务条款
+    href: Synonym.md
+  - name: 同义词等级协议（SLA）
+    href: Synonym-SLA.md
+  - name: 文本流畅度服务条款
+    href: Text-Fluency-Recognition.md
+  - name: 文本流畅度等级协议（SLA）
+    href: Text-Fluency-Recognition-SLA.md
+  - name: 闲聊服务条款
+    href: Chat.md
+  - name: 闲聊等级协议（SLA）
+    href: Chat-SLA.md
+  - name: 机器翻译服务条款
+    href: Machine-Translation.md
+  - name: 机器翻译等级协议（SLA）
+    href: Machine-Translation-SLA.md
+  - name: IP风险识别服务条款
+    href: IP-Risk-Detection.md
+  - name: IP风险识别等级协议（SLA）
+    href: IP-Risk-Detection-SLA.md
+  - name: 自定义智能写作服务条款
+    href: Custom-Intelligent-Writing.md
+  - name: 自定义智能写作等级协议（SLA）
+    href: Custom-Intelligent-Writing-SLA.md
+  - name: 手机号码风险识别服务条款
+    href: Mobile-Phone-Number-Risk-Detection.md
+  - name: 手机号码风险识别等级协议（SLA）
+    href: Mobile-Phone-Number-Risk-Detection-SLA.md
+  - name: 地址解析服务条款
+    href: Address-Resolution.md
+  - name: 地址解析等级协议（SLA）
+    href: Address-Resolution-SLA.md
+  - name: 地址风险识别服务条款
+    href: Address-Risk-Detection.md
+  - name: 地址风险识别等级协议（SLA）
+    href: Address-Risk-Detection-SLA.md
+  - name: 事件抽取服务条款
+    href: Event-Extraction.md
+  - name: 事件抽取等级协议（SLA）
+    href: Event-Extraction-SLA.md
+  - name: 实体抽取服务条款
+    href: Entity-Extraction.md
+  - name: 实体抽取等级协议（SLA）
+    href: Entity-Extraction-SLA.md
+  - name: 驾驶证识别（V2）服务条款
+    href: Driver's-License-Recognition-V2.md
+  - name: 驾驶证识别（V2）等级协议（SLA）
+    href: Driver's-License-Recognition-V2-SLA.md 
   - name: 数知服务协议
     href: Number-Of-Terms-Of-Service.md
   - name: 数知服务等级协议（SLA）
@@ -483,10 +789,17 @@ items:
   - name: 云电脑服务条款
     href: Cloud-Computer-Of-Service.md
   - name: 大宗商品仓储监管服务条款
-	  href: BulkStock-Terms-Of-Service.md
-	- name: 大宗商品仓储监管等级协议（SLA）
-	  href: BulkStock-SLA.md
+    href: BulkStock-Terms-Of-Service.md
+  - name: 大宗商品仓储监管等级协议（SLA）
+    href: BulkStock-SLA.md
+  - name: 智慧社区管理平台服务条款
+    href: Iotcommunity-Terms-Of-Service.md
   - name: 智慧社区管理平台等级协议（SLA）
-	  href: Iotcommunity-SLA.md
-	- name: 智慧园区管理平台等级协议（SLA）
+    href: Iotcommunity-SLA.md
+  - name: 智慧园区管理平台服务条款
+    href: Iotpark-Terms-Of-Service.md   
+  - name: 智慧园区管理平台等级协议（SLA）
     href: Iotpark-SLA.md 
+  - name: 京瞳AIoT应用管理平台服务条款
+    href: AIoTManagementPlatform-Terms-Of-Service.md 
+

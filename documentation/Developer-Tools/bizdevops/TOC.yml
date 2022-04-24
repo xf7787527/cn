@@ -24,7 +24,7 @@
   - name: 操作指南
     items:
       - name: 工作台
-        href: Operation-Guide/myzone/dashboard.md
+        href: /Operation-Guide/myzone/dashboard.md
       - name: 团队空间
         items:
           - name: 团队空间
@@ -32,6 +32,7 @@
           - name: 评审约束
             href: /Operation-Guide/teamspace/space_check.md
       - name: 需求管理
+        href: /Operation-Guide/demand/demand.md
       - name: 项目管理
         href: /Operation-Guide/pmp/pmp.md
         items:
@@ -42,14 +43,14 @@
           - name: PMO
             href: /Operation-Guide/pmp/pmo.md
       - name: 效能度量
-        href: /Operation-Guide/effecttiveness_measurement/agile_practices.md
+        href: /Operation-Guide/effectiveness_measurement/agile_practices.md
       - name: 测试管理
         href: /Operation-Guide/test_management/test_management.md
         items:
           - name: 缺陷管理
             href: /Operation-Guide/test_manage/bug.md
           - name: 提测管理
-            href: /Operation-Guide/test_manage/test.md 
+            href: /Operation-Guide/test_manage/test.md
           - name: 用例管理
             href: /Operation-Guide/test_manage/case.md
           - name: 测试计划
@@ -81,6 +82,10 @@
         items:
           - name: 应用管理
             href: /Operation-Guide/deploy/app.md
+          - name: 镜像部署的应用
+            href: /Operation-Guide/deploy/app-image.md
+          - name: 包部署的应用
+            href: /Operation-Guide/deploy/app-package.md
           - name: 集群管理
             href: /Operation-Guide/deploy/clusters.md
           - name: 系统管理
@@ -97,8 +102,12 @@
             href: /Operation-Guide/pipeline/pipeline_template.md
           - name: 其他
             href: /Operation-Guide/pipeline/pipeline_others.md
-      - name: 管理员说明
-        href: /Operation-Guide/admin/admin.md
+      - name: 平台管理
+        items:
+          - name: 管理员说明
+            href: /Operation-Guide/admin/admin.md
+          - name: 组织与用户管理
+            href: /Operation-Guide/admin/organisation_and_user.md
   - name: 常见问题
     href: /FAQ/FAQ.md
   - name: 相关资源

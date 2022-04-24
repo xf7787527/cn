@@ -8,7 +8,7 @@ PMO在企业中担当着建立规范项目管理标准、总结最佳实践、�
 
 项目详情页：点击此页面项目标题后，进入具体项目空间详情页。
 
-![image-20220216165452427](../../All-Image/pmo.assets/image-20220216165452427.png)
+![image-20220216165452427](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/image-20220216165452427.png)
 
 ## 所属组织设置
 
@@ -20,7 +20,7 @@ PMO在企业中担当着建立规范项目管理标准、总结最佳实践、�
 
 所属组织层级仅支持二级所属组织，暂未设置三级所属组织。
 
-![image-20220216165507430](../../All-Image/pmo.assets/image-20220216165507430.png)
+![image-20220216165507430](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/image-20220216165507430.png)
 
 ## 业务线设置
 
@@ -32,7 +32,7 @@ PMO在企业中担当着建立规范项目管理标准、总结最佳实践、�
 
 仅一级所属组织包含业务线，二级所属组织不可添加业务线。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/3-20220216165241515.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/3-20220216165241515.png)
 
 ## 项目类型设置
 
@@ -46,7 +46,7 @@ PMO在企业中担当着建立规范项目管理标准、总结最佳实践、�
 
 一级及二级所属组织均可设置项目基础类型下所属子类型。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/4-20220216165249220.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/4-20220216165249220.png)
 
 ## 项目集
 
@@ -58,11 +58,11 @@ PMO可以自行添加项目集，项目集属性信息包括：项目集名称�
 
 一级及二级所属组织均可添加其下所属项目集。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/5-20220216165259893.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/5-20220216165259893.png)
 
 项目经理可以设置所负责项目所属的项目集，以供PMO对于同一项目集内的项目进行统一管理。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/6-20220216165303274.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/6-20220216165303274.png)
 
 ## 表单设置
 
@@ -74,7 +74,7 @@ PMO可以自行添加项目集，项目集属性信息包括：项目集名称�
 
 当“启用”按钮呈开启状态时，此基本字段设置表即生效。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/7.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/7.png)
 
 * **自定义字段设置：**
 
@@ -82,39 +82,39 @@ PMO可在标签页“自定义字段”新增、编辑、删除自定义表单�
 
 **新增自定义表单：**打开“自定义字段”标签页，点击表单下拉选择框右侧的“+”号，跳转至“扩展表单设置”页面（如图）。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/8.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/8.png)
 
-![alt 属性文本 ](../../All-Image/pmo.assets/9.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/9.png)
 
 点击“扩展表单设置”页面右上角的“+”号，即跳出新增扩展表单对话框。在此对话框中需要选择此扩展表单的应用范围，并且为此表单命名。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/10.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/10.png)
 
 **新增自定义表单内字段：**当新增完毕扩展表单，点击表单所属行，即进入自定义扩展表单的设置页。此页面分为三部分，从左至右第一列为扩展表单控件库（此后简称控件库），第二列为扩展字段预览列（此后简称预览列），最右列为表单控件属性设置（此后简称属性列）。
 
 扩展表单控件库展示所有可选字段类型，预览列展示现阶段此表单内已定义的字段，属性列则展示在预览列选中的字段的属性设置。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/11.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/11.png)
 
 将控件库中的所需空间直接拖拽至预览列，该字段即可在预览列展示。选中该字段，在属性列即可设置该字段相关属性。当“是否禁用”呈开启状态时，该字段会在表单内显示，但是呈置灰状态，不可点击修改（如图）。当“是否显示”呈开启状态时，该字段在表单内不显示。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/12-20220216165337120.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/12-20220216165337120.png)
 
 **修改自定义表单：**
 
 修改自定义表单的入口与新增入口相同，点击表单名称右侧的“+”号，进入自定义表单列表。点击“创建人”为用户本人的表单行，进入表单详情页，进行表单修改。非本人创建的表单不能查看和修改。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/13-20220216165340789.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/13-20220216165340789.png)
 
-![alt 属性文本 ](../../All-Image/pmo.assets/14-20220216165348014.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/14-20220216165348014.png)
 
 **使用数据字典：**当在自定义表单编辑页面，加入了下拉框控件时，可以在下拉框控件的属性列选择“引用数据字典”。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/15-20220216165352244.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/15-20220216165352244.png)
 
 当勾选了“引用数据字典”选项时，即跳出数据字典的引用对话框。当鼠标滑过字典名称时，则显示此数据字典包括的选项。点击需要引用的字典，然后点击“确认”，字典所包含的选项则自动代入此下拉框，作为此下拉字段的选项在表单中出现。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/16-20220216165355817.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/16-20220216165355817.png)
 
 说明：当下级所属组织设置了自己的表单规则时，此所属组织下的表单按照下级组织定义的表单规则进行。当下级组织未设置自己的表单规则时，规则跟随上一级所属组织表单规则。
 
@@ -126,10 +126,10 @@ PMO可在标签页“自定义字段”新增、编辑、删除自定义表单�
 
 点击所要修改字典行右侧的“编辑”按钮进行字典修改维护。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/17-20220216165400401.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/17-20220216165400401.png)
 
 点击“+”号后弹出字典新增所要填写的表单。表单上方的“字典名称”和“字典编码”为必填项，字典描述为选填项。点击下图框1的“+”号进行字典项设置。框3中字典项的名称及编码均为必填项。字典项的状态栏默认为开启，当字典项的状态按钮为关闭状态时，此字典项将不在表单的下拉选项中显示。
 
-![alt 属性文本 ](../../All-Image/pmo.assets/18.png)
+![alt 属性文本 ](http://devops-minio.jdcloud.com/doc-image/All-Image/pmo.assets/18.png)
 
 自定义字典中，字典项设置后不能删除，只可将“状态“按钮关闭。当某字典项的状态栏关闭后，此字段的历史数据仍然保留，但在新建的表单中此字段不再显示。

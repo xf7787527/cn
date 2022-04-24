@@ -8,4 +8,4 @@
 
 点击要查看实例的名称，进入详情页面，即可查看实例的详细信息，例如配置，网络，域名等
 
-![实例详情](../../../../../image/JCHDB/instanceDetails01.jpg)
+![实例详情](../../../../../image/JCHDB/instanceDetails.jpg)

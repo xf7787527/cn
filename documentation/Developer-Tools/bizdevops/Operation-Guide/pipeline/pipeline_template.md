@@ -20,11 +20,11 @@
  - credential_id：下载使用的凭证关键字
  - 使用erp密码进行下载：
 
-![image](../../All-Image/pipeline_template.assets/erp_download.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/erp_download.png)
 
  - 使用sshkey进行下载：
 
-![image](../../All-Image/pipeline_template.assets/ssh_download.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/ssh_download.png)
 
 ### 构建
 
@@ -47,7 +47,7 @@ go build模板主要用于golang的构建，使用go的内建构建工具；属�
  - working_dir： 构建前设置的当前工作目录
  - args： 构建工具命令后面的命令参数
 
-![image](../../All-Image/pipeline_template.assets/java_build.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/java_build.png)
 
 #### nodejs build
 
@@ -62,7 +62,7 @@ go build模板主要用于golang的构建，使用go的内建构建工具；属�
 批量构建docker镜像，这个keyword会根据提供的base_dir，从base_dir开始，遍历改路径下的所有文件夹，如果文件夹下面有dockerfile和target文件，会以该文件夹为context， dockerfile为构建配置，target里的内容为destination构建镜像，父文件夹永远在子文件夹前面构建，因而子文件夹引用的父文件夹对应的镜像都是最新的。
 
 - base_dir:遍历开始的文件夹路径，必填
-- username:上传镜像的目标镜像仓库认证使用的用户名，必填。<br>
+- username:上传镜像的目标镜像仓库认证使用的用户名，必填。
   由于username，password配置只有一套，要求在一个文件夹下面的target对应的registry的验证用户名和密码是一致的
 - password:上传镜像的目标镜像仓库认证使用的密码，必填
 - schema:构建镜像的存储的registry的传输协议，http或者https，默认是https
@@ -99,13 +99,13 @@ COMMIT_ID=`git rev-parse --short HEAD`
 echo -e "${BRANCH}-${COMMIT_ID}-${TIME}\c"
 ```
 
-![image](../../All-Image/pipeline_template.assets/shell-example1.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/shell-example1.png)
 
 执行的结果是“分支名-commit_id-时间戳"组成的字符串，在其他环节使用时直接引用该步骤的输出（output）变量即可。
 
 在镜像构建环节引用:
 
-![image](../../All-Image/pipeline_template.assets/shell-example.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/shell-example.png)
 
 
 **例子2：在sh步骤输出自定义变量**
@@ -113,11 +113,11 @@ echo -e "${BRANCH}-${COMMIT_ID}-${TIME}\c"
 sh步骤中可以将自定义的环境变量输出供后续的步骤引用：
 环境变量输出要采用export的方式:
 
-![image](../../All-Image/pipeline_template.assets/sh_export.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/sh_export.png)
 
 其他步骤可以引用被export出来的环境变量
 
-![image](../../All-Image/pipeline_template.assets/sh_export1.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/sh_export1.png)
 
 
 #### trigger jenkins
@@ -134,11 +134,11 @@ sh步骤中可以将自定义的环境变量输出供后续的步骤引用：
 
 触发这样一个用分组管理，支持参数化构建的jenkins任务
 
-![image](../../All-Image/pipeline_template.assets/jenkins2.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/jenkins2.png)
 
 配置如下：
 
-![image](../../All-Image/pipeline_template.assets/jenkins1.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/jenkins1.png)
 
 #### helm_push
 
@@ -156,24 +156,24 @@ sh步骤中可以将自定义的环境变量输出供后续的步骤引用：
 
 ### Maven单元测试
 
-![img](../../All-Image/pipeline_template.assets/clip_image002.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/clip_image002.jpg)
 
 ### Go单元测试
 
-![img](../../All-Image/pipeline_template.assets/clip_image004.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/clip_image004.jpg)
 
 ### Nodejs单元测试
 
-![img](../../All-Image/pipeline_template.assets/clip_image006.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/clip_image006.jpg)
 
 ### 覆盖率卡点支持（Cobertura覆盖率和jacoco覆盖率）
 
 #### Cobertura覆盖率卡点
 
-![img](../../All-Image/pipeline_template.assets/clip_image008.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/clip_image008.jpg)
 
 #### jacoco覆盖率测量
 
-![img](../../All-Image/pipeline_template.assets/clip_image010.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_template.assets/clip_image010.jpg)
 
  

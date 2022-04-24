@@ -1,0 +1,89 @@
+name: 分析型云数据库 ClickHouse
+href: 
+items:
+    - name: 接口概览
+      href: overview.md
+    - name: 更新历史
+      href: ChangeLog.md
+    - name: 接口信息
+      items:
+        - name: 账号管理
+          items:
+             - name: createAccount
+               href: Account-Management/createAccount.md       
+             - name: describeAccounts
+               href: Account-Management/describeAccounts.md    
+             - name: deleteAccount
+               href: Account-Management/deleteAccount.md       
+             - name: modifyPrivilege
+               href: Account-Management/modifyPrivilege.md
+             - name: resetPassword
+               href: Account-Management/resetPassword.md  
+
+        - name: 实例管理 
+          items:
+            - name: azs
+              href: Instance-Management/azs.md
+            - name: createInstance
+              href:  Instance-Management/createInstance.md
+            - name: deleteInstance
+              href:  Instance-Management/deleteInstance.md
+            - name: describeAuditResult
+              href:  Instance-Management/describeAuditResult.md
+            - name: describeDomainNames
+              href:  Instance-Management/describeDomainNames.md
+            - name: describeInstanceAttributes
+              href:  Instance-Management/describeInstanceAttributes.md
+            - name: describeInstances
+              href:  Instance-Management/describeInstances.md
+            - name: describeNodeClasses
+              href:  Instance-Management/describeNodeClasses.md
+            - name: describeNodes
+              href:  Instance-Management/describeNodes.md
+            - name: describePodMap
+              href:  Instance-Management/describePodMap.md
+            - name: describeProgress
+              href:  Instance-Management/describeProgress.md
+            - name: describeSlowlogResult
+              href:  Instance-Management/describeSlowlogResult.md
+            - name: disableInternetAccess
+              href:  Instance-Management/disableInternetAccess.md
+            - name: enableInternetAccess
+              href:  Instance-Management/enableInternetAccess.md
+            - name: internalDescribeInstance
+              href:  Instance-Management/internalDescribeInstance.md
+            - name: modifyInstanceName
+              href:  Instance-Management/modifyInstanceName.md
+            - name: modifyInstanceSpec
+              href:  Instance-Management/modifyInstanceSpec.md
+            - name: orderableInstanceType
+              href:  Instance-Management/orderableInstanceType.md
+            - name: selectDetailList
+              href:  Instance-Management/selectDetailList.md
+            - name: upgradeEngineVersion
+              href:  Instance-Management/upgradeEngineVersion.md    
+
+        - name: 参数
+          items:
+            - name: describeParameters
+              href: Parameters/describeParameters.md
+
+        - name: 白名单
+          items:
+             - name: addWhiteListGroup
+               href: White-List/addWhiteListGroup.md        
+             - name: deleteWhiteListGroup
+               href: White-List/deleteWhiteListGroup.md    
+             - name: describeWhiteList
+               href: White-List/describeWhiteList.md        
+             - name: modifyWhiteList
+               href: White-List/modifyWhiteList.md  
+
+    - name: 枚举参数说明
+      items:
+        - name: 枚举类型定义
+          href: Enum-Definitions/Enum-Definitions.md
+        - name: 地域及可用区列表
+          href: Enum-Definitions/Regions-AZ.md
+        
+            

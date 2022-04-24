@@ -20,8 +20,6 @@ v1
 |**createDomainGroup**|POST|创建域名组|
 |**createLiveDomainPrefecthTask**|POST|创建直播预热任务|
 |**createRefreshTask**|POST|创建刷新预热任务|
-|**createRefreshTaskForCallback**|POST|创建刷新预热回调任务|
-|**createRefreshTaskForCallbackV2**|POST|创建刷新预热回调任务|
 |**deleteCacheRule**|DELETE|删除缓存规则|
 |**deleteDomain**|DELETE|删除加速域名|
 |**deleteForbiddenStream**|POST|删除禁播流|

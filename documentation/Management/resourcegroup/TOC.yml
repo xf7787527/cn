@@ -5,5 +5,16 @@ items:
     items:
       - name: 资源组概述
         href: productintroduction.md
-      - name: 资源组操作指南
-        href: operationGuide.md
+      - name: 应用场景
+        href: Scenarios.md
+      - name: 支持资源组的云产品
+        href: Supportservices.md
+      - name: 使用限制
+        href: Limitation.md
+  - name: 操作指南
+    items:
+      - name: 资源组管理
+        href: operationGuide.md 
+      - name: 资源管理
+        href: Resourcemanagement.md 
+

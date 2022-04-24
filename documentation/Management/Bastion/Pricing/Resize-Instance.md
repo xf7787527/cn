@@ -6,8 +6,9 @@
 ## 操作步骤
 1. 登录 [堡垒机控制台](https://bastion-console.jdcloud.com/list)。
 2. 在堡垒机列表中，选择需要升级配额的目标实例，点击 ***操作*** 这一列的 ***升级配额***。
+  ![](/image/Bastion/resize.png) 
 3. 在升级配额页面，选择规格。升级规格只能选择比购买时高的规格。
 
-![](/image/Bastion/resize.png) 
+  ![](/image/Bastion/resize1.png) 
 
 4. 阅读完堡垒机 服务条款，点击去支付，按照提示完成后续操作。

@@ -2,12 +2,12 @@
 
 在新建空间界面，可以选择是否关联coding平台。
 
-> [!note|label:说明：]
+> [说明：]
 >
 > 1. 关联coding平台：空间名称就是coding的group，成员继承coding的group成员。
 > 2. 不关联coding平台：空间名称支持重命名，成员由空间的admin管理。
 
-![image](../../All-Image/pipeline_team.assets/newFolder.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_team.assets/newFolder.png)
 
 ## 流水线管理
 
@@ -15,7 +15,7 @@
 
 流水线页面展示了空间下流水线的详细信息，包括流水线名称、创建时间、最新构建时间以及流水线的负责人。如下图：
 
-   ![image](../../All-Image/pipeline_team.assets/folder_pipe.jpeg)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_team.assets/folder_pipe.jpeg)
 
 在流水线界面，可以通过快捷按钮，对流水线进行不同的操作：
 
@@ -48,7 +48,7 @@
 #### 创建自定义步骤
 
 空间的管理员可以创建自定义步骤，在自定义步骤里可以定义此步骤的输入变量，输出变量，执行命令和命令运行使用的镜像。
-![image](../../All-Image/pipeline_team.assets/create_custom_step.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_team.assets/create_custom_step.png)
 
 #### 运行状态卡片
 
@@ -59,7 +59,7 @@
 
 JPIPE_VIEW_DATA的数据结构如下：
 
-![image](../../All-Image/pipeline_team.assets/view_data_struct.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_team.assets/view_data_struct.png)
 
 ##### key:value类型展示
 
@@ -70,7 +70,7 @@ export JPIPE_VIEW_DATA='[{"key":{"value":"报告","color": "'"green"'"},"value":
 
 效果如下图：
 
-![image](../../All-Image/pipeline_team.assets/view_data_kv.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_team.assets/view_data_kv.png)
 
 ##### table类型展示
 
@@ -81,24 +81,24 @@ export JPIPE_VIEW_DATA='[[{"value":"'"覆盖率 "'"}],[{"value":"'"10%"'","color
 
 效果如下图：
 
-![image](../../All-Image/pipeline_team.assets/view_data_table1.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_team.assets/view_data_table1.png)
 
 
 #### 设置为公开
 
 流水线支持与其他团队的业务共建，合作团队可以将自己空间下的自定义步骤设置为公开，这样所有其他流水线用户都可以引用。
 
-![image](../../All-Image/pipeline_team.assets/public1.png)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_team.assets/public1.png)
 
 注意：步骤设置为公开后就不能改为私有了，用户引用该步骤会随着步骤的版本自动更新,在自定义步骤页面能查看版本更新和发布公告，发布公告能单独更新。
 
-![image](../../All-Image/pipeline_team.assets/public2.jpg)
+![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_team.assets/public2.jpg)
 
 ## 凭证管理
 
 点击左侧栏空间名称后的凭证按钮，进入该空间的凭证管理页面。凭证管理页面展示了该空间下的凭证信息，包括凭证关键字、名称、密码、更新时间、创建时间以及凭证描述。
 
-   ![image](../../All-Image/pipeline_team.assets/new_credential.jpeg)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_team.assets/new_credential.jpeg)
 
 针对凭证的管理，需要有该空间的admin权限，可以进行凭证的新增、编辑，更新密码和删除操作。
 
@@ -128,5 +128,5 @@ file 类型的引用：
 
 1. 点击左侧栏空间名称后的成员按钮，进入该空间的成员管理页面。成员管理页面展示了该空间下的成员信息。
 
-   ![image](../../All-Image/pipeline_team.assets/member.png)
+   ![image](http://devops-minio.jdcloud.com/doc-image/All-Image/pipeline_team.assets/member.png)
 

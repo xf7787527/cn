@@ -7,29 +7,29 @@
 
 ## 账号注销流程
 
-（1）进入[账户管理-安全设置](https://uc.jdcloud.com/account/security-settings)，点击【注销】按钮
+（1）进入[账户管理-安全设置](https://uc.jdcloud.com/account/security-settings)，在账户注销处点击【**注销**】按钮，进入注销账号页面。
 
-![](../../../image/User/Account-Mgmt/1-entry.png)
+![1](../../../image/User/Account-Mgmt/Revocation/1.png)
 
-（2）进行身份验证
+（2）进行身份验证。注销京东云账号需要先确认您的身份。可选的验证方式有手机、邮箱。若您未绑定手机和邮箱，则需要您点击注销页面【**联系客服**】，发起人工注销申请。
 
-![](../../../image/User/Account-Mgmt/2-verification.png)
+![2](../../../image/User/Account-Mgmt/Revocation/2.png)
 
-（3）阅读并确认《注销须知》
+（3）注销账户需要您仔细阅读并确认《注销须知》。账户一旦被注销，您将放弃部分权益和自产，且账号不可恢复。请您在申请注销前自行备份账户的相关信息和数据，并仔细阅读并确认《注销须知》。
 
-![](../../../image/User/Account-Mgmt/3-notice.png)
+![3](../../../image/User/Account-Mgmt/Revocation/phone2.png)
 
-（4）系统检测账户是否满足注销条件
+（4）系统检测账户是否满足注销条件。申请注销账号需要满足一系列的注销条件，系统将自动为您检测是否满足。您也可以手动阅读此文档下方的【**账户注销条件说明**】。
 
-![](../../../image/User/Account-Mgmt/4-checking.png)
+![4](../../../image/User/Account-Mgmt/4-checking.png)
 
-（5）如果满足条件，确认是否继续执行注销
+（5）如果您的账号满足注销条件，会提示您确认是否继续执行注销。
 
-![](../../../image/User/Account-Mgmt/4-confirmation.png)
+![5](../../../image/User/Account-Mgmt/Revocation/phone3.png)
 
-（6）执行注销操作，执行后，您将无法再次访问该京东云账户
+（6）执行注销操作，执行后，您将无法再次访问该京东云账户。
 
-![](../../../image/User/Account-Mgmt/5-success.png)
+![6](../../../image/User/Account-Mgmt/Revocation/3.png)
 
 ## 账户注销条件说明
 
@@ -47,7 +47,7 @@
 
 ### 发起人工注销申请
 
-（1）提交工单，服务分类请选择【账号与认证】
+（1）提交工单，服务分类请选择【**账号与认证**】
 
 （2）请在工单中提供以下信息
 

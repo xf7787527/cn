@@ -1,0 +1,93 @@
+name: 数据管理DMS
+href:
+items:
+  - name: 接口概览
+    href: overview.md
+  - name: 更新历史
+    href: ChangeLog.md
+  - name: 接口信息
+    items:
+      - name: 元数据信息
+        items:
+          - name: databaseList
+            herf: DmsMeta/databaseList.md
+          - name: getDmsDomain
+            herf: DmsMeta/getDmsDomain.md
+          - name: sqlTableInfo
+            herf: DmsMeta/sqlTableInfo.md
+          - name: tableInfo
+            herf: DmsMeta/tableInfo.md
+          - name: tableList
+            herf: DmsMeta/tableList.md
+
+      - name: sql格式化
+        items:
+          - name: generalAlterTableSql
+            herf: GeneralSql/generalAlterTableSql.md
+          - name: generalCreateTableSql
+            herf: GeneralSql/generalCreateTableSql.md
+
+      - name: 历史操作信息
+        items:
+          - name: historyImportData
+            herf: HistorySql/historyImportData.md
+          - name: historySql
+            herf: HistorySql/historySql.md
+
+      - name: 实例信息
+        items:
+          - name: login
+            herf: Instance/login.md
+          - name: logout
+            herf: Instance/logout.md
+          - name: open
+            herf: Instance/open.md
+          - name: queryInstance
+            herf: Instance/queryInstance.md
+
+      - name: 个人SQL操作
+        items:
+          - name: addPersonalSql
+            herf: PersonalSql/addPersonalSql.md
+          - name: deletePersonalSql
+            herf: PersonalSql/deletePersonalSql.md
+          - name: queryPersonalSqls
+            herf: PersonalSql/queryPersonalSqls.md
+          - name: updatePersonalSql
+            herf: PersonalSql/updatePersonalSql.md
+
+      - name: sql操作
+        items:
+          - name: consoleExplain
+            herf: Sql/consoleExplain.md
+          - name: consoleGeneralData
+            herf: Sql/consoleGeneralData.md
+          - name: consoleSql
+            herf: Sql/consoleSql.md
+          - name: createTableBatch
+            herf: Sql/createTableBatch.md
+          - name: downloadExportFile
+            herf: Sql/downloadExportFile.md
+          - name: exportData
+            herf: Sql/exportData.md
+          - name: exportStruct
+            herf: Sql/exportStruct.md
+          - name: formatSql
+            herf: Sql/formatSql.md
+          - name: getCreateTableBatchSql
+            herf: Sql/getCreateTableBatchSql.md
+          - name: getExportDataId
+            herf: Sql/getExportDataId.md
+          - name: getExportId
+            herf: Sql/getExportId.md
+          - name: importDdlDml
+            herf: Sql/importDdlDml.md
+          - name: openTable
+            herf: Sql/openTable.md
+
+      - name: 枚举参数说明
+        items:
+          - name: 枚举类型定义
+            herf: Enum-Definitions/Enum-Definitions.md
+          - name: 地域及可用区列表
+            herf: Enum-Definitions/Regions-AZ.md

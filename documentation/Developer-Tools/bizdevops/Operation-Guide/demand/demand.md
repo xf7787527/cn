@@ -14,7 +14,7 @@
 
 **功能架构** 
 
-![img](../../All-Image/demand.assets/clip_image002.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/clip_image002.jpg)
 
 l 流程操作：需求提出、需求审批、需求开始沟通、需求受理、需求拆分、需求处理、需求验收、收益验证。
 
@@ -26,11 +26,11 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 行云可支持按个人、部门和需求分组的维度查看
 
-![demand1](../../All-Image/demand.assets/manage1.png)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/manage1.png)
 
 部门最多可看到本人一级部门的所有需求。  
 
-![demand1](../../All-Image/demand.assets/manage2.png)    
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/manage2.png)    
 
 
 
@@ -38,35 +38,35 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 行云支持对需求列表按 `需求编号` 和 `优先级` 进行排序。
 
-![demand1](../../All-Image/demand.assets/manage3.jpg)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/manage3.jpg)
 
 > **需求列表字段设置**
 
 行云支持自定义设置需求列表显示字段。点击需求列表右上角标志，即可设置列表显示字段。
 
-![demand1](../../All-Image/demand.assets/manage4.jpg) ![demand1](../../All-Image/demand.assets/manage5.jpg)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/manage4.jpg) ![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/manage5.jpg)
 
 > **需求列表筛选**
 
 行云支持对需求列表多维度筛选。
 
-![demand1](../../All-Image/demand.assets/manage6.png)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/manage6.png)
 
 点击需求列表中的`高级筛选`，弹出条件筛选框：
 
-![demand1](../../All-Image/demand.assets/manage7.png)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/manage7.png)
 
 可常用搜索条件另存为常用条件，在`我的查询器`内一键快速查询。
 
-![demand1](../../All-Image/demand.assets/manage8.png)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/manage8.png)
 
 ### 导出需求列表
 
 行云支持导出需求列表。点击需求列表右上角标志，设置列表导出字段，即可导出相应需求列表EXCEL.
 
-![demand1](../../All-Image/demand.assets/manage9.jpg)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/manage9.jpg)
 
-![demand1](../../All-Image/demand.assets/manage10.jpg)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/manage10.jpg)
 
 
 
@@ -74,11 +74,11 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 在`需求管理`中点击需求管理页面右上角的`新增需求`,进入需求创建页。
 
-![demand1](../../All-Image/demand.assets/creatdemand1.png)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/creatdemand1.png)
 
 依次填写完毕,点击提交或者保存草稿。
 
-![demand1](../../All-Image/demand.assets/creatdemand2.png)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/creatdemand2.png)
 
 需求填写页信息分为三类：基本信息、预期收益和其他信息。填写字段说明如下：
 
@@ -131,7 +131,7 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 点击`转出`按钮，在弹窗内输入需要转给的同事ERP，点击提交便将需求成功转出。
 
-![demand1](../../All-Image/demand.assets/transferdemand1.jpg)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/transferdemand1.jpg)
 
 
 
@@ -139,7 +139,7 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 需求被提报后，受理方需要进行`受理`操作，表示这个需求被确认接收了。`受理`操作表示：当前操作人确认了这个需求是可以做的，体现的是对客户的一种“承诺”。
 
-![demand1](../../All-Image/demand.assets/acceptdemand1.jpg)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/acceptdemand1.jpg)
 
 
 
@@ -156,17 +156,17 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 5. 足够小：一个迭代内能够做完，不跨迭代
 6. 可测试：定义清楚需求怎么样才算完成
 
-<img src="../../All-Image/demand.assets/image-20220216111424196.png" alt="image-20220216111424196" style="zoom:50%;" />
+<img src="http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/image-20220216111424196.png" alt="image-20220216111424196" style="zoom:50%;" />
 
-点击`拆分`后，显示拆分需求详情页面： ![demand1](../../All-Image/demand.assets/split1.jpg)
+点击`拆分`后，显示拆分需求详情页面： ![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/split1.jpg)
 
-![demand1](../../All-Image/demand.assets/split2.jpg)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/split2.jpg)
 
 依次填写好后，生成子需求，于是得到子需求列表。 
 
 拆分的子需求将继承父需求的成本分摊比例，且不在拆分的需求中体现，只在父需求上体现。  
 
-下图为拥有两个子需求的页面： ![demand1](../../All-Image/demand.assets/split3.jpg)
+下图为拥有两个子需求的页面： ![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/split3.jpg)
 
 当有两个以上子需求，且状态各不相同时，父需求的`需求阶段`以最靠前的子需求为准。   
 
@@ -180,21 +180,21 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 点击需求名称右侧的`加入分组`即可将该条需求添加至相应分组，也可临时新建分组，组名支持最多20个中文或者40个英文。需求分组可以删除和修改名称。
 
-![demand1](../../All-Image/demand.assets/group01.png)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/group01.png)
 
 需求加入某一分组后，可以重复加入其它组，也可以`移出分组`
 
-![demand1](../../All-Image/demand.assets/group02.png)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/group02.png)
 
 需求分组支持分享，生成链接发送给需要关注的人，点开链接即可关注该分组和保存该分组。
 
-![demand1](../../All-Image/demand.assets/group04.png)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/group04.png)
 
-![demand1](../../All-Image/demand.assets/group03.png)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/group03.png)
 
 `关注分组`后，该分组将出现在`关注分组`里；`保存分组`后，该分组将出现在`我的分组`里
 
-![demand1](../../All-Image/demand.assets/group05.png)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/group05.png)
 
 
 
@@ -211,7 +211,7 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 需求在`受理`后便可进行`处理`操作。点击`处理`按钮： 
 
-![demand1](../../All-Image/demand.assets/work.jpg)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/work.jpg)
 
 
 
@@ -221,19 +221,19 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 团队在执行需求过程中，经常会遇到需求变更，对于需求变更可能会需要走单独的确认流程或者再次执行需求评审过程。在团队空间中空间管理员根据团队整体要求进行配置需求变更约束。默认情况下团队空间中不体现变更流程，仅在用户变更需求相关字段后，将变更信息记录到操作历史中。
 
-![img](../../All-Image/demand.assets/clip_image002-4982146.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/clip_image002-4982146.jpg)
 
 ### 需求审批
 
 系统支持在需求提出时配置审批流程，或者在发起验收时配置审批流程，目前支持串行审批流程。可在系统设置中进行配置。
 
-![image-20220216113711118](../../All-Image/demand.assets/image-20220216113711118.png)
+![image-20220216113711118](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/image-20220216113711118.png)
 
 ### 需求撤回
 
 需求提交以后，可以进行撤回，但 **前提** 是：**该需求尚未被 受理方 `受理`（即 状态为`待受理`时）**
 
-![demand1](../../All-Image/demand.assets/revoke.jpg)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/revoke.jpg)
 
 ### 重新分配
 
@@ -243,11 +243,11 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 当需求完成的时候，受理方可以`发起验收`操作。
 
-![demand1](../../All-Image/demand.assets/check.jpg)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/check.jpg)
 
 提出需求的同学，可以对需求进行`通过`、`不通过`的验收操作。
 
-![demand1](../../All-Image/demand.assets/check2.jpg)
+![demand1](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/check2.jpg)
 
 点击`通过`，则需求状态变成了`完成`，表示需求处理完毕；
 
@@ -257,7 +257,7 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 针对需求完成后，对需求是否达成ROI进行评价，评价等级包括：低于预期、达成预期、高于预期。验证后的收益支持查看和再次修改。
 
-![image-20220216113922674](../../All-Image/demand.assets/image-20220216113922674.png)
+![image-20220216113922674](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/image-20220216113922674.png)
 
 ## 需求设置
 
@@ -265,7 +265,7 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 对于一些部门，由于业务要求，可以由专门的接口人进行提报需求，或者部门指定的人进行需求受理。均可以在系统设置中配置提出人或受理人白名单。进入系统设置中可以设定
 
-![img](../../All-Image/demand.assets/clip_image002-4983005.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/clip_image002-4983005.jpg)
 
 ### 需求自定义
 
@@ -273,13 +273,13 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 支持的控件如文本输入框、开关控件、日期控件、下拉选择控件、数字输入框，用户可以拖动到预览区域进行配置查看，针对每个控件可以设置额外的提示文字、默认值、占位文字、是否只读等。用户根据业务要求，向管理员申请权限配置。如下图所示：
 
-![img](../../All-Image/demand.assets/clip_image008.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/clip_image008.jpg)
 
 #### 需求模板字段配置
 
 部门管理员可以在此配置部门人员受理的需求需要完善的必填信息。通过该配置，把控提交给该部门的需求相关内容。该功能支持按照不同来源的需求进行需求的必填项配置，以及扩展字段的必填项配置和显示配置。
 
-![img](../../All-Image/demand.assets/clip_image012.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/clip_image012.jpg)
 
  
 
@@ -287,7 +287,7 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 部门管理员可以在此配置部门拥有提交或者受理需求权限的人员。在部门有需求接口人制度时，可以开启此功能来统一需求的进出口径。
 
-![img](../../All-Image/demand.assets/clip_image014.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/clip_image014.jpg)
 
 #### 需求子流程配置
 
@@ -301,7 +301,7 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
  
 
-![img](../../All-Image/demand.assets/clip_image016.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/clip_image016.jpg)
 
  
 
@@ -309,5 +309,5 @@ l 其他操作：需求关联、需求权限、需求自定义、成本分摊、
 
 管理员可以按照部门配置需求超期自动验收和研发需求自动验收功能。避免出现过多被忘记验收的需求，保证需求交付周期的准确统计。
 
-![img](../../All-Image/demand.assets/clip_image018.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/demand.assets/clip_image018.jpg)
 

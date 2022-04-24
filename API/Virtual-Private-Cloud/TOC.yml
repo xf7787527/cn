@@ -107,6 +107,24 @@
             href: Elastic-IP/describeElasticIp.md
           - name: describeElasticIps
             href: Elastic-IP/describeElasticIps.md
+      - name: 共享带宽包
+        items:
+          - name: createBandwidthPackage
+            href: Bandwidth-Package/createBandwidthPackage.md
+          - name: addBandwidthPackageIP
+            href: Bandwidth-Package/addBandwidthPackageIP.md
+          - name: modifyElasticIp
+            href: Bandwidth-Package/deleteBandwidthPackage.md
+          - name: describeBandwidthPackage
+            href: Bandwidth-Package/describeBandwidthPackage.md
+          - name: describeBandwidthPackages
+            href: Bandwidth-Package/describeBandwidthPackages.md
+          - name: modifyBandwidthPackage
+            href: Bandwidth-Package/modifyBandwidthPackage.md
+          - name: modifyBandwidthPackageIpBandwidth
+            href: Bandwidth-Package/modifyBandwidthPackageIpBandwidth.md
+          - name: removeBandwidthPackageIP
+            href: Bandwidth-Package/removeBandwidthPackageIP.md       
       - name: 安全组
         items:
           - name: createNetworkSecurityGroup
@@ -137,3 +155,7 @@
             href: Peering-Connection/describeVpcPeerings.md
           - name: modifyVpcPeering
             href: Peering-Connection/modifyVpcPeering.md
+      - name: 配额
+        items:
+          - name: describeQuota
+            href: Quota/describeQuota.md 

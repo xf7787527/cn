@@ -2,7 +2,7 @@
 
 创建物类型完成之后自动跳转编辑物类型页面，也可通过物类型列表编辑按钮进入编辑页面，点击 **功能定义** 跳转创建物模型页面。
 
-![创建物模型](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Create-Thing-Model.png)
+![创建物模型](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Create-Thing-Model.png)
 
 - 物模型描述：对该物模型的说明，无输入字符类型限制，长度限制为0-200个字符，非必填。
 - 物模型版本：请遵循语义化版本规范，版本号格式：主版本号.次版本号.修订号，例如 V1.0.0、v1.0.0 或 1.0.0。
@@ -12,7 +12,7 @@
 
 点击模型列表 **新增** 按钮，弹出新建模型弹窗，填写模型名称，模型标识，模型描述点击确认。
 
-![新增模型](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Create-Model.png)
+![新增模型](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Create-Model.png)
 
 - 模型名称：支持30个字符内的中文、英文字母、数字、中划线、下划线，且以中、英文、数字开头和结尾。
 - 模型标识：模型唯一标识，支持30个字符内的英文字母、数字、中划线、下划线，且以英文、数字开头和结尾。
@@ -25,7 +25,7 @@
 
 点击 **属性->添加属性**，弹出添加属性弹窗。
 
-![功能定义-属性](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Add-Properties.png)
+![功能定义-属性](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Add-Properties.png)
 
 ##### 属性参数设置如下：
 
@@ -34,14 +34,14 @@
 |功能名称 | 定义属性的名称，支持30个字符内的中文、英文字母、数字、中划线、下划线，且以中、英文、数字开头和结尾。 | 
 |标识符  | 定义属性的唯一标识，不可重复，支持30个字符内的中文、英文字母、数字、中划线、下划线，且以中、英文、数字开头和结尾，不可更改。 | 
 |读写权限 | 定义属性值的读写性。支持只读 / 只写 / 读写三种。  | 
-|值类型 | 定义该属性的数据类型，目前支持下面几种类型。<br><br>   - **字符串（String）** <br>长度(length)：允许传入字符串的最大长度（输入值为1 - 1024范围内的正整数），不可为空。<br>![字符串](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/String.png)<br>  - **布尔值（Boolean）** <br>  - **枚举值（Enum）**<br>![枚举值](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Enum.png) <br>**注：至少添加一个枚举值**<br>枚举值(key)：支持30个字符内的中文、英文字母、数字、中划线、下划线，且以中、英文、数字开头和结尾或介于0~63（含0和63）之间的数字。<br>值说明(value)：支持30个字符内的中文、英文字母、数字、中划线、下划线，且以中、英文、数字开头和结尾。<br>- **日期（Date）** <br>- **数组（Array)** <br>![数组](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Array.png)<br>数组最大长度（length）：允许数组的最大长度（输入值为1 - 128范围内的正整数）。<br>值类型：参考属性的值类型。<br>- **二进制（Binary)**<br>![二进制](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Binary.png)<br>长度（length）：binary经过base64转换之后的最大长度（输入值为1 - 1024范围内的正整数），需要注意binary在传输时需要转成base64字符串。<br>- **结构体（Struct)** <br>![结构体](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Struct.png)<br>json对象（members）<br>1.标识符：支持30个字符内的英文字母、数字、中划线、下划线，且以英文、数字开头和结尾参考属性的值类型。<br>2.值类型：仅支持字符串，单精度浮点，双精度浮点，无符号整型，有符号整型，数据格式与属性值类型相同<br> - **单精度浮点（Float）** <br>![单精度](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Float.png)<br>需定义最小值、最大值、步长、单位和单位描述。  <br>   - **双精度浮点（Double）** <br>需定义最小值、最大值、步长、单位和单位描述。   <br> - **无符号整型（Unit8/Unit32/Unit64）** <br>需定义最小值、最大值、步长、单位和单位描述。<br>- **有符号整型（Int8/Int32/Int64）** <br>需定义最小值、最大值、步长、单位和单位描述。<br> <br> **注意** ：最大/最小值以及步长的范围应在该数据类型的标准范围内。 <br> 最大值（max）：该数值允许的最大值；	 <br> 最小值（min）：该数值允许的最小值；	 <br> 步长(step)：数值变化的最小粒度；<br> 单位（unit）：该数值对应的单位，非必选项；<br> 单位名称（unitname）：该数值对应的单位名称，长度限制为0-200个字符。非必填项。<br> |
+|值类型 | 定义该属性的数据类型，目前支持下面几种类型。<br><br>   - **字符串（String）** <br>长度(length)：允许传入字符串的最大长度（输入值为1 - 1024范围内的正整数），不可为空。<br>![字符串](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/String.png)<br>  - **布尔值（Boolean）** <br>  - **枚举值（Enum）**<br>![枚举值](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Enum.png) <br>**注：至少添加一个枚举值**<br>枚举值(key)：支持30个字符内的中文、英文字母、数字、中划线、下划线，且以中、英文、数字开头和结尾或介于0~63（含0和63）之间的数字。<br>值说明(value)：支持30个字符内的中文、英文字母、数字、中划线、下划线，且以中、英文、数字开头和结尾。<br>- **日期（Date）** <br>- **数组（Array)** <br>![数组](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Array.png)<br>数组最大长度（length）：允许数组的最大长度（输入值为1 - 128范围内的正整数）。<br>值类型：参考属性的值类型。<br>- **二进制（Binary)**<br>![二进制](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Binary.png)<br>长度（length）：binary经过base64转换之后的最大长度（输入值为1 - 1024范围内的正整数），需要注意binary在传输时需要转成base64字符串。<br>- **结构体（Struct)** <br>![结构体](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Struct.png)<br>json对象（members）<br>1.标识符：支持30个字符内的英文字母、数字、中划线、下划线，且以英文、数字开头和结尾参考属性的值类型。<br>2.值类型：仅支持字符串，单精度浮点，双精度浮点，无符号整型，有符号整型，数据格式与属性值类型相同<br> - **单精度浮点（Float）** <br>![单精度](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Float.png)<br>需定义最小值、最大值、步长、单位和单位描述。  <br>   - **双精度浮点（Double）** <br>需定义最小值、最大值、步长、单位和单位描述。   <br> - **无符号整型（Unit8/Unit32/Unit64）** <br>需定义最小值、最大值、步长、单位和单位描述。<br>- **有符号整型（Int8/Int32/Int64）** <br>需定义最小值、最大值、步长、单位和单位描述。<br> <br> **注意** ：最大/最小值以及步长的范围应在该数据类型的标准范围内。 <br> 最大值（max）：该数值允许的最大值；	 <br> 最小值（min）：该数值允许的最小值；	 <br> 步长(step)：数值变化的最小粒度；<br> 单位（unit）：该数值对应的单位，非必选项；<br> 单位名称（unitname）：该数值对应的单位名称，长度限制为0-200个字符。非必填项。<br> |
 |描述 | 用于进行属性功能的说明。无输入字符类型限制，长度限制为0-200个字符。非必填项。 | 
 
 #### 2. 事件
 
 点击 **事件->添加事件**，弹出添加属性弹窗。
 
-![功能定义-事件](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Add-Event.png)
+![功能定义-事件](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Add-Event.png)
 
 ##### 事件参数设置如下：
 
@@ -56,7 +56,7 @@
 
 点击 **服务->添加服务**，弹出添加属性弹窗。
 
-![功能定义-服务](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Add-Service.png)
+![功能定义-服务](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Add-Service.png)
 
 ##### 服务参数设置如下：
 
@@ -72,26 +72,26 @@
 
 功能定义对应的Json数据格式可在 **JSON数据** 中进行查看，提供json格式化，一键复制的功能。
 
-![JSON数据](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Model-Json-Edit.png)
+![JSON数据](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Model-Json-Edit.png)
 
 
 ## 发布物模型
 
 功能列表添加完成后点击保存后可对该物模型进行发布，注：模型需要至少定义属性、事件、方法中的一项。点击发布按钮，弹出功能发布弹窗，填写版本变更说明，点击发布。
 
-![发布物模型](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Publish-Model.png)
+![发布物模型](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Publish-Model.png)
 
 ### 切换物模型版本
 
 物模型发布成功后，不可再进行编辑,可通过 **新增物模型版本** 进行版本更新，改动后发布新版本，通过 **切换版本** 可查看不同版本的物模型的定义。
 
-![切换物模型版本](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Check-Version.png)
+![切换物模型版本](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Check-Version.png)
 
 ### 历史版本
 
 点击 **历史版本**，查看物模型版本更新历史记录。
 
-![物模型版本更新历史记录](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Thing-Model/Publish-History.png)
+![物模型版本更新历史记录](../../../../../image/IoT/Device-Access/Device-Manager/Create-Thing-Model/Publish-History.png)
 
 
 

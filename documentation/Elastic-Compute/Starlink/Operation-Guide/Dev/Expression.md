@@ -1,5 +1,5 @@
 # 表达式语法
-目前星链低代码平台支持的表达式是Aviator Script，AviatorScript的完整文档可参考[AviatorScript编程指南(5.0)](https://www.yuque.com/boyan-avfmj/aviatorscript/cpow90)  
+目前星链平台支持的表达式是Aviator Script，AviatorScript的完整文档可参考[AviatorScript编程指南(5.0)](https://www.yuque.com/boyan-avfmj/aviatorscript/cpow90)  
 在星链中，表达式用于：
 1. 给输入参数赋值
 2. 条件表达式

@@ -39,9 +39,9 @@ items:
       items:
         - name: 上传合同模板
           href: Operation-Guide/Template-Management/Template-Upload.md
-        - name: 下载印章
+        - name: 下载合同模板
           href: Operation-Guide/Template-Management/Template-Download.md
-        - name: 删除印章
+        - name: 删除合同模板
           href: Operation-Guide/Template-Management/Template-Delete.md
     - name: 合同管理
       items:

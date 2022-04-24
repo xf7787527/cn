@@ -62,7 +62,12 @@ items:
           - name: 续费公网IP
             href: Operation-Guide/Elastic-IP-Management/Renew-Elastic-IP.md
           - name: 导出公网IP列表
-            href: Operation-Guide/Export-Elastic-IP-List/Export-Elastic-IP-List.md      
+            href: Operation-Guide/Export-Elastic-IP-List/Export-Elastic-IP-List.md
+          - name: 标签
+            href: Operation-Guide/Elastic-IP-Management/Tag-Management.md
+          - name: 资源组
+            href: Operation-Guide/Elastic-IP-Management/Resource-Group-Management.md
+            
       - name: 监控与报警
         items:
           - name: 监控概述

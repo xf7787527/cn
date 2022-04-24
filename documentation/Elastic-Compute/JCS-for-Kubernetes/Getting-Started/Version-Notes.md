@@ -6,25 +6,49 @@
   
 ## 京东云支持的Kubernetes版本  
   
-### 1.8  
+### 1.18  
 #### 版本说明:  
-京东云Kubernetes集群1.8版本已下线，下线后将不再基于1.8版本提供功能升级，为保证集群可用性和稳定性，请您选择新版可用集群进行测试、升级；
+- 1.18社区版与2020年3月26日正式发布，该版本是京东云容器服务Kubernetes支持的版本
 
 #### 社区版支持的新特性说明：  
-- 聚焦安全性：基于角色的访问控制（RBAC）成为stable支持。RBAC允许集群管理员动态定义角色对于Kubernetes API的访问策略。通过网络策略筛选出站流量的Beta支持，增强了对入站流量进行过滤的现有支持。 RBAC和网络策略是强化Kubernetes内组织和监管安全要求的两个强大工具。Kubelet的传输层安全性（TLS）证书轮换成为beta版。自动证书轮换减轻了集群安全性运维的负担。  
-- 聚焦工作负载支持：Kubernetes 1.8通过apps/v1beta2组和版本推动核心工作负载API的beta版本。Beta版本包含当前版本的Deployment、DaemonSet、ReplicaSet和StatefulSet。 工作负载API是将现有工作负载迁移到Kubernetes以及开发基于Kubernetes的云原生应用程序提供了基石。  
-## 1.12  
 
-#### 版本说明：  
-- 1.12社区版于2018.9月正式GA。且该版本是目前京东云Kubernetes集群支持的最新版本  
-#### 社区版支持的新特性说明：  
-- Kubelet TLS Bootstrap GA：此功能允许kubelet将自身引导至TLS安全集群。最重要的是，它可以自动提供和分发签名证书。除此之外，Kubelet服务器证书引导程序和轮换正在转向测试版。目前，当kubelet首次启动时，它会生成一个自签名证书/密钥对，用于接受传入的TLS连接。此功能引入了一个在本地生成密钥，然后向集群API server发出证书签名请求以获取由集群的根证书颁发机构签名的关联证书的过程。此外，当证书接近过期时，将使用相同的机制来请求更新的证书。  
-- RuntimeClass是一个新的集群作用域资源，它将容器运行时属性表示为作为alpha功能发布的控制平面。  
-- Kubernetes和CSI的快照/恢复功能正在作为alpha功能推出。这提供了标准化的API设计（CRD），并为CSI卷驱动程序添加了PV快照/恢复支持。  
-- 拓扑感知动态配置现在处于测试阶段，存储资源现在可以感知自己的位置。  
-- 可配置的pod进程命名空间共享处于测试阶段，用户可以通过在PodSpec中设置选项来配置pod中的容器以共享公共PID命名空间。  
-- 根据条件的taint节点现在处于测试阶段，用户可以通过使用taint来表示阻止调度的节点条件。  
-- Horizontal Pod Autoscaler中的任意/自定义指标正在转向第二个测试版，以测试一些其他增强功能。这项重新设计的Horizontal Pod Autoscaler功能包括对自定义指标和状态条件的支持。  
-- 允许Horizontal Pod Autoscaler更快地达到适当大小正在转向测试版。  
-- Pod的垂直缩放现在处于测试阶段，使得可以在其生命周期内改变pod上的资源限制。  
-- 通过KMS进行静态加密目前处于测试阶段。  
+- Kubernetes拓扑管理器（Topology Manager ） 升级到Beta版 ！
+
+  拓扑管理器功能 是1.18版中Kubernetes的beta版本功能，它可以使CPU和设备（如SR-IOV VFs）实现NUMA，这将使你的工作负载在针对低延迟而优化的环境中运行。在引入拓扑管理器之前，
+  CPU和设备 管理器会做出彼此独立的资源分配决策，那么可能会导致在多套接字（ multi-socket ）系统上分配不良，从而导致关键型应用程序的性能下降。
+
+- Serverside Apply引入Beta 2版本
+
+  Server-side Apply 在1.16中被升级为Beta，在1.18中引入Beta 2版本。这个新版本将跟踪和管理所有新Kubernetes对象的字段更改，从而使你知道更改了什么资源以及何时更改的。
+
+- 使用IngressClass扩展Ingress，并用IngressClass替换不推荐使用的注释
+
+  在Kubernetes 1.18中，Ingress有两个重要的补充：一个新pathType字段和一个新IngressClass资源。该pathType字段允许指定路径应如何匹配。除了默认ImplementationSpecific类型外，
+  还有new Exact和Prefixpath类型。
+
+  该IngressClass资源用于描述Kubernetes集群中的Ingress类型。入口可以通过ingressClassName在入口上使用新字段来指定与它们关联的类。这个新资源和字段替换了不建议使用的
+  kubernetes.io/ingress.class注释。
+
+- SIG-CLI引入kubectl debug命令
+
+  SIG-CLI一直在争论是否需要调试实用程序。随着临时容器(ephemeral containers)的发展，开发人员越来越需要更多类似kubectl exec的命令。该kubectl debug命令的添加（它是Alpha版本
+  ，但 欢迎你提供反馈），使开发人员可以轻松地在集群中调试其Pod。我们认为这种增加是无价的。此命令允许创建一个临时容器，该容器在要检查的Pod旁边运行，并且还附加到控制台以进行交互式
+  故障排除。
+
+- Alpha版本引入Windows CSI
+
+  随着Kubernetes 1.18的发布，用于Windows的CSI代理的Alpha版本也已发布。CSI代理使非特权（预先批准）的容器能够在Windows上执行特权存储操作。现在，可以利用CSI代理在Windows中支持
+  CSI驱动程序。
+
+### 1.16 
+#### 版本说明:  
+- 1.16社区版与2019年9月18日正式发布，该版本是京东云容器服务Kubernetes支持的版本
+
+#### 社区版支持的新特性说明： 
+- Custom resources：CRD 是对 Kubernetes 的扩展，用以服务于新的资源类型，自 1.7 版本以来，CRD 已经在 Beta 版中可用。在 1.16 版本中，CRD 正式步入通用可用性（GA）。
+
+- Admission webhook：Admission webhooks 作为 Kubernetes 扩展机制被广泛使用，并且自 1.9 版本以来已经在 Beta 版中可用。在 1.16 版本中，Admission webhook 也正式步入通用可用性（GA）。
+
+- Overhauled metrics：Kubernetes 广泛使用一个全局 metrics registry 来注册要公开的 metrics。通过实现 metrics registry，metrics 可以以更透明的方式注册。而在这之前，Kubernetes metrics 被排除在任何稳定性需求之外。
+
+- Volume Extension：新版本有大量和 Volume 及 Volume 修改相关的增强。CSI 规范中对 Volume 调整的支持正在转向 Beta 版，它允许任何 CSI spec Volume plugin 都可以调整大小。

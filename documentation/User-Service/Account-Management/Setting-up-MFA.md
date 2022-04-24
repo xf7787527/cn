@@ -14,6 +14,20 @@
 
 ![image-20210722223221246](../../../image/User/Account-Mgmt/image-20210722223221246.png)
 
+开启MFA需要进行身份验证，支持通过手机验证码认证和人脸识别认证。
+
+![image-20210722223221246](../../../image/User/Account-Mgmt/mfa1.png)
+
+身份验证 - 手机验证码认证：
+
+![image-20210722223221246](../../../image/User/Account-Mgmt/mfa-phone.png)
+
+身份验证 - 人脸识别认证：
+
+![image-20210722223221246](../../../image/User/Account-Mgmt/mfa-face.png)
+
+身份验证通过后，您可以通过京东云APP扫码绑定设备，获得MFA安全码
+
 ![image-20210722224234264](../../../image/User/Account-Mgmt/image-20210722224234264.png)
 
 ![image-20210722224409401](../../../image/User/Account-Mgmt/image-20210722224409401.png)
@@ -35,4 +49,11 @@
 
 ![image-20210722225327510](../../../image/User/Account-Mgmt/image-20210722225327510.png)
 
+## 停用 MFA 认证
+
+在您需要关闭MFA认证时，在账户管理-[虚拟 MFA 认证](https://uc.jdcloud.com/account/mfa)页面，【停用】虚拟 MFA 设备。
+
+当您需要停用MFA认证的时候，同样需要进行身份验证，支持通过手机验证码认证和人脸识别认证。
+
+![image-20210722225327510](../../../image/User/Account-Mgmt/mfa-off.png)
 

@@ -41,8 +41,6 @@
     items:
       - name: 计费概述
         href: Pricing/Billing-Overview.md
-      - name: 计费规则
-        href: Pricing/Billing-Rules.md
       - name: 价格总览
         items:
           - name: MySQL 价格
@@ -57,8 +55,12 @@
             href: Pricing/Price-Overview/PostgreSQL-Price.md            
       - name: 购买流程
         href: Pricing/Purchase-Procedure.md
+      - name: 变配
+        href: Pricing/Change-Procedure.md
       - name: 续费流程
         href: Pricing/Renewal-Procedure.md
+      - name: 查看消费明细
+        href: Pricing/Consumption-details.md
         
   - name: 入门指南
     items:
@@ -163,6 +165,8 @@
   
       - name: 备份管理
         items:
+          - name: 备份收费说明
+            href: Operation-Guide/Backup/Backup-Storage-Billing.md
           - name: 快照备份
             href: Operation-Guide/Backup/Snapshot-backup.md
           - name: 创建备份

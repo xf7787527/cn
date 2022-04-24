@@ -31,7 +31,9 @@ v1
 |**getDomainAntiConfig**|POST|获取域名防护配置|
 |**getDomainLbConfig**|POST|获取网站lb配置|
 |**getEsLogDetail**|GET|获取网站在一定时间内的日志详情。|
+|**getMainAntiInfoNew**|POST|获取网站在一定时间内主要的防护信息,新接口，无url响应时间分布。|
 |**getQpsData**|POST|获取网站在一定时间内的qps信息。|
+|**getStatusCodeInfo**|POST|获取网站在一定时间内的状态码报表信息。|
 |**getWafInstance**|GET|获取实例ID及相关信息列表|
 |**listBotStdRules**|POST|获取网站已知类型bot规则|
 |**listDomains**|POST|获取网站列表|

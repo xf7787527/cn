@@ -1,20 +1,20 @@
 ### 产品全景视图
 
-![image-20220215183415591](../All-Image/Basic-Infrastructure.assets/image-20220215183415591.png)
+![image-20220215183415591](http://devops-minio.jdcloud.com/doc-image/All-Image/Basic-Infrastructure.assets/image-20220215183415591.png)
 
 ### 功能架构 
 
-![image-20220207174019358](../All-Image/Basic-Infrastructure.assets/image-20220207174019358.png)
+![image-20220207174019358](http://devops-minio.jdcloud.com/doc-image/All-Image/Basic-Infrastructure.assets/image-20220207174019358.png)
 
 ### 技术架构
 
-![73963B942EB5E2B9902EEA91BB6ABA44](../All-Image/Basic-Infrastructure.assets/clip_image001.jpg)
+![73963B942EB5E2B9902EEA91BB6ABA44](http://devops-minio.jdcloud.com/doc-image/All-Image/Basic-Infrastructure.assets/clip_image001.jpg)
 
 架构整体分为三层。最底层是存储层，主要由存储服务以及各中间件组成。中间层是以spring cloud技术栈为核心的微服务落地，包括网关、注册中心、RPC、熔断限流、鉴权、流程、调度等核心组件。插件框架是基于spring自研的微内核业务插件框架，主要用于业务快速定制开发。最上层是微前端架构落地，支持vue和react，同时支持手机端H5以及Hybrid客户端。
 
 ### 基础服务
 
-![img](../All-Image/Basic-Infrastructure.assets/clip_image002.jpg)
+![img](http://devops-minio.jdcloud.com/doc-image/All-Image/Basic-Infrastructure.assets/clip_image002.jpg)
 
 **权限服务**
 

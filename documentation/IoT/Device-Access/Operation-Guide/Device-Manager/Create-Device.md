@@ -1,19 +1,19 @@
 # 注册设备
 
 1. 登录物联管理平台
-2. 左侧导航栏选择 **设备管理中心** -> **设备列表**
+2. 左侧导航栏选择 **设备管理** -> **设备列表**
 3. 点击页面右上方 **注册设备**
 
-![注册设备](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Device/Create-Device.png)
+![注册设备](../../../../../image/IoT/Device-Access/Device-Manager/Create-Device/Create-Device.png)
 
 4. 填写设备的基本信息，全局设备档案信息，档案信息，标签信息等。
 
-![注册设备1](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Device/Create-Device1.png)
+![注册设备1](../../../../../image/IoT/Device-Access/Device-Manager/Create-Device/Create-Device1.png)
 
 **基本信息**
 
 - 名称：设备的名称，仅支持30个以内的汉字、英文、数字、下划线(_)、连字符(-)、点(.)、空格。
-- 物类型：选择设备的物模型，可选的物类型可在 **设备管理中心** -> **物类型列表** 中查看或添加。
+- 物类型：选择设备的物模型，可选的物类型可在 **设备管理** -> **物类型列表** 中查看或添加。
 - 物模型版本：选择已选物类型中已发布的物模型版本。
 - Mac地址：Mac地址请用冒号(:)分割，非必填。
 - 设备物理ID:仅支持30个以内的汉字、英文、数字、下划线(_)，连字符(-)。
@@ -40,17 +40,17 @@
 
  可根据ID编号，设备名称，所属物类型，设备状态，节点类型，自定义标签等条件进行设备信息查询。点击清楚可清空已选查询条件。
 
-![查询设备](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Device/Search-Device.png)
+![查询设备](../../../../../image/IoT/Device-Access/Device-Manager/Create-Device/Search-Device.png)
 
 
  ## 删除设备
 
 在设备列表页面点击要删除的设备对应的删除设备按钮，弹出确认删除框，点击删除。
 
-![删除设备](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Device/Delete-Device.png)
+![删除设备](../../../../../image/IoT/Device-Access/Device-Manager/Create-Device/Delete-Device.png)
 
  ## 证书下载
 
 在设备列表页面点击要下载证书的设备对应的证书下载按钮，开始下载证书。
 
- ![证书下载](../../../../../image/IoT/IoT-Core/Device-Manager/Create-Device/Device-Certificate.png)
+ ![证书下载](../../../../../image/IoT/Device-Access/Device-Manager/Create-Device/Device-Certificate.png)

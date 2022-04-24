@@ -2,17 +2,17 @@
 
 模版设置模块，主要为了方便用户设置缺陷、提测的模版，此处的模版指的是用户提交缺陷和测试的模版，特别注意的是，模版必须关联到对应的团队空间才可生效，如何和团队空间关联在下一章节进行介绍
 
-![模版设置](../../All-Image/test_setting.assets/module_模版设置.jpg)
+![模版设置](http://devops-minio.jdcloud.com/doc-image/All-Image/test_setting.assets/module_模版设置.jpg)
 
 ## 5.1 缺陷模版设置
 
 缺陷模版设置，支持设置提交时需要填写的字段、缺陷的状态流转（开发中）等等，点击新建模版，即可进入模版配置页面
 
-![新建模版](../../All-Image/test_setting.assets/module_模版优化.jpg)
+![新建模版](http://devops-minio.jdcloud.com/doc-image/All-Image/test_setting.assets/module_模版优化.jpg)
 
 系统提供默认字段，部分支持用户修改和移除，如系统字段无法满足用户提交缺陷的需求，用户可点击新增属性，创建新的模版字段
 
-![新增属性](../../All-Image/test_setting.assets/module_新增属性.jpg)
+![新增属性](http://devops-minio.jdcloud.com/doc-image/All-Image/test_setting.assets/module_新增属性.jpg)
 
 - 属性名称：字段名称
 - 属性类型：包括输入框、文本域、下拉选择、下拉多选、单选框、复选框、附件、日期选择、时间选择、日期时间选择、标签、用户、富文本
@@ -26,7 +26,7 @@
 
 整个操作流程如下动图所示：
 
-![缺陷模版](../../All-Image/test_setting.assets/module_自定义模板并关联空间.gif)
+![缺陷模版](http://devops-minio.jdcloud.com/doc-image/All-Image/test_setting.assets/module_自定义模板并关联空间.gif)
 
 ## 5.2 提测模版设置
 
@@ -36,7 +36,7 @@
 
 在日常的测试工作中，不同团队的缺陷或提测的流转流程都不尽相同，为了让用户有更全面的自定义空间，测试管理的模版模块，除提供表单自定义外，还提供了状态流转的自定义功能，如下动图所示：
 
-![状态模版](../../All-Image/test_setting.assets/module_自定义模板状态并关联空间.gif)
+![状态模版](http://devops-minio.jdcloud.com/doc-image/All-Image/test_setting.assets/module_自定义模板状态并关联空间.gif)
 
 操作步骤如下：
 

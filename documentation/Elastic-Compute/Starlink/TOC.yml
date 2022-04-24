@@ -1,4 +1,4 @@
-  name: 星链低代码Serverless
+  name: 星链函数服务
   href: 
   items:
   - name: 产品简介
@@ -19,7 +19,7 @@
         href: Pricing/Billing-Overview.md
   - name: 入门指南
     items:
-      - name: 登录京东云-星链低代码Serverless
+      - name: 登录京东云-星链函数服务
         href: Getting-Started/Getting-started.md
       - name: 新建团队
         href: Getting-Started/Create-Team.md
@@ -31,12 +31,18 @@
         href: Getting-Started/Deploy-VMS.md
   - name: Demo示例
     items:
+      - name: Hello World
+        href: Demo/HelloWorld.md
       - name: Java示例
         href: Demo/Java.md
       - name: Groovy示例
         href: Demo/Groovy.md
       - name: JavaScript示例
         href: Demo/JavaScript.md
+      - name: Hello Health
+        href: Demo/HelloHealth.md
+      - name: Hello AI
+        href: Demo/HelloAI.md
   - name: 操作指南
     items:
        - name: 开发VMS
@@ -67,6 +73,8 @@
              href: Operation-Guide/Deploy/Process.md
            - name: 部署
              href: Operation-Guide/Deploy/Deploy.md
+           - name: 监控报警
+             href: Operation-Guide/Deploy/Monitor.md
        - name: 管理
          items:
            - name: 团队管理

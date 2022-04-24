@@ -26,7 +26,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 **下载S3cmd**
 
 ```
-git clone https://github.com/jdcloud-cmw/s3cmd.git
+git clone https://github.com/s3tools/s3cmd.git
 ```
 
 **S3cmd安装**

@@ -51,13 +51,12 @@
     |MySQL 8.0|mysql-8.cnf|
     |MariaDB|mariadb-10.2.cnf|
     |Percona|percona-7.cnf|  
-</p>
-
-    ```Python
-    xtrabackup --defaults-file=$HOME/<在工具里面有多个配置文件，根据MySQL版本选择使用>.cnf --parallel=1 --prepare --target-dir=$HOME/tmp_snapshot
-    ```   
-    
-    当看到 ***innobackupex completed OK!*** 时， 表明执行成功，你就可以继续下一步操作了。
+           
+     ```
+      xtrabackup --defaults-file=$HOME/<在工具里面有多个配置文件，根据MySQL版本选择使用>.cnf --parallel=1 --prepare --target-dir=$HOME/tmp_snapshot
+     ```
+   
+     当看到 ***innobackupex completed OK!*** 时， 表明执行成功，你就可以继续下一步操作了。
 
 6. 修改文件属主，并确定文件所属为 MySQL 用户
 

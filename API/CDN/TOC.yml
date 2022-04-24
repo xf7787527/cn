@@ -166,12 +166,8 @@ items:
             href: JCloud-Openapi-For-CDN/createLiveDomainPrefecthTask.md
           - name: createRefreshTask
             href: JCloud-Openapi-For-CDN/createRefreshTask.md
-          - name: createRefreshTaskForCallback
-            href: JCloud-Openapi-For-CDN/createRefreshTaskForCallback.md
           - name: queryRefreshTask
             href: JCloud-Openapi-For-CDN/queryRefreshTask.md
           - name: queryRefreshTaskById
             href: JCloud-Openapi-For-CDN/queryRefreshTaskById.md
-          - name: createRefreshTaskForCallbackV2
-            href: JCloud-Openapi-For-CDN/createRefreshTaskForCallbackV2.md
     

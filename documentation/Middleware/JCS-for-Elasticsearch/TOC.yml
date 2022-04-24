@@ -1,6 +1,8 @@
   name: 云搜索 Elasticsearch
   href: 
   items:
+  - name: 产品动态
+    href: Product-news/Product-news.md
   - name: 产品简介
     items:
       - name: 产品概述
@@ -39,7 +41,7 @@
         href: Getting-Started/Create-ES.md
       - name: 访问集群
         href: Getting-Started/accesscluster.md
-      - name: 多可用区部署说明
+      - name: 集群多可用区部署
         href: Getting-Started/MultiAZ-ES.md
       - name: 管理数据
         items:
@@ -67,31 +69,51 @@
           href: Getting-Started/reboot.md
   - name: 操作指南
     items:
-      - name: 专用主节点
-        href: Operation-Guide/Dedicated-master.md
-      - name: 协调节点
-        href: Operation-Guide/coordination_node.md
-      - name: Kibana
-        href: Operation-Guide/Kibana.md 
-      - name: Head
-        href: Operation-Guide/head.md
-      - name: 插件支持
-        href: Operation-Guide/IK.md
-      - name: Elasticsearch日志
-        href: Operation-Guide/eslog.md
-      - name: 自定义词库
-        href: Operation-Guide/dic.md 
-      - name: 周期创建索引
-        href: Operation-Guide/index.md
-      - name: SQL支持
-        href: Operation-Guide/sql.md
+      - name: 集群管理
+        items:
+        - name: 专用主节点
+          href: Operation-Guide/Instance/Nodes/Dedicated-master-node.md
+        - name: 协调节点
+          href: Operation-Guide/Instance/Nodes/Coordinating-node.md
+        - name: 实例生命周期
+          href: Operation-Guide/Instance/Manage/Instance-status.md
+        - name: 修改实例名称
+          href: Operation-Guide/Instance/Manage/Naming.md
+        - name: 集群多可用区部署
+          href: Getting-Started/MultiAZ-ES.md
+        - name: 标签管理
+          items:
+          - name: 标签概述
+            href: Operation-Guide/Tag/Tag-Overview.md
+          - name: 编辑标签
+            href: Operation-Guide/Tag/Edit-Tag.md
+          - name: 根据标签筛选
+            href: Operation-Guide/Tag/Filter-by-Tag.md
+        - name: 资源组
+          items:
+          - name: 资源组概述
+            href: Operation-Guide/Instance/Resource-group/resource-group-introduction.md
+          - name: 实例加入资源组
+            href: Operation-Guide/Instance/Resource-group/Add-Resource-Groups.md
+          - name: 变更资源组
+            href: Operation-Guide/Instance/Resource-group/Change-Resource-Groups.md
+          - name: 资源组筛选
+            href: Operation-Guide/Instance/Resource-group/Filter-Resource-Groups.md
       - name: 集群配置
         items: 
         - name: 高级配置
           href: Operation-Guide/Configure.md
+        - name: 自定义词库
+          href: Operation-Guide/dic.md 
         - name: 同义词配置
           href: Operation-Guide/synonymdic.md
-      - name: 快照
+      - name: 索引管理
+        items:
+        - name: 周期创建索引
+          href: Operation-Guide/index.md
+        - name: 创建索引模板
+          href: Operation-Guide/Index/Index-template-create.md
+      - name: 数据备份
         items: 
         - name: 创建快照
           href: Operation-Guide/creatsnapshot.md
@@ -101,9 +123,7 @@
           href: Operation-Guide/indexsnapshot.md
         - name: 删除快照
           href: Operation-Guide/deletesnapshot.md
-      - name: 访问控制
-        href: Operation-Guide/control.md
-      - name: 监控集群
+      - name: 集群监控
         items: 
         - name: 查看监控信息
           href: Operation-Guide/Monitoring.md 
@@ -111,14 +131,50 @@
           href: Operation-Guide/status.md
         - name: 创建告警规则
           href: Operation-Guide/Monitor_Rules.md
-      - name: 标签
+      - name: 日志查询
         items:
-        - name: 标签概述
-          href: Operation-Guide/Tag/Tag-Overview.md
-        - name: 编辑标签
-          href: Operation-Guide/Tag/Edit-Tag.md
-        - name: 根据标签筛选
-          href: Operation-Guide/Tag/Filter-by-Tag.md
+        - name: Elasticsearch日志
+          href: Operation-Guide/eslog.md
+      - name: 可视化控制
+        items:
+        - name: Kibana
+          href: Operation-Guide/Kibana.md 
+        - name: Head
+          href: Operation-Guide/head.md
+      - name: 智能运维
+        items:
+        - name: 智能运维概述
+          href: Operation-Guide/HealthCheck/Health_check_introduction.md 
+        - name: 开启智能运维服务
+          href: Operation-Guide/HealthCheck/Health_check_on.md
+        - name: 诊断集群健康状况
+          href: Operation-Guide/HealthCheck/Health_check_start.md
+        - name: 查看健康诊断报告
+          href: Operation-Guide/HealthCheck/Health_check_report.md
+        - name: 关闭智能运维服务
+          href: Operation-Guide/HealthCheck/Health_check_off.md
+      - name: 访问控制
+        items:
+        - name: IAM访问控制
+          href: Operation-Guide/control.md
+        - name: 用户鉴权
+          items:
+          - name: 用户鉴权概述
+            href: Operation-Guide/Auth/Auth_introduction.md
+          - name: 开启用户鉴权
+            href: Operation-Guide/Auth/Auth_on.md
+          - name: 角色管理
+            href: Operation-Guide/Auth/Role_manage.md
+          - name: 用户管理
+            href: Operation-Guide/Auth/User_manage.md
+          - name: 关闭用户鉴权
+            href: Operation-Guide/Auth/Auth_off.md
+      - name: 插件配置
+        items:
+        - name: 插件支持
+          href: Operation-Guide/IK.md      
+      - name: SQL支持
+        href: Operation-Guide/sql.md     
   - name: 最佳实践
     items:
      - name: 规格容量评估

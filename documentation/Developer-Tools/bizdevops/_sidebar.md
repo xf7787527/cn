@@ -1,13 +1,18 @@
 * [产品简介]()
   * [概述](Introduction/Product-Overview.md)
   * [核心概念](/Introduction/Core-Concepts.md)
+  * [基础架构](/Introduction/Basic-Infrastructure.md)
   * [产品优势](/Introduction/Benefits.md)
   * [产品功能](/Introduction/Features.md)
   * [使用限制](/Introduction/Restrictions.md)
   * [应用场景](/Introduction/Application-Scenarios.md)
 * [入门指南（暂时没有）]()
+  
   * [xxxxx](/Getting-Started/)
 * [操作指南]()
+  * [平台管理]()
+    * [管理员说明](/Operation-Guide/admin/admin.md)
+    * [组织与用户管理](/Operation-Guide/admin/organisation_and_user.md)
   * [工作台](/Operation-Guide/myzone/dashboard.md)
   * [团队空间]()
     * [团队空间](/Operation-Guide/teamspace/space.md)
@@ -17,7 +22,7 @@
     * [项目管理](/Operation-Guide/pmp/project_management.md)
     * [工时填报](/Operation-Guide/pmp/labor_hour.md)
     * [PMO](/Operation-Guide/pmp/pmo.md)
-  * [效能度量](/Operation-Guide/effecttiveness_measurement/agile_practices.md)
+  * [效能度量](/Operation-Guide/effectiveness_measurement/agile_practices.md)
   * [测试管理](/Operation-Guide/test_management/test_management.md)
     * [缺陷管理](/Operation-Guide/test_manage/bug.md)
     * [提测管理](/Operation-Guide/test_manage/test.md)
@@ -35,7 +40,12 @@
     * [其他](/Operation-Guide/coding/others.md)
     * [Issue](/Operation-Guide/coding/issue.md)
   * [部署发布](/Operation-Guide/deploy/deploy.md)
-    * [应用管理](/Operation-Guide/deploy/app.md)
+
+    - 应用管理
+      - [应用管理](/Operation-Guide/deploy/app.md)
+      - [包部署的应用](/Operation-Guide/deploy/app-package.md)
+      - [镜像部署的应用](/Operation-Guide/deploy/app-image.md)
+
     * [集群管理](/Operation-Guide/deploy/clusters.md)
     * [系统管理](/Operation-Guide/deploy/system.md)
     * [变更管理](/Operation-Guide/deploy/process.md)
@@ -44,11 +54,13 @@
     * [群组空间](/Operation-Guide/pipeline/pipeline_team.md)
     * [流水线模版](/Operation-Guide/pipeline/pipeline_template.md)
     * [其他](/Operation-Guide/pipeline/pipeline_others.md)
-  * [管理员说明](/Operation-Guide/admin/admin.md)
 * [最佳实践（暂时没有）]()
+  
   * [xxxxx](/Best-Practices/)
 * [FAQ]()
+  
   * [FAQ](/FAQ/FAQ.md)
 * [相关资源]()
+  
   * [发布历史](/Related-Resources/Document-History.md)
 

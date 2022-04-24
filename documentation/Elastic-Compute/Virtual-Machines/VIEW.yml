@@ -134,7 +134,7 @@ items:
     - name: 镜像FAQ
       href: https://docs.jdcloud.com/cn/virtual-machines/image-faq
     - name: 存储FAQ
-      href: https://docs.jdcloud.com/cn/virtual-machines/strorage-faq
+      href: https://docs.jdcloud.com/cn/virtual-machines/storage-faq
     - name: 网络FAQ
       href: https://docs.jdcloud.com/cn/virtual-machines/network-faq
     - name: 计费FAQ

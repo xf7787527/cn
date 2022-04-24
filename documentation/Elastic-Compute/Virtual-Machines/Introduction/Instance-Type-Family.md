@@ -6,7 +6,7 @@
 
 * 通用型：[通用共享型](instance-type-family#user-content-1)、[通用标准型](instance-type-family#user-content-2)
 * 计算优化型：[计算优化共享型](instance-type-family#user-content-9)、[计算优化密集型](instance-type-family#user-content-11)、[计算优化标准型](instance-type-family#user-content-3)
-* 内存优化型：[内存优化标准型](instance-type-family#user-content-4)
+* 内存优化型：[内存优化标准型](instance-type-family#user-content-4)、[内存优化增强型](instance-type-family#user-content-17)
 * 突发性能型：[突发性能型](instance-type-family#user-content-12)
 * 高频计算型：[高频计算通用型](instance-type-family#user-content-5)
 * 存储优化型：[存储优化IO型](instance-type-family#user-content-7)、[存储优化大数据型](instance-type-family#user-content-8)
@@ -328,7 +328,7 @@ g.n1.8xlarge|32|128|8|4 |	 |
 
 
 ## 内存优化型
-内存优化型当前提供内存优化标准型，适用于存在大量内存操作、查找和计算的应用。每一个vCPU都对应一个Intel Xeon处理器的超线程核。
+内存优化型当前提供内存优化标准型和内存优化增强型，适用于存在大量内存操作、查找和计算的应用。每一个vCPU都对应一个Intel Xeon处理器的超线程核。
 
 <div id="user-content-4"></div>
 
@@ -416,7 +416,42 @@ g.n1.8xlarge|32|128|8|4 |	 |
 |m.n1.2xlarge|8|64|4|4  | |
 |m.n1.4xlarge|16|128|8|4 | |
 
-<div id="user-content-12"></div>
+<div id="user-content-17"></div>
+
+### 内存优化增强型
+
+**规格类型特点：**
+
+* vCPU与内存比约为1:17
+* 基于Intel® 第二代傲腾持久内存（BPS），提供高性价比的内存介质。
+* 本规格族提供的内存混合了普通内存与傲腾持久内存，建议您在搭建业务前进行充分测试。
+* 处理器：
+	* 2.6 GHz主频的Intel Xeon Gold（Icelake）处理器
+* 支持以下类型云硬盘：
+	* 通用型SSD云盘
+	* 性能型SSD云盘
+	* 容量型HDD云盘
+* 系统盘使用限制：
+	* 仅支持云硬盘系统盘
+* 适用场景：
+	* 高性能数据库、内存数据库，如Redis
+	* 数据分析与挖掘、分布式内存缓存
+	* Hadoop、Spark群集以及其他企业大内存需求应用
+
+**实例规格**
+
+实例规格|vCPU（核）|内存（GiB）|网卡数|单网卡队列数
+|:---|:---|:---|:---|:---
+|m.e3.large|2|34|2|2
+|m.e3.xlarge|4|68|4|4
+|m.e3.2xlarge|8|136|4|4
+|m.e3.4xlarge|16|272|8|4
+|m.e3.8xlarge|32|544|8|4
+|m.e3.16xlarge|64|1088|8|4
+|m.e3.31xlarge|124|2108|8|4
+
+
+
 
 ## 突发性能型
 

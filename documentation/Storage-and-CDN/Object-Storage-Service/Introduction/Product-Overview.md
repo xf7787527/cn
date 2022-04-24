@@ -60,6 +60,6 @@ OSS不支持对象的在线编辑，用户哪怕是仅仅需要修改一个字�
 
 [PYTHON SDK](../API-Reference-S3-Compatible/Compatibility-Tools/SDK-Python.md)
 
-[迁移工具OSS Tranfer](../Best-Practices/Data-Migration-Tool.md)
+[迁移工具OSS Tranfer](../Best-Practices/Migration-Tool.md)
 
 [S3FS挂载工具](../Best-Practices/S3fs.md)

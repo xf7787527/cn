@@ -4,7 +4,7 @@
 
 点击页面项目管理-工时填报，进行工时的填报。工时以任务为维度进行填报，用户可以在该页面查看到对应日期需要进行工时填报的任务，并可以查看到任务所属的项目。用户可以根据界面上面显示的任务的计划工时和其他提示进行填报。
 
-![image-20220216164111940](../../All-Image/labor_hour.assets/image-20220216164111940.png)
+![image-20220216164111940](http://devops-minio.jdcloud.com/doc-image/All-Image/labor_hour.assets/image-20220216164111940.png)
 
 任务填报规则如下：
 
@@ -26,7 +26,7 @@
 
 当任务状态未完成时，该任务可填报工时周期为任务的计划开始时间 -- 计划结束时间
 
-![image-20210616141322580](../../All-Image/labor_hour.assets/clip_image004.jpg)
+![image-20210616141322580](http://devops-minio.jdcloud.com/doc-image/All-Image/labor_hour.assets/clip_image004.jpg)
 
  
 
@@ -34,7 +34,7 @@
 
 当任务的状态已经改为已完成时，该任务可填报工时的周期为任务的计划开始时间-- 实际完成时间
 
-![image-20210616141749055](../../All-Image/labor_hour.assets/clip_image006.jpg)
+![image-20210616141749055](http://devops-minio.jdcloud.com/doc-image/All-Image/labor_hour.assets/clip_image006.jpg)
 
  
 

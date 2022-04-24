@@ -11,4 +11,4 @@
 
 
 
-![重置密码2](../../../../../image/JCHDB/reset-password.png)
+![重置密码2](../../../../../image/JCHDB/reset-password.jpg)
