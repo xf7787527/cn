@@ -1,9 +1,24 @@
 # 产品动态
+## 2022年
+
+| 功能名称 | 功能描述 | 发布时间 | 相关文档|
+| :---------------| :--------------|:------------|:--------
+|主机联合搜索优化|支持将空格、tab自动识别为多值分隔符","提高搜索效率，优化用户体验。|2022-04|
+|内存优化增强型上线|基于Intel® 第二代傲腾持久内存（BPS），提供高性价比的内存介质。|2022-03|[实例规格类型](https://docs.jdcloud.com/cn/virtual-machines/instance-type-family#user-content-7)
+|存量主机支持加入高可用组|通过调整实例所属高可用组功能，可以将一台未加入高可用组的实例添加到高可用组，或者将一台已加入一个高可用组的实例更换到另一个高可用组。|2022-03|[调整高可用组](https://docs.jdcloud.com/cn/virtual-machines/modify-instance-ag)
+|云主机支持资源组管理|支持根据资源组ID进行实例资源筛选，列表页可对资源的资源组进行单个或批量变更。|2022-03|[资源组概述](https://docs.jdcloud.com/cn/virtual-machines/resource-group-introduction)
+|扩展指标功能上线|可通过官方提供的配置文件样本，配置支持的扩展指标，上报至云监控自定义监控。|2022-01|[自动镜像策略](https://docs.jdcloud.com/cn/virtual-machines/monitoring-overview)
+|云主机在线迁移服务上线|在不停机的情况下，将物理服务器或虚拟服务器上的系统、服务程序等从京东云外的环境同步至京东云云主机实例。|2022-01|[在线迁移服务](https://docs.jdcloud.com/cn/virtual-machines/online-migration-overview)
+
 ## 2021年
 
 | 功能名称 | 功能描述 | 发布时间 | 相关文档|
 | :---------------| :--------------|:------------|:--------
-|突发性能型规格上线 |突发性能型实例是一种通过积分机制提供并约束CPU使用的实例规格，适用于平时CPU使用率较低，偶发使用率突增的入门级或轻量级计算场景。|2021-08|[突发性能型实例](https://docs.jdcloud.com/cn/virtual-machines/burst-instance-overview)
+|自动镜像策略上线|支持使用自动镜像策略为实例设置周期性的备份任务，免去定期手动制作私有镜像的运维工作。|2021-11|[自动镜像策略](https://docs.jdcloud.com/cn/virtual-machines/autoimagepolicy)
+|新版实例模板创建页灰度上线|新版本在流程引导、配置分类、页面资源搜索加载、信息展示等方面进行了整体优化，在视觉和交互方面同样做了全面提升。|2021-12|[创建实例模板](https://docs.jdcloud.com/cn/virtual-machines/create-instance-template)
+|修改实例模板功能上线|支持修改实例模板信息，包括地域、镜像、实例规格、磁盘信息、网络等。|2021-11|[修改实例模板](https://docs.jdcloud.com/cn/virtual-machines/modify-instance-template)
+|新版创建页灰度上线|新版本在流程引导、配置分类、页面资源搜索加载、信息展示等方面进行了整体优化，在视觉和交互方面同样做了全面提升。|2021-08|[新版创建页](https://cns-console.jdcloud.com/compute/vm/create)
+|突发性能型规格上线|突发性能型实例是一种通过积分机制提供并约束CPU使用的实例规格，适用于平时CPU使用率较低，偶发使用率突增的入门级或轻量级计算场景。|2021-08|[突发性能型实例](https://docs.jdcloud.com/cn/virtual-machines/burst-instance-overview)
 |私有镜像导出控制台入口上线|私有镜像导出功能提供控制台操作入口，方便用户操作，功能目前为灰度，如需使用请工单提交申请。|2021-07|[私有镜像导出](https://docs.jdcloud.com/virtual-machines/export-private-image)
 |Windows Server 2019 数据中心版 64位 中文版 镜像发布|全地域支持	Windows Server 2019 数据中心版 64位 中文版 镜像，丰富操作系统类型。|2021-07|[镜像类型](https://docs.jdcloud.com/cn/virtual-machines/image-type)
 |Ubuntu 20.04 镜像发布|全地域支持Ubuntu 20.04 镜像，丰富操作系统类型。|2021-06|[镜像类型](https://docs.jdcloud.com/cn/virtual-machines/image-type)
