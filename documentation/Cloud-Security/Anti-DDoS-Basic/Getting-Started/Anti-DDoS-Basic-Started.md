@@ -47,6 +47,9 @@ b. 云物理服务器的确认方式：
 测试居中：采用全英文格式+缩放50%+居中`<div align="center"><img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" style="width:50%;" /></div>`
 <div align="center"><img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" style="width:50%;" /></div>
 
+测试居左：采用全英文格式+缩放50%+居中`<div align="center"><img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" style="width:50%;" /></div>`
+<div align="left"><img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" style="width:50%;" /></div>
+
 
 测试宽度：采用全英文格式+缩放600宽度+居中`<div align="center"><img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" width="600" /></div>`
 <div align="center"><img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" width="600" /></div>
