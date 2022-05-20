@@ -28,3 +28,32 @@ b. 云物理服务器的确认方式：
 - [什么是DDoS基础防护](../Introduction/Product-Overview.md)
 - [功能特性](../Introduction/Features.md)
 - [基础架构](../Introduction/Basic-Infrastructure.md)
+
+【图片测试区域】
+
+
+采用图片路径英文+alt中文格式`<img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.服务器管理器" style="width:70%;" />`
+<img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.服务器管理器" style="width:70%;" />
+
+测试alt：采用全英文格式+排除缩放因素`<img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" />`
+<img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" />
+
+测试缩放70%：采用全英文格式+缩放70%`<img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" style="width:70%;" />`
+<img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" style="width:70%;" />
+
+测试居中：采用全英文格式+缩放50%+居中`<div align="center"><img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" style="width:50%;" /></div>`
+<div align="center"><img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" style="width:50%;" /></div>
+
+测试宽度：采用全英文格式+缩放600宽度+居中`<div align="center"><img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" width="600" /></div>`
+<div align="center"><img src="../../../../image/Basic%20Anti-DDos/Instance02.png" alt="1.servermanager" width="600" /></div>
+
+测试推荐格式：采用推荐格式+图片路径英文+图片名称中文格式`![服务器管理器](../../../../image/Basic%20Anti-DDos/Instance02.png)`
+![服务器管理器](../../../../image/Basic%20Anti-DDos/Instance02.png)
+
+测试推荐格式：采用全英文格式`![server-manager](../../../../image/Basic%20Anti-DDos/Instance02.png)`
+![server-manager](../../../../image/Basic%20Anti-DDos/Instance02.png)
+
+
+
+![image](https://user-images.githubusercontent.com/13449404/169539419-10fa3aa1-2e87-45a4-b697-8280f97ae85d.png)
+
